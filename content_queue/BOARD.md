@@ -35,11 +35,10 @@ Quando un post cambia stato, aggiornare anche questa lavagna.
 
 | Post | Stato | Data prevista | Note |
 |---|---|---|---|
-| - | - | - | - |
+| 2026-07-07-post-01-monaciello | approved | Da definire | Figma done con fondino-gradiente; prossimo passo: scheduled_at |
 
 ## Pubblicati
 
 | Post | Data | Risultato sintetico | Prossima lezione |
 |---|---|---|---|
 | - | - | - | - |
-

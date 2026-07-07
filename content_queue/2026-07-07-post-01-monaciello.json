@@ -1,0 +1,311 @@
+{
+  "post_id": "2026-07-07-post-01-monaciello",
+  "status": "approved",
+  "priority": "high",
+  "topic": "Il Monaciello",
+  "angle": "Il Monaciello come leggenda domestica napoletana raccontata al passato, tra dopoguerra, case antiche, dispetti, doni, sottosuolo e varianti popolari.",
+  "target": {
+    "audience": "Pubblico generalista interessato a Napoli, folklore urbano e luoghi misteriosi.",
+    "goal": "Raccontare una leggenda nota senza presentarla come fatto storico certo, mostrando le principali varianti e i caveat.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "redazione",
+    "journalist": "Codex",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Matilde Serao, Leggende napoletane / Lu Munaciello",
+      "type": "secondary",
+      "url": "https://it.wikisource.org/wiki/Leggende_napoletane/Lu_Munaciello",
+      "author": "Matilde Serao",
+      "published_at": "1895, edizione Wikisource da fonte Internet Archive",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Fonte letteraria ottocentesca sulla figura del munaciello, sui suoi dispetti domestici, sulla doppia natura benevola e perturbante, sul rapporto con fortuna e lotto e sulla variante narrativa collocata nel 1445 con Caterina Frezza e Stefano Mariconda.",
+      "caveat": "Opera letteraria e di tradizione, non prova storica degli eventi narrati.",
+      "notes": "Usare come testimonianza culturale della leggenda, non come cronaca."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Google Books, scheda bibliografica di Leggende napoletane",
+      "type": "archive",
+      "url": "https://books.google.com/books/about/Leggende_napoletane.html?id=ScMJAAAAQAAJ",
+      "author": "Google Books / Matilde Serao",
+      "published_at": "1881",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Conferma dati bibliografici dell'opera Leggende napoletane: Matilde Serao, G. Ottino, 1881.",
+      "caveat": "Scheda bibliografica, non fonte interpretativa autonoma.",
+      "notes": "Utile per datare la circolazione editoriale della raccolta."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana",
+      "type": "secondary",
+      "url": "https://trasparenza.comune.napoli.it/flex/files/D.82f73d2f44da2b196217/29._Munaciello.pdf",
+      "author": "Comune di Napoli",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Riassume le versioni popolari: munaciello come piccolo monaco dispettoso e benevolo, legame con pozzari, variante demoniaca e racconto di Catarinella Frezza e Stefano Mariconda.",
+      "caveat": "Scheda divulgativa non datata; da non usare da sola per claim storici centrali.",
+      "notes": "Buona per registrare varianti e lessico divulgativo istituzionale."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Napoli Sotterranea, La leggenda del Monaciello",
+      "type": "secondary",
+      "url": "https://www.lanapolisotterranea.it/la-leggenda-del-monaciello/",
+      "author": "LAES / Napoli Sotterranea",
+      "published_at": "2020-07-14",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Collega la leggenda ai pozzari, ai pozzi domestici, ai cunicoli e al mantello da lavoro che nella penombra poteva ricordare un saio.",
+      "caveat": "Fonte divulgativa legata a tour culturali; utile per contesto e variante, non per stabilire l'origine certa della leggenda.",
+      "notes": "Da affiancare a fonti storiche sul sottosuolo."
+    },
+    {
+      "source_id": "src-005",
+      "title": "Napoli Sotterranea, Home e percorso storico",
+      "type": "secondary",
+      "url": "https://www.napolisotterranea.org/",
+      "author": "Associazione Napoli Sotterranea",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Descrive il sottosuolo di Napoli, le cave, i cunicoli, le cisterne e l'antico acquedotto greco-romano come contesto materiale della variante dei pozzari.",
+      "caveat": "Fonte di contesto turistico-culturale; non dimostra di per se la genesi del personaggio folklorico.",
+      "notes": "Usare per il setting fisico, non per claim folklorici specifici."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Il munaciello o monaciello e una figura del folklore napoletano descritta come uno spiritello domestico di piccola statura, spesso associato a un saio o cappuccio da monaco.",
+      "source_ids": ["src-001", "src-003"],
+      "evidence": "Serao e la scheda del Comune di Napoli presentano il personaggio come presenza domestica e popolare legata all'immagine del piccolo monaco.",
+      "caveat": "Descrizione folklorica, non identikit storico verificabile.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "La tradizione gli attribuisce comportamenti ambivalenti: dispetti, disordine e paura, ma anche doni, monete e fortuna.",
+      "source_ids": ["src-001", "src-003"],
+      "evidence": "Serao insiste sulla mescolanza di bene e male; il Comune cita dispetti e lasciti in moneta.",
+      "caveat": "Sono motivi di credenza popolare, non eventi verificabili.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Una variante collega il munaciello ai pozzari, lavoratori che si muovevano tra cisterne, pozzi e cunicoli del sottosuolo napoletano.",
+      "source_ids": ["src-003", "src-004", "src-005"],
+      "evidence": "Comune di Napoli e LAES riportano l'associazione con i pozzari; Napoli Sotterranea fornisce il contesto materiale di cunicoli e cisterne.",
+      "caveat": "La variante spiega plausibilmente alcune immagini della leggenda, ma non va presentata come origine certa.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Un'altra variante, attestata letterariamente da Matilde Serao, racconta la vicenda tragica di Caterina/Catarinella Frezza, Stefano Mariconda e di un bambino vestito con abiti monacali, collocandola nel 1445.",
+      "source_ids": ["src-003", "src-001"],
+      "evidence": "Wikisource riporta il testo di Serao, Leggende napoletane, in cui la storia e collocata nel 1445 e include Caterina Frezza e Stefano Mariconda; la scheda del Comune riprende la stessa variante.",
+      "caveat": "Il claim verifica l'esistenza della variante in una fonte letteraria/divulgativa, non la storicita dell'episodio.",
+      "status": "verified",
+      "notes": "Non sono emersi riscontri primari rapidi: mantenere il caveat in copy e caption."
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Nella tradizione il munaciello e anche legato al segreto: chi riceve un dono non dovrebbe raccontarlo, altrimenti la fortuna puo rovesciarsi.",
+      "source_ids": ["src-003", "src-001"],
+      "evidence": "Il Comune menziona il divieto di raccontare i lasciti; Serao collega apparizioni, fortuna e segreto personale.",
+      "caveat": "Motivo narrativo di credenza popolare.",
+      "status": "verified",
+      "notes": ""
+    }
+  ],
+  "cover": {
+    "headline": "Il Monaciello",
+    "subheadline": "La leggenda dello spiritello domestico napoletano",
+    "visual_idea": "Interno napoletano notturno, scala o pozzo in penombra, piccola figura incappucciata solo suggerita. Nessun volto horror esplicito."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Il Monaciello",
+      "copy": "Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno spiritello piccolo e misterioso che entrava nelle case senza bussare.",
+      "visual_note": "Corridoio domestico in penombra, sagoma bassa con cappuccio sul fondo, atmosfera sospesa ma non horror.",
+      "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Oggetti spariti",
+      "copy": "Nelle case affollate, tra bassi umidi, cucine strette e scale consumate, capitava che sparissero oggetti, che una sedia cambiasse posto, che un rumore arrivasse dal buio.",
+      "visual_note": "Oggetti domestici leggermente fuori posto, luce radente, dettaglio di una mano che chiude un cassetto.",
+      "source_ids": ["src-001"]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "La voce correva",
+      "copy": "Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato lui: 'o munaciello, il piccolo monaco della tradizione napoletana.",
+      "visual_note": "Dettaglio di stoffa scura, cappuccio e ombra domestica, senza mostrare una creatura definita.",
+      "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Un'ombra col cappuccio",
+      "copy": "Lo immaginavano basso, rapido, coperto da un cappuccio scuro. Non si faceva vedere quasi mai: restava negli angoli, dietro le porte, vicino alle scale.",
+      "visual_note": "Figura piccola e incappucciata suggerita nell'ombra di una casa antica, atmosfera sospesa.",
+      "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "Dispetti e fortuna",
+      "copy": "Poteva fare paura, scompigliare la casa, turbare il sonno. Ma in certi racconti lasciava anche una moneta, un dono improvviso che portava fortuna.",
+      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente domestico povero ma dignitoso.",
+      "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Il segreto del dono",
+      "copy": "Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.",
+      "visual_note": "Dettaglio di monete, cassetto o tavolo in penombra, con sensazione di dono trovato per caso.",
+      "source_ids": ["src-001", "src-003"]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Dal sottosuolo",
+      "copy": "Una variante lo legava ai pozzari, uomini che si muovevano tra pozzi, cisterne e cunicoli. Dal ventre di Napoli potevano risalire nelle case come apparizioni.",
+      "visual_note": "Cunicolo in tufo, pozzo verticale, scala o appigli nel muro, figura umana lontana.",
+      "source_ids": ["src-003", "src-004", "src-005"]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "Storia o leggenda?",
+      "copy": "Del Monaciello non restava una sola origine certa. Restavano voci, libri, racconti di famiglia e versioni diverse, passate di bocca in bocca.",
+      "visual_note": "Libro antico aperto, appunti e mappa del centro storico.",
+      "source_ids": ["src-001", "src-002", "src-003", "src-004"]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "Il passo nel vicolo",
+      "copy": "E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata per caso e un piccolo passo che sembrava perdersi nel vicolo.",
+      "visual_note": "Portone socchiuso su vicolo notturno, luce calda dall'interno.",
+      "source_ids": ["src-001", "src-003", "src-005"]
+    }
+  ],
+  "caption": {
+    "text": "Nel dopoguerra, a Napoli, si raccontava sempre piu spesso di case visitate da una presenza misteriosa.\n\nOggetti che sparivano. Sedie spostate. Cassetti lasciati aperti. Rumori nel cuore della notte. Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato 'o munaciello.\n\nLo immaginavano piccolo, incappucciato, rapido come un'ombra. Poteva fare dispetti, disturbare il sonno, mettere disordine. Ma poteva anche lasciare una moneta, un segno improvviso di fortuna.\n\nSecondo alcune versioni, il mistero nasceva dai pozzari, uomini che conoscevano i cunicoli, i pozzi e le cisterne sotto Napoli. Secondo altre, il Monaciello apparteneva a una storia piu antica e dolorosa, tramandata anche da Matilde Serao.\n\nNon era una certezza storica: era una leggenda. E forse proprio per questo continuava a vivere, tra le case, le scale e i vicoli della citta.",
+    "cta": "A te avevano mai raccontato la leggenda del Monaciello?",
+    "source_note": "Fonti consultate il 2026-07-07: Matilde Serao, Leggende napoletane; Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Napoli Sotterranea / LAES."
+  },
+  "design_notes": {
+    "style_direction": "Tono visivo: fiaba napoletana, racconto domestico, luce di golfo e mistero popolare. Ispirazione generale alla pittura napoletana ottocentesca, tra marine, vicoli, picari e scugnizzi, senza imitare un singolo artista. Testo bianco grande su ombra-gradiente quasi trasparente, non su blocco pieno.",
+    "safe_area": "Formato 1080x1350. Fondino testo come gradiente nero verticale a y=0: alto 520px, opacita 0.50 in alto, 0.34 circa nell'area titolo, 0.16 nell'area descrizione, 0.00 entro y=520. Deve sembrare un'ombra che sfuma verso il basso, non una fascia piena; immagini senza testo leggibile, loghi, CTA o watermark.",
+    "asset_rules": [
+      "Usare immagini senza scritte o simboli religiosi sensazionalistici.",
+      "Non mostrare il Monaciello come mostro grottesco: suggerire la presenza con ombre, cappuccio, scala, pozzo o monete.",
+      "Nuova direzione: illustrazione fiabesca ispirata alla pittura napoletana ottocentesca, tra marine, luce di golfo, vicoli, picari e scugnizzi, senza citare o imitare un singolo artista.",
+      "Preferire luoghi e dettagli: portoni, pozzi, tufo, cassetti, monete, chiostro, cunicoli.",
+      "Lasciare zone pulite per titolo, descrizione e fonte in Figma."
+    ],
+    "risks": [
+      "Rischio di presentare come storia vera la variante del 1445.",
+      "Rischio di appiattire Napoli su folklore turistico.",
+      "Rischio di confondere fonte letteraria, tradizione orale e spiegazione dei pozzari."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-07",
+    "asset_format": "1080x1350",
+    "asset_count": 9,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Revisione gradiente completata in Figma: fondino uniforme sostituito con ombra-gradiente quasi trasparente 1080x520 che sfuma verso il basso; testi approvati applicati; immagini, eyebrow e fonti riallineati alla nuova sequenza; QA visivo fatto su cover, slide 5, slide 7 e slide 8."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2",
+    "manifest_path": "outputs/figma/2026-07-07-post-01-monaciello-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-07",
+    "summary": "Fact-check superato con caveat: la variante del 1445 e verificata come racconto letterario/divulgativo attestato da Serao e ripreso dal Comune di Napoli, non come cronaca storica certa. La pista dei pozzari resta formulata come variante/spiegazione possibile.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvazione operativa ricevuta in chat: procediamo. Passaggio consentito dopo fact-check superato."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Approvato per accuratezza a condizione di mantenere i caveat su tradizione, fonte letteraria e assenza di origine unica certa."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Cover approvata operativamente per procedere al montaggio Figma; QA visivo superato."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvazione operativa ricevuta in chat dopo revisione fondino-gradiente e QA visivo: Molto bene, aggiorna tutto quello che serve."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Versione finale approvata in chat dopo revisione testi, fondino-gradiente e riallineamento Figma."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+  }
+}

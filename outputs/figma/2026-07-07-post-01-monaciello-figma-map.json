@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-07-post-01-monaciello",
+  "status": "done",
+  "source_post": "content_queue/2026-07-07-post-01-monaciello.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "template_duplicate",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": ["image", "fondino", "eyebrow", "title", "description", "source", "logo", "footer"]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "rubrica/source label",
+      "title": "large display, no negative letter spacing",
+      "description": "short paragraph, line budget to verify before import"
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 520,
+      "opacity": "gradient",
+      "gradient_stops": [
+        { "position": 0, "color": "#000000", "opacity": 0.50 },
+        { "position": 0.31, "color": "#000000", "opacity": 0.42 },
+        { "position": 0.62, "color": "#000000", "opacity": 0.18 },
+        { "position": 1, "color": "#000000", "opacity": 0.00 }
+      ],
+      "notes": "Sostituire il fondino nero uniforme con ombra-gradiente quasi trasparente: serve solo alla leggibilita e deve sfumare verso il basso senza creare una fascia piena."
+    },
+    "text_boxes": {
+      "eyebrow": { "x": 72, "y": 42, "width": 900, "height": 40 },
+      "title": { "x": 72, "y": 80, "width": 900, "height": 124 },
+      "description": { "x": 72, "y": 220, "width": 930, "height": 180 },
+      "source": { "width": 820, "height": 30, "notes": "Nel footer." }
+    },
+    "logo": "Usare il layer logo del template canonico."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-07-post-01-monaciello-01-cover",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/01-cover-fiabesca.png",
+      "title": "Il Monaciello",
+      "copy": "Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno spiritello piccolo e misterioso che entrava nelle case senza bussare.",
+      "visual_note": "Corridoio domestico in penombra, sagoma bassa con cappuccio sul fondo, atmosfera sospesa ma non horror.",
+      "figma_frame_id": "4:3",
+      "figma_bitmap_layer_id": "4:4",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow", "notes": "La leggenda in breve" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-07-post-01-monaciello-02-oggetti",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/02-casa-scricchiola.png",
+      "title": "Oggetti spariti",
+      "copy": "Nelle case affollate, tra bassi umidi, cucine strette e scale consumate, capitava che sparissero oggetti, che una sedia cambiasse posto, che un rumore arrivasse dal buio.",
+      "visual_note": "Oggetti domestici leggermente fuori posto, luce radente, dettaglio di una mano che chiude un cassetto.",
+      "figma_frame_id": "4:13",
+      "figma_bitmap_layer_id": "4:14",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-07-post-01-monaciello-03-imprevedibile",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/03-monaciello-ombra.png",
+      "title": "La voce correva",
+      "copy": "Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato lui: 'o munaciello, il piccolo monaco della tradizione napoletana.",
+      "visual_note": "Dettaglio di stoffa scura e fibbie, senza mostrare una creatura definita.",
+      "figma_frame_id": "4:23",
+      "figma_bitmap_layer_id": "4:24",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-07-post-01-monaciello-04-doni",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/04-monete-segrete.png",
+      "title": "Un'ombra col cappuccio",
+      "copy": "Lo immaginavano basso, rapido, coperto da un cappuccio scuro. Non si faceva vedere quasi mai: restava negli angoli, dietro le porte, vicino alle scale.",
+      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente povero ma dignitoso.",
+      "figma_frame_id": "4:33",
+      "figma_bitmap_layer_id": "4:34",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-07-post-01-monaciello-05-pozzari",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/04-monete-segrete.png",
+      "title": "Dispetti e fortuna",
+      "copy": "Poteva fare paura, scompigliare la casa, turbare il sonno. Ma in certi racconti lasciava anche una moneta, un dono improvviso che portava fortuna.",
+      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente domestico povero ma dignitoso.",
+      "figma_frame_id": "4:43",
+      "figma_bitmap_layer_id": "4:44",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-07-post-01-monaciello-06-spiegazione",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/04-monete-segrete.png",
+      "title": "Il segreto del dono",
+      "copy": "Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.",
+      "visual_note": "Dettaglio di monete, cassetto o tavolo in penombra, con sensazione di dono trovato per caso.",
+      "figma_frame_id": "4:53",
+      "figma_bitmap_layer_id": "4:54",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-07-post-01-monaciello-07-tragica",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/05-pozzari-fiaba.png",
+      "title": "Dal sottosuolo",
+      "copy": "Una variante lo legava ai pozzari, uomini che si muovevano tra pozzi, cisterne e cunicoli. Dal ventre di Napoli potevano risalire nelle case come apparizioni.",
+      "visual_note": "Cunicolo in tufo, pozzo verticale, scala o appigli nel muro, figura umana lontana.",
+      "figma_frame_id": "4:63",
+      "figma_bitmap_layer_id": "4:64",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Comune di Napoli; Napoli Sotterranea" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-07-post-01-monaciello-08-caveat",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/08-fonti-caveat.png",
+      "title": "Storia o leggenda?",
+      "copy": "Del Monaciello non restava una sola origine certa. Restavano voci, libri, racconti di famiglia e versioni diverse, passate di bocca in bocca.",
+      "visual_note": "Libro antico aperto, appunti e mappa del centro storico.",
+      "figma_frame_id": "4:73",
+      "figma_bitmap_layer_id": "4:74",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Google Books; Comune di Napoli; LAES" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    },
+    {
+      "slide_number": 9,
+      "frame_name": "2026-07-07-post-01-monaciello-09-chiusura",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v2/09-portone-finale.png",
+      "title": "Il passo nel vicolo",
+      "copy": "E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata per caso e un piccolo passo che sembrava perdersi nel vicolo.",
+      "visual_note": "Portone socchiuso su vicolo notturno, luce calda dall'interno.",
+      "figma_frame_id": "4:83",
+      "figma_bitmap_layer_id": "4:84",
+      "figma_layers": {
+        "image": { "name": "image" },
+        "fondino": { "name": "fondino" },
+        "eyebrow": { "name": "eyebrow" },
+        "title": { "name": "title" },
+        "description": { "name": "description" },
+        "source": { "name": "source", "notes": "Serao; Comune di Napoli; Napoli Sotterranea" },
+        "logo": { "name": "logo" },
+        "footer": { "name": "footer" }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2"
+  }
+}

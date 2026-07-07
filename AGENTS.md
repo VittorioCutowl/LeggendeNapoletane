@@ -86,6 +86,16 @@ Se un gate non e soddisfatto, non forzare lo stato: compilare `blocked`.
 Scrivere in italiano con tono narrativo, curioso, preciso e non sensazionalista.
 Il mistero deve attirare, ma la redazione deve restare onesta.
 
+Quando una leggenda viene raccontata come memoria o tradizione, preferire il
+passato narrativo e formule come "si raccontava", "veniva immaginato",
+"secondo alcune versioni". Evitare il presente assertivo quando rischia di far
+sembrare la leggenda un fatto in corso o una cronaca certa.
+
+Lo stile deve sembrare un cunto raccontato con calore: evocativo, fiabesco,
+gotico accessibile, concreto nei dettagli domestici e urbani. Non nominare la
+rubrica o il "primo post" dentro il copy delle card, salvo richiesta esplicita:
+il lettore deve entrare direttamente nella leggenda.
+
 Evitare:
 
 - titoli da clickbait;
@@ -121,7 +131,11 @@ Ogni carosello deve avere:
 - Il template Figma deve avere layer nominati in modo stabile: `image`,
   `fondino`, `eyebrow`, `title`, `description`, `source`, `logo`, `footer`.
 - Formato default: `1080x1350` px, rapporto `4:5`.
-- Per `1080x1350`, usare fondino testo uniforme `1080x622px`.
+- Per `1080x1350`, evitare fondini pieni invadenti. Usare di default un
+  fondino-gradiente nero quasi trasparente nella parte alta, solo per
+  leggibilita: layer `1080x520px` a `x=0`, `y=0`, con stop indicativi
+  `0.50 -> 0.42 -> 0.18 -> 0.00` fino alla dissolvenza completa verso il
+  basso.
 - Box testo default: eyebrow 900x44px a x=72 y=66; titolo 860x190px a x=72
   y=115; descrizione 900x280px a x=72 y=314; fonte 820x30px nel footer.
 - Gli asset locali devono essere senza testo, fonti, logo, CTA o watermark.
