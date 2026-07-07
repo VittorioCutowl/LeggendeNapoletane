@@ -1,0 +1,27 @@
+# Local/generated media
+outputs/assets/
+assets/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+
+# Generated spreadsheets and previews
+*.xlsx
+*.xls
+*.inspect.ndjson
+preview-*.png
+*qa*.png
+*contact-sheet*
+
+# Dependencies
+node_modules/
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+

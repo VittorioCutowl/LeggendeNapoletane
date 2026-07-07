@@ -1,0 +1,139 @@
+{
+  "post_id": "YYYY-MM-DD-post-XX-slug",
+  "status": "idea",
+  "priority": "medium",
+  "topic": "",
+  "angle": "",
+  "target": {
+    "audience": "",
+    "goal": "",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "",
+    "journalist": "",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Fonte placeholder da sostituire",
+      "type": "placeholder",
+      "url": "",
+      "author": "",
+      "published_at": "",
+      "checked_at": "",
+      "status": "placeholder",
+      "supports": "",
+      "caveat": "",
+      "notes": ""
+    }
+  ],
+  "claims": [],
+  "cover": {
+    "headline": "",
+    "subheadline": "",
+    "visual_idea": ""
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "",
+      "copy": "",
+      "visual_note": "",
+      "source_ids": []
+    }
+  ],
+  "caption": {
+    "text": "",
+    "cta": "",
+    "source_note": ""
+  },
+  "design_notes": {
+    "style_direction": "",
+    "safe_area": "",
+    "asset_rules": [],
+    "risks": []
+  },
+  "production_preflight": {
+    "status": "not_started",
+    "checked_at": "",
+    "asset_format": "1080x1350",
+    "asset_count": 0,
+    "checks": {
+      "cover_approved": false,
+      "manifest_matches_slides": false,
+      "assets_named_and_sized": false,
+      "assets_have_no_text_logo_sources": false,
+      "copy_line_budget_ok": false,
+      "figma_template_layers_ready": false,
+      "figma_qa_sample_done": false
+    },
+    "notes": ""
+  },
+  "figma": {
+    "status": "not_started",
+    "file_url": "",
+    "node_url": "",
+    "manifest_path": ""
+  },
+  "fact_check": {
+    "status": "not_started",
+    "checked_by": "",
+    "checked_at": "",
+    "summary": "",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "fact_check": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "cover": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "design": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "final": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": ""
+  }
+}

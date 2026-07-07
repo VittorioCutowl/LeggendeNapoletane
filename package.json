@@ -1,0 +1,10 @@
+{
+  "name": "leggende-napoletane-instagram",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:queue": "node scripts/validate-content-queue.mjs",
+    "validate:queue:ps": "powershell -ExecutionPolicy Bypass -File scripts/validate-content-queue.ps1"
+  }
+}
+
