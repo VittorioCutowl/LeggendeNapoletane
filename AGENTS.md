@@ -133,14 +133,20 @@ Ogni carosello deve avere:
 - Formato default: `1080x1350` px, rapporto `4:5`.
 - Per `1080x1350`, evitare fondini pieni invadenti. Usare di default un
   fondino-gradiente nero quasi trasparente nella parte alta, solo per
-  leggibilita: layer `1080x520px` a `x=0`, `y=0`, con stop indicativi
-  `0.50 -> 0.42 -> 0.18 -> 0.00` fino alla dissolvenza completa verso il
-  basso.
-- Box testo default: eyebrow 900x44px a x=72 y=66; titolo 860x190px a x=72
-  y=115; descrizione 900x280px a x=72 y=314; fonte 820x30px nel footer.
+  leggibilita: layer `1080x760px` a `x=0`, `y=0`.
+- Box testo default aggiornati per leggibilita mobile: eyebrow 940x54px a x=72
+  y=52; titolo 940x166px a x=72 y=106; descrizione 942x430px a x=72 y=310;
+  fonte 820x30px nel footer.
+- Dimensioni testo default: eyebrow 38px, titolo dinamico 88-118px,
+  descrizione dinamica 47-56px, fonte 17px.
+- Verificare sempre singole card `1080x1350`, non solo screenshot della strip
+  completa del carousel.
 - Gli asset locali devono essere senza testo, fonti, logo, CTA o watermark.
 - Testi, fonti, logo e caption si montano in Figma.
-- Le immagini devono lasciare aree pulite per testo e fonte.
+- Le fonti editoriali restano nel JSON e nella caption, ma nel layout Figma il
+  layer `source` deve essere visibile solo sull'ultima card del carousel. Nelle
+  altre card deve restare nascosto/vuoto.
+- Le immagini devono lasciare aree pulite per titolo, descrizione e footer.
 
 ## Preflight Produzione
 

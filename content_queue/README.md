@@ -22,6 +22,16 @@ Ogni post deve avere:
 - approval e blocchi tracciati;
 - `production_preflight` compilato prima di `figma_done`.
 
+## Regole Figma E Fonti
+
+- Le fonti editoriali restano sempre registrate in `sources`, nei `claim`,
+  negli `slide.source_ids` e nella `caption.source_note`.
+- Nel layout Figma, pero, il layer `source` va mostrato solo sull'ultima card
+  del carousel; nelle card precedenti deve essere nascosto/vuoto.
+- Per post `1080x1350`, verificare la leggibilita su singola card Instagram
+  portrait: titoli e testi devono restare grandi, non miniaturizzati per far
+  entrare troppo copy.
+
 ## Stati
 
 Gli stati ammessi sono:
@@ -51,4 +61,3 @@ YYYY-MM-DD-post-XX-slug.json
 ```
 
 `template.json` e una base non operativa.
-

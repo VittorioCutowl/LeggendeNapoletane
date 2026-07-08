@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "post_id": "2026-07-07-post-01-monaciello",
+  "post_id": "2026-07-07-post-05-palazzo-donnanna",
   "status": "done",
-  "source_post": "content_queue/2026-07-07-post-01-monaciello.json",
+  "source_post": "content_queue/2026-07-07-post-05-palazzo-donnanna.json",
   "asset_rules": {
     "format": "png",
     "size_px": 1458000,
@@ -12,7 +12,7 @@
   },
   "import_mode": "template_duplicate",
   "template_contract": {
-    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2",
     "required_layers": [
       "image",
       "fondino",
@@ -78,23 +78,22 @@
   "slides": [
     {
       "slide_number": 1,
-      "frame_name": "2026-07-07-post-01-monaciello-01-cover",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/01-cover-monaciello-saio.png",
-      "title": "Il Monaciello",
-      "copy": "Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno spiritello piccolo e misterioso che entrava nelle case senza bussare.",
-      "visual_note": "Corridoio domestico in penombra, sagoma bassa con cappuccio sul fondo, atmosfera sospesa ma non horror.",
-      "figma_frame_id": "4:3",
-      "figma_bitmap_layer_id": "4:4",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-01-palazzo-donnanna",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/01-cover-palazzo-mare.png",
+      "title": "Palazzo Donn'Anna",
+      "copy": "A Posillipo c'e un palazzo che sembra nato per trattenere le storie: incompiuto, affacciato sul mare, nero di notte come una rovina che non vuole cadere.",
+      "figma_frame_id": "89:3",
+      "figma_bitmap_layer_id": "89:4",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:4"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow",
-          "notes": "La leggenda in breve"
+          "name": "eyebrow"
         },
         "title": {
           "name": "title"
@@ -113,20 +112,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Palazzo sul mare in notturna, onde e finestre vuote, atmosfera nobile e malinconica."
     },
     {
       "slide_number": 2,
-      "frame_name": "2026-07-07-post-01-monaciello-02-oggetti",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/02-oggetti-spariti.png",
-      "title": "Oggetti spariti",
-      "copy": "Nelle case affollate, tra bassi umidi, cucine strette e scale consumate, capitava che sparissero oggetti, che una sedia cambiasse posto, che un rumore arrivasse dal buio.",
-      "visual_note": "Oggetti domestici leggermente fuori posto, luce radente, dettaglio di una mano che chiude un cassetto.",
-      "figma_frame_id": "4:13",
-      "figma_bitmap_layer_id": "4:14",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-02-non-era-una-rovina",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/02-mare-nel-portone.png",
+      "title": "Non era una rovina",
+      "copy": "Matilde Serao lo raccontava come un edificio sospeso: non diroccato, ma mai finito. Il mare entrava nei portoni, lasciava sabbia e alghe, e sotto le volte faceva rumore come una voce antica.",
+      "figma_frame_id": "89:12",
+      "figma_bitmap_layer_id": "89:13",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:13"
         },
         "fondino": {
           "name": "fondino"
@@ -151,20 +151,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Portone basso sul mare, acqua che entra nella pietra, alghe e conchiglie, luce lunare."
     },
     {
       "slide_number": 3,
-      "frame_name": "2026-07-07-post-01-monaciello-03-imprevedibile",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/03-voce-correva.png",
-      "title": "La voce correva",
-      "copy": "Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato lui: 'o munaciello, il piccolo monaco della tradizione napoletana.",
-      "visual_note": "Dettaglio di stoffa scura e fibbie, senza mostrare una creatura definita.",
-      "figma_frame_id": "4:23",
-      "figma_bitmap_layer_id": "4:24",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-03-di-notte",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/03-finestre-notte.png",
+      "title": "Di notte",
+      "copy": "Quando calava il buio, il palazzo diventava quasi nero. Dalle finestre senza vetri sembravano passare ombre e piccoli lumi. Forse erano ladri, forse mendicanti. O forse fantasmi.",
+      "figma_frame_id": "89:21",
+      "figma_bitmap_layer_id": "89:22",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:22"
         },
         "fondino": {
           "name": "fondino"
@@ -189,20 +190,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Finestre alte senza vetri, lumicino che attraversa una sala vuota, mare fosforescente lontano."
     },
     {
       "slide_number": 4,
-      "frame_name": "2026-07-07-post-01-monaciello-04-doni",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/04-ombra-cappuccio.png",
-      "title": "Un'ombra col cappuccio",
-      "copy": "Lo immaginavano basso, rapido, coperto da un cappuccio scuro. Non si faceva vedere quasi mai: restava negli angoli, dietro le porte, vicino alle scale.",
-      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente povero ma dignitoso.",
-      "figma_frame_id": "4:33",
-      "figma_bitmap_layer_id": "4:34",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-04-la-festa-di-donnanna",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/04-festa-donnanna.png",
+      "title": "La festa di Donn'Anna",
+      "copy": "La leggenda poi torna indietro, a una sera di festa. Barche illuminate sul mare, nobili napoletani e spagnoli, sale piene di abiti, gioielli e sguardi. Al centro, Donna Anna Carafa.",
+      "figma_frame_id": "89:30",
+      "figma_bitmap_layer_id": "89:31",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:31"
         },
         "fondino": {
           "name": "fondino"
@@ -227,20 +229,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Festa barocca vista dalle finestre del palazzo, barche con lanterne sul mare, nobildonna in rosso."
     },
     {
       "slide_number": 5,
-      "frame_name": "2026-07-07-post-01-monaciello-05-pozzari",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/05-dispetti-fortuna.png",
-      "title": "Dispetti e fortuna",
-      "copy": "Poteva fare paura, scompigliare la casa, turbare il sonno. Ma in certi racconti lasciava anche una moneta, un dono improvviso che portava fortuna.",
-      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente domestico povero ma dignitoso.",
-      "figma_frame_id": "4:43",
-      "figma_bitmap_layer_id": "4:44",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-05-mercede-recita",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/05-mercede-recita.png",
+      "title": "Mercede recita",
+      "copy": "Tra gli invitati c'era Donna Mercede de las Torres. Nella commedia interpretava una schiava innamorata, pronta a morire per il suo padrone. Ma quella sera il teatro sembrò confondersi con la vita.",
+      "figma_frame_id": "89:39",
+      "figma_bitmap_layer_id": "89:40",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:40"
         },
         "fondino": {
           "name": "fondino"
@@ -265,20 +268,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Piccolo teatro aristocratico, giovane donna bruna in costume di scena, pubblico in penombra."
     },
     {
       "slide_number": 6,
-      "frame_name": "2026-07-07-post-01-monaciello-06-spiegazione",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/06-segreto-dono.png",
-      "title": "Il segreto del dono",
-      "copy": "Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.",
-      "visual_note": "Dettaglio di monete, cassetto o tavolo in penombra, con sensazione di dono trovato per caso.",
-      "figma_frame_id": "4:53",
-      "figma_bitmap_layer_id": "4:54",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-06-il-bacio",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/06-bacio-teatro.png",
+      "title": "Il bacio",
+      "copy": "Quando Gaetano di Casapesenna si inginocchio davanti a lei e la bacio, la sala applaudi. Ma Donn'Anna impallidi: in quel gesto aveva visto qualcosa che non era piu finzione.",
+      "figma_frame_id": "89:48",
+      "figma_bitmap_layer_id": "89:49",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:49"
         },
         "fondino": {
           "name": "fondino"
@@ -303,20 +307,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Scena teatrale con cavaliere inginocchiato e donna morente, volto di Donn'Anna in ombra sul trono."
     },
     {
       "slide_number": 7,
-      "frame_name": "2026-07-07-post-01-monaciello-07-tragica",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/07-sottosuolo-pozzari.png",
-      "title": "Dal sottosuolo",
-      "copy": "Una variante lo legava ai pozzari, uomini che si muovevano tra pozzi, cisterne e cunicoli. Dal ventre di Napoli potevano risalire nelle case come apparizioni.",
-      "visual_note": "Cunicolo in tufo, pozzo verticale, scala o appigli nel muro, figura umana lontana.",
-      "figma_frame_id": "4:63",
-      "figma_bitmap_layer_id": "4:64",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-07-la-gelosia",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/07-gelosia.png",
+      "title": "La gelosia",
+      "copy": "Da quel momento, nel racconto, le due donne si guardarono come nemiche. Donn'Anna e Mercede portavano lo stesso segreto: l'amore per Gaetano. E nel palazzo la gelosia divento piu fredda del marmo.",
+      "figma_frame_id": "89:57",
+      "figma_bitmap_layer_id": "89:58",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:58"
         },
         "fondino": {
           "name": "fondino"
@@ -341,20 +346,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Due figure femminili ai lati di una sala barocca, specchi, candele e tensione silenziosa."
     },
     {
       "slide_number": 8,
-      "frame_name": "2026-07-07-post-01-monaciello-08-caveat",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/08-fonti-caveat.png",
-      "title": "Storia o leggenda?",
-      "copy": "Del Monaciello non restava una sola origine certa. Restavano voci, libri, racconti di famiglia e versioni diverse, passate di bocca in bocca.",
-      "visual_note": "Libro antico aperto, appunti e mappa del centro storico.",
-      "figma_frame_id": "4:73",
-      "figma_bitmap_layer_id": "4:74",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-08-la-scomparsa",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/08-scomparsa-mercede.png",
+      "title": "La scomparsa",
+      "copy": "Poi Mercede spari. Si disse che fosse entrata in convento, presa da una vocazione improvvisa. Ma nessuno seppe indicare il convento, il paese, il regno. Gaetano la cerco ovunque.",
+      "figma_frame_id": "89:66",
+      "figma_bitmap_layer_id": "89:67",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:67"
         },
         "fondino": {
           "name": "fondino"
@@ -379,20 +385,21 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Corridoio vuoto, velo lasciato su una sedia, lettera non spedita, mare grigio fuori."
     },
     {
       "slide_number": 9,
-      "frame_name": "2026-07-07-post-01-monaciello-09-chiusura",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/09-passo-vicolo.png",
-      "title": "Il passo nel vicolo",
-      "copy": "E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata per caso e un piccolo passo che sembrava perdersi nel vicolo.",
-      "visual_note": "Portone socchiuso su vicolo notturno, luce calda dall'interno.",
-      "figma_frame_id": "4:83",
-      "figma_bitmap_layer_id": "4:84",
+      "frame_name": "2026-07-07-post-05-palazzo-donnanna-09-gli-amanti",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-05-palazzo-donnanna-v1/09-amanti-fantasmi.png",
+      "title": "Gli amanti",
+      "copy": "Serao chiude lasciando una domanda: quei fantasmi erano gli amanti? Forse e per questo che Palazzo Donn'Anna resta cosi potente: non racconta solo paura, ma desiderio che non riesce a morire.",
+      "figma_frame_id": "89:75",
+      "figma_bitmap_layer_id": "89:76",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "89:76"
         },
         "fondino": {
           "name": "fondino"
@@ -417,11 +424,12 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "visual_note": "Palazzo al tramonto/notte, due ombre nelle finestre alte, mare scuro e cielo stellato."
     }
   ],
   "figma": {
     "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
-    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2"
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=89-2"
   }
 }

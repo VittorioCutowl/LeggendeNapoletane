@@ -17,6 +17,9 @@ I manifest canonici dei nuovi post vanno salvati qui.
 - I frame Figma devono seguire i `frame_name` dichiarati dal manifest.
 - Layer template attesi: `image`, `fondino`, `eyebrow`, `title`,
   `description`, `source`, `logo`, `footer`.
+- Il layer `source` deve essere visibile solo sull'ultima card del carousel.
+  Nelle card precedenti va lasciato nascosto/vuoto; le fonti restano tracciate
+  nel JSON operativo e nella caption.
 - Gli asset pesanti non vanno copiati qui: usare link o path dichiarati.
 - Per nuovi manifest seguire `figma-map.schema.json`.
 
@@ -31,9 +34,13 @@ I manifest canonici dei nuovi post vanno salvati qui.
 ## Standard Visuale Corrente
 
 - Formato default: `1080x1350` px.
-- Fondino testo uniforme: x=0, y=0, 1080x622px.
-- Box testo uniformi: eyebrow 900x44px a x=72 y=66; titolo 860x190px a x=72
-  y=115; descrizione 900x280px a x=72 y=314; fonte 820x30px nel footer.
-- Non variare l'altezza del fondino in base al testo della singola slide. Se il
-  copy non entra nei box previsti, tornare alla bozza e riscrivere o dividere la
-  slide.
+- Fondino testo corrente: gradiente nero quasi trasparente x=0, y=0,
+  1080x760px.
+- Box testo correnti: eyebrow 940x54px a x=72 y=52; titolo 940x166px a x=72
+  y=106; descrizione 942x430px a x=72 y=310; fonte 820x30px nel footer.
+- Dimensioni testo correnti: eyebrow 38px; titolo dinamico 88-118px;
+  descrizione dinamica 47-56px; fonte 17px.
+- Verificare sempre almeno alcune singole card renderizzate a `1080x1350`,
+  non solo screenshot della strip del carousel.
+- Non ridurre i font per far entrare copy troppo lungo: tornare alla bozza e
+  riscrivere o dividere la slide.

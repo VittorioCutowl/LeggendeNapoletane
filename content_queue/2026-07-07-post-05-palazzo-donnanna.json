@@ -1,0 +1,306 @@
+{
+  "post_id": "2026-07-07-post-05-palazzo-donnanna",
+  "status": "approved",
+  "priority": "high",
+  "topic": "Palazzo Donn'Anna",
+  "angle": "Palazzo Donn'Anna come rovina viva sul mare di Posillipo: dalla descrizione notturna di Matilde Serao alla leggenda di Mercede de las Torres, Gaetano di Casapesenna e della gelosia di Donna Anna Carafa.",
+  "target": {
+    "audience": "Pubblico generalista interessato a Napoli, luoghi iconici, leggende letterarie, fantasmi e storie d'amore tragiche.",
+    "goal": "Raccontare una leggenda forte e visiva legata a Palazzo Donn'Anna, distinguendo il dato storico-architettonico dalla narrazione letteraria di Serao e dalle credenze popolari.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Codex",
+    "fact_checker": "Codex",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Matilde Serao, Leggende napoletane / Il palazzo dogn'Anna",
+      "type": "primary",
+      "url": "https://it.wikisource.org/wiki/Leggende_napoletane/Il_palazzo_dogn%27Anna",
+      "author": "Matilde Serao",
+      "published_at": "1895, edizione Wikisource da Serao - Leggende napoletane, Roma, Perino, 1895",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Testo letterario che descrive Palazzo Donn'Anna come palazzo incompiuto sul mare, nero di notte, con possibili fantasmi, e racconta la festa di Donna Anna Carafa, la recita di Donna Mercede, Gaetano di Casapesenna, la gelosia e la sparizione di Mercede.",
+      "caveat": "Fonte letteraria e leggendaria: non prova storica della sparizione o dei fantasmi.",
+      "notes": "Usare come fonte narrativa principale, con caveat visibile."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Palazzo Donn'Anna",
+      "type": "secondary",
+      "url": "https://it.wikipedia.org/wiki/Palazzo_Donn%27Anna",
+      "author": "Wikipedia contributors",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Contesto preliminare: palazzo monumentale del XVII secolo a Posillipo, incompiuto, legato ad Anna Carafa e al progetto di Cosimo Fanzago; la voce registra anche la fortuna leggendaria e letteraria del luogo.",
+      "caveat": "Fonte enciclopedica secondaria: sufficiente per contesto preliminare, da integrare con bibliografia storico-artistica se si vuole una pubblicazione piu robusta.",
+      "notes": "Usare solo per dati generali su ubicazione, secolo, incompiutezza e legame con Fanzago/Anna Carafa."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Google Books, scheda bibliografica di Leggende napoletane",
+      "type": "archive",
+      "url": "https://books.google.com/books/about/Leggende_napoletane.html?id=ScMJAAAAQAAJ",
+      "author": "Google Books / Matilde Serao",
+      "published_at": "1881",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Conferma bibliografica della circolazione editoriale di Leggende napoletane di Matilde Serao.",
+      "caveat": "Scheda bibliografica, non fonte interpretativa autonoma.",
+      "notes": "Fonte di appoggio per datare la raccolta."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Palazzo Donn'Anna e un palazzo monumentale seicentesco di Posillipo, rimasto incompiuto e associato ad Anna Carafa e al progetto di Cosimo Fanzago.",
+      "source_ids": [
+        "src-002"
+      ],
+      "evidence": "La fonte secondaria descrive il palazzo come monumento del XVII secolo a Posillipo, incompiuto, commissionato nell'ambito della storia di Anna Carafa e Fanzago.",
+      "caveat": "Contesto storico sintetico: evitare dettagli troppo specifici non necessari al carousel senza fonte bibliografica ulteriore.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Matilde Serao dedica a Palazzo Donn'Anna una leggenda in Leggende napoletane, descrivendolo come palazzo incompiuto sul mare, cupo di notte e abitato dall'immaginazione dei fantasmi.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Il testo di Serao apre con la descrizione del palazzo sul mare, delle finestre vuote, del palazzo nero di notte e dell'ipotesi di fantasmi.",
+      "caveat": "Descrizione letteraria, non resoconto documentario.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "La leggenda seraiana ruota attorno a una festa aristocratica, a Donna Anna Carafa, a Donna Mercede de las Torres, a Gaetano di Casapesenna e a una gelosia che culmina nella sparizione di Mercede.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Nel racconto di Serao, Mercede recita davanti alla nobiltà, Gaetano la bacia nella scena teatrale, Donna Anna impallidisce e Mercede sparisce poi misteriosamente.",
+      "caveat": "La sparizione e presentata come materia narrativa/leggendaria; non come fatto storico provato.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Il palazzo ha anche altre credenze popolari, tra cui racconti di amanti e lamenti legati al mare e ai sotterranei.",
+      "source_ids": [
+        "src-002"
+      ],
+      "evidence": "La fonte secondaria riporta credenze popolari legate a Donn'Anna/Giovanna d'Angio e ad anime di amanti nei sotterranei.",
+      "caveat": "Credenze popolari riportate da fonte secondaria: non vanno fuse con la trama di Serao come se fossero un'unica versione certa.",
+      "status": "verified",
+      "notes": "Nel post tenere il focus su Serao; citare le altre credenze solo come eco finale o contesto."
+    }
+  ],
+  "cover": {
+    "headline": "Palazzo Donn'Anna",
+    "subheadline": "La rovina sul mare e il fantasma dell'amore",
+    "visual_idea": "Palazzo Donn'Anna di notte visto dal mare, grande massa scura incompiuta, onde sotto le volte, una finestra illuminata e una figura femminile appena percepibile. Nessun horror esplicito."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Palazzo Donn'Anna",
+      "copy": "A Posillipo c'e un palazzo che sembra nato per trattenere le storie: incompiuto, affacciato sul mare, nero di notte come una rovina che non vuole cadere.",
+      "visual_note": "Palazzo sul mare in notturna, onde e finestre vuote, atmosfera nobile e malinconica.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Non era una rovina",
+      "copy": "Matilde Serao lo raccontava come un edificio sospeso: non diroccato, ma mai finito. Il mare entrava nei portoni, lasciava sabbia e alghe, e sotto le volte faceva rumore come una voce antica.",
+      "visual_note": "Portone basso sul mare, acqua che entra nella pietra, alghe e conchiglie, luce lunare.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "Di notte",
+      "copy": "Quando calava il buio, il palazzo diventava quasi nero. Dalle finestre senza vetri sembravano passare ombre e piccoli lumi. Serao scriveva che forse erano ladri, forse mendicanti. O forse fantasmi.",
+      "visual_note": "Finestre alte senza vetri, lumicino che attraversa una sala vuota, mare fosforescente lontano.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "La festa di Donn'Anna",
+      "copy": "La leggenda poi torna indietro, a una sera di festa. Barche illuminate sul mare, nobili napoletani e spagnoli, sale piene di abiti, gioielli e sguardi. Al centro, Donna Anna Carafa.",
+      "visual_note": "Festa barocca vista dalle finestre del palazzo, barche con lanterne sul mare, nobildonna in rosso.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "Mercede recita",
+      "copy": "Tra gli invitati c'era Donna Mercede de las Torres. Nella commedia interpretava una schiava innamorata, pronta a morire per il suo padrone. Ma quella sera il teatro sembrò confondersi con la vita.",
+      "visual_note": "Piccolo teatro aristocratico, giovane donna bruna in costume di scena, pubblico in penombra.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Il bacio",
+      "copy": "Quando Gaetano di Casapesenna, nella scena finale, si inginocchio davanti a lei e la bacio, la sala applaudi. Ma Donn'Anna impallidi: in quel gesto aveva visto qualcosa che non era piu finzione.",
+      "visual_note": "Scena teatrale con cavaliere inginocchiato e donna morente, volto di Donn'Anna in ombra sul trono.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "La gelosia",
+      "copy": "Da quel momento, nel racconto, le due donne si guardarono come nemiche. Donn'Anna e Mercede portavano lo stesso segreto: l'amore per Gaetano. E nel palazzo la gelosia divento piu fredda del marmo.",
+      "visual_note": "Due figure femminili ai lati di una sala barocca, specchi, candele e tensione silenziosa.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "La scomparsa",
+      "copy": "Poi Mercede spari. Si disse che fosse entrata in convento, presa da una vocazione improvvisa. Ma nessuno seppe indicare il convento, il paese, il regno. Gaetano la cerco ovunque, senza ritrovarla.",
+      "visual_note": "Corridoio vuoto, velo lasciato su una sedia, lettera non spedita, mare grigio fuori.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "Gli amanti",
+      "copy": "Serao chiude lasciando una domanda: quei fantasmi erano gli amanti? Forse e per questo che Palazzo Donn'Anna resta cosi potente: non racconta solo paura, ma desiderio che non riesce a morire.",
+      "visual_note": "Palazzo al tramonto/notte, due ombre nelle finestre alte, mare scuro e cielo stellato.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Palazzo Donn'Anna non sembra soltanto un edificio. Sembra una scena rimasta aperta.\n\nMatilde Serao, nelle sue Leggende napoletane, lo descriveva affacciato sul mare di Posillipo: incompiuto, scuro di notte, attraversato dal rumore delle onde e da ombre che potevano essere persone qualunque. Oppure fantasmi.\n\nLa leggenda racconta una festa aristocratica nel palazzo di Donna Anna Carafa. Ci sono barche illuminate, nobili napoletani e spagnoli, un teatrino, una rappresentazione. Sul palco, Donna Mercede de las Torres recita la parte di una donna innamorata fino alla morte. Con lei c'e Gaetano di Casapesenna.\n\nQuando nella scena finale lui la bacia, il pubblico applaude. Ma per Donn'Anna quel gesto non e teatro: e una rivelazione. Da li nasce la gelosia. Poi Mercede sparisce. Si dice che sia entrata in convento, ma nessuno sa dove. Gaetano la cerca invano.\n\nNon sappiamo quanto ci sia di storia e quanto di invenzione letteraria. Ma la forza della leggenda sta proprio li: Palazzo Donn'Anna diventa un luogo in cui il mare, l'amore, la gelosia e la memoria continuano a parlarsi.",
+    "cta": "La conoscevi questa leggenda di Palazzo Donn'Anna?",
+    "source_note": "Fonti consultate il 2026-07-07: Matilde Serao, Leggende napoletane / Il palazzo dogn'Anna; scheda Palazzo Donn'Anna per contesto storico-architettonico."
+  },
+  "design_notes": {
+    "style_direction": "Barocco napoletano notturno, mare di Posillipo, palazzo incompiuto, nobiltà spagnola, teatro, candele, velluti, ombre romantiche. Deve sembrare una tragedia elegante, non un horror.",
+    "safe_area": "Formato Instagram portrait 4:5 corretto: 1080x1350. Revisione leggibilita mobile v2: eyebrow 38px, titolo dinamico 88-118px, descrizione dinamica 47-56px, fondino-gradiente alto 760px. QA da fare sempre su singola card 1080x1350, non solo su striscia carousel ridotta.",
+    "asset_rules": [
+      "Non rappresentare violenza esplicita o sangue.",
+      "Non erotizzare Mercede o Donn'Anna: il taglio deve essere tragico, aristocratico e malinconico.",
+      "Il palazzo deve essere riconoscibile come massa incompiuta sul mare, soprattutto in cover e chiusura.",
+      "Nessun testo, logo, fonte, CTA o watermark dentro gli asset.",
+      "Evitare colori troppo fantasy: preferire blu notte, pietra grigia, oro di candele, rosso cupo.",
+      "Mostrare le fonti solo sull ultima card del carousel; nelle altre slide il layer source resta nascosto/vuoto."
+    ],
+    "risks": [
+      "Rischio di confondere racconto letterario di Serao con fatto storico accertato.",
+      "Rischio di mescolare la leggenda di Mercede con altre credenze popolari su Donn'Anna/Giovanna d'Angio.",
+      "Rischio di perdere il palazzo come protagonista visivo: mantenerlo presente almeno in apertura, notte, festa e chiusura."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-07",
+    "asset_format": "1080x1350",
+    "asset_count": 9,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Asset v1 generati e normalizzati a 1080x1350; carousel duplicato dal template a 9 slide, testi e fonti applicati, immagini caricate nei layer Figma, QA locale e screenshot Figma completati. Revisione tipografica post-pubblicazione: formato 1080x1350 confermato; font e fondino aumentati in Figma per leggibilita nel feed Instagram. Revisione tipografica v2 applicata in Figma: testo molto piu grande e verificato su singole card 1080x1350. Fonti rimosse dalle card intermedie in Figma: restano visibili solo sull ultima card del carousel."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=89-2",
+    "manifest_path": "outputs/figma/2026-07-07-post-05-palazzo-donnanna-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-07",
+    "summary": "Fact-check passato con caveat: il palazzo e il contesto architettonico sono trattati come dati storici generali; la vicenda di Mercede, Gaetano e Donn'Anna e usata come leggenda letteraria attestata da Matilde Serao, non come cronaca storica certa. Le altre credenze popolari su amanti e sotterranei restano separate dal racconto principale.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Scelta editoriale ricevuta in chat: Palazzo Donn'Anna."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Approvato con caveat obbligatorio su Serao come fonte letteraria e sulla separazione tra leggenda e storia."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Cover e set asset approvati operativamente per procedere al montaggio Figma: palazzo riconoscibile, tono barocco notturno, nessun testo o watermark."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvato in chat: tutti i post sono approvati."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+  }
+}

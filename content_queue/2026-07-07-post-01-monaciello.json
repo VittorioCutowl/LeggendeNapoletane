@@ -86,7 +86,10 @@
     {
       "claim_id": "claim-001",
       "text": "Il munaciello o monaciello e una figura del folklore napoletano descritta come uno spiritello domestico di piccola statura, spesso associato a un saio o cappuccio da monaco.",
-      "source_ids": ["src-001", "src-003"],
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
       "evidence": "Serao e la scheda del Comune di Napoli presentano il personaggio come presenza domestica e popolare legata all'immagine del piccolo monaco.",
       "caveat": "Descrizione folklorica, non identikit storico verificabile.",
       "status": "verified",
@@ -95,7 +98,10 @@
     {
       "claim_id": "claim-002",
       "text": "La tradizione gli attribuisce comportamenti ambivalenti: dispetti, disordine e paura, ma anche doni, monete e fortuna.",
-      "source_ids": ["src-001", "src-003"],
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
       "evidence": "Serao insiste sulla mescolanza di bene e male; il Comune cita dispetti e lasciti in moneta.",
       "caveat": "Sono motivi di credenza popolare, non eventi verificabili.",
       "status": "verified",
@@ -104,7 +110,11 @@
     {
       "claim_id": "claim-003",
       "text": "Una variante collega il munaciello ai pozzari, lavoratori che si muovevano tra cisterne, pozzi e cunicoli del sottosuolo napoletano.",
-      "source_ids": ["src-003", "src-004", "src-005"],
+      "source_ids": [
+        "src-003",
+        "src-004",
+        "src-005"
+      ],
       "evidence": "Comune di Napoli e LAES riportano l'associazione con i pozzari; Napoli Sotterranea fornisce il contesto materiale di cunicoli e cisterne.",
       "caveat": "La variante spiega plausibilmente alcune immagini della leggenda, ma non va presentata come origine certa.",
       "status": "verified",
@@ -113,7 +123,10 @@
     {
       "claim_id": "claim-004",
       "text": "Un'altra variante, attestata letterariamente da Matilde Serao, racconta la vicenda tragica di Caterina/Catarinella Frezza, Stefano Mariconda e di un bambino vestito con abiti monacali, collocandola nel 1445.",
-      "source_ids": ["src-003", "src-001"],
+      "source_ids": [
+        "src-003",
+        "src-001"
+      ],
       "evidence": "Wikisource riporta il testo di Serao, Leggende napoletane, in cui la storia e collocata nel 1445 e include Caterina Frezza e Stefano Mariconda; la scheda del Comune riprende la stessa variante.",
       "caveat": "Il claim verifica l'esistenza della variante in una fonte letteraria/divulgativa, non la storicita dell'episodio.",
       "status": "verified",
@@ -122,7 +135,10 @@
     {
       "claim_id": "claim-005",
       "text": "Nella tradizione il munaciello e anche legato al segreto: chi riceve un dono non dovrebbe raccontarlo, altrimenti la fortuna puo rovesciarsi.",
-      "source_ids": ["src-003", "src-001"],
+      "source_ids": [
+        "src-003",
+        "src-001"
+      ],
       "evidence": "Il Comune menziona il divieto di raccontare i lasciti; Serao collega apparizioni, fortuna e segreto personale.",
       "caveat": "Motivo narrativo di credenza popolare.",
       "status": "verified",
@@ -141,7 +157,10 @@
       "title": "Il Monaciello",
       "copy": "Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno spiritello piccolo e misterioso che entrava nelle case senza bussare.",
       "visual_note": "Corridoio domestico in penombra, sagoma bassa con cappuccio sul fondo, atmosfera sospesa ma non horror.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 2,
@@ -149,7 +168,9 @@
       "title": "Oggetti spariti",
       "copy": "Nelle case affollate, tra bassi umidi, cucine strette e scale consumate, capitava che sparissero oggetti, che una sedia cambiasse posto, che un rumore arrivasse dal buio.",
       "visual_note": "Oggetti domestici leggermente fuori posto, luce radente, dettaglio di una mano che chiude un cassetto.",
-      "source_ids": ["src-001"]
+      "source_ids": [
+        "src-001"
+      ]
     },
     {
       "slide_number": 3,
@@ -157,7 +178,10 @@
       "title": "La voce correva",
       "copy": "Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato lui: 'o munaciello, il piccolo monaco della tradizione napoletana.",
       "visual_note": "Dettaglio di stoffa scura, cappuccio e ombra domestica, senza mostrare una creatura definita.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 4,
@@ -165,7 +189,10 @@
       "title": "Un'ombra col cappuccio",
       "copy": "Lo immaginavano basso, rapido, coperto da un cappuccio scuro. Non si faceva vedere quasi mai: restava negli angoli, dietro le porte, vicino alle scale.",
       "visual_note": "Figura piccola e incappucciata suggerita nell'ombra di una casa antica, atmosfera sospesa.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 5,
@@ -173,7 +200,10 @@
       "title": "Dispetti e fortuna",
       "copy": "Poteva fare paura, scompigliare la casa, turbare il sonno. Ma in certi racconti lasciava anche una moneta, un dono improvviso che portava fortuna.",
       "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente domestico povero ma dignitoso.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 6,
@@ -181,7 +211,10 @@
       "title": "Il segreto del dono",
       "copy": "Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.",
       "visual_note": "Dettaglio di monete, cassetto o tavolo in penombra, con sensazione di dono trovato per caso.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 7,
@@ -189,7 +222,11 @@
       "title": "Dal sottosuolo",
       "copy": "Una variante lo legava ai pozzari, uomini che si muovevano tra pozzi, cisterne e cunicoli. Dal ventre di Napoli potevano risalire nelle case come apparizioni.",
       "visual_note": "Cunicolo in tufo, pozzo verticale, scala o appigli nel muro, figura umana lontana.",
-      "source_ids": ["src-003", "src-004", "src-005"]
+      "source_ids": [
+        "src-003",
+        "src-004",
+        "src-005"
+      ]
     },
     {
       "slide_number": 8,
@@ -197,7 +234,12 @@
       "title": "Storia o leggenda?",
       "copy": "Del Monaciello non restava una sola origine certa. Restavano voci, libri, racconti di famiglia e versioni diverse, passate di bocca in bocca.",
       "visual_note": "Libro antico aperto, appunti e mappa del centro storico.",
-      "source_ids": ["src-001", "src-002", "src-003", "src-004"]
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-004"
+      ]
     },
     {
       "slide_number": 9,
@@ -205,7 +247,11 @@
       "title": "Il passo nel vicolo",
       "copy": "E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata per caso e un piccolo passo che sembrava perdersi nel vicolo.",
       "visual_note": "Portone socchiuso su vicolo notturno, luce calda dall'interno.",
-      "source_ids": ["src-001", "src-003", "src-005"]
+      "source_ids": [
+        "src-001",
+        "src-003",
+        "src-005"
+      ]
     }
   ],
   "caption": {
@@ -215,13 +261,14 @@
   },
   "design_notes": {
     "style_direction": "Tono visivo: fiaba napoletana, racconto domestico, luce di golfo e mistero popolare. Ispirazione generale alla pittura napoletana ottocentesca, tra marine, vicoli, picari e scugnizzi, senza imitare un singolo artista. Testo bianco grande su ombra-gradiente quasi trasparente, non su blocco pieno.",
-    "safe_area": "Formato 1080x1350. Fondino testo come gradiente nero verticale a y=0: alto 520px, opacita 0.50 in alto, 0.34 circa nell'area titolo, 0.16 nell'area descrizione, 0.00 entro y=520. Deve sembrare un'ombra che sfuma verso il basso, non una fascia piena; immagini senza testo leggibile, loghi, CTA o watermark.",
+    "safe_area": "Formato Instagram portrait 4:5 corretto: 1080x1350. Revisione leggibilita mobile v2: eyebrow 38px, titolo dinamico 88-118px, descrizione dinamica 47-56px, fondino-gradiente alto 760px. QA da fare sempre su singola card 1080x1350, non solo su striscia carousel ridotta.",
     "asset_rules": [
       "Usare immagini senza scritte o simboli religiosi sensazionalistici.",
-      "Non mostrare il Monaciello come mostro grottesco: suggerire la presenza con ombre, cappuccio, scala, pozzo o monete.",
+      "Non mostrare il Monaciello come mostro grottesco: renderlo pero riconoscibile come piccolo monaco con saio/cappuccio, soprattutto nelle slide chiave.",
       "Nuova direzione: illustrazione fiabesca ispirata alla pittura napoletana ottocentesca, tra marine, luce di golfo, vicoli, picari e scugnizzi, senza citare o imitare un singolo artista.",
       "Preferire luoghi e dettagli: portoni, pozzi, tufo, cassetti, monete, chiostro, cunicoli.",
-      "Lasciare zone pulite per titolo, descrizione e fonte in Figma."
+      "Lasciare zone pulite per titolo, descrizione e fonte in Figma.",
+      "Mostrare le fonti solo sull ultima card del carousel; nelle altre slide il layer source resta nascosto/vuoto."
     ],
     "risks": [
       "Rischio di presentare come storia vera la variante del 1445.",
@@ -243,7 +290,7 @@
       "figma_template_layers_ready": true,
       "figma_qa_sample_done": true
     },
-    "notes": "Revisione gradiente completata in Figma: fondino uniforme sostituito con ombra-gradiente quasi trasparente 1080x520 che sfuma verso il basso; testi approvati applicati; immagini, eyebrow e fonti riallineati alla nuova sequenza; QA visivo fatto su cover, slide 5, slide 7 e slide 8."
+    "notes": "Revisione v3 richiesta dall'utente: sostituiti gli asset v2 per rendere il Monaciello riconoscibile come piccolo monaco con saio/cappuccio e rimuovere duplicazioni visive. Fondino-gradiente e testi restano dalla revisione precedente; QA locale v3 su contact sheet e QA Figma carousel completati. Revisione tipografica post-pubblicazione: formato 1080x1350 confermato; font e fondino aumentati in Figma per leggibilita nel feed Instagram. Revisione tipografica v2 applicata in Figma: testo molto piu grande e verificato su singole card 1080x1350. Fonti rimosse dalle card intermedie in Figma: restano visibili solo sull ultima card del carousel."
   },
   "figma": {
     "status": "done",
@@ -281,13 +328,13 @@
       "status": "approved",
       "by": "utente",
       "at": "2026-07-07",
-      "notes": "Approvazione operativa ricevuta in chat dopo revisione fondino-gradiente e QA visivo: Molto bene, aggiorna tutto quello che serve."
+      "notes": "Approvato in chat: tutti i post sono approvati."
     },
     "final": {
       "status": "approved",
       "by": "utente",
       "at": "2026-07-07",
-      "notes": "Versione finale approvata in chat dopo revisione testi, fondino-gradiente e riallineamento Figma."
+      "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
     }
   },
   "publication": {

@@ -35,7 +35,9 @@ Quando un post cambia stato, aggiornare anche questa lavagna.
 
 | Post | Stato | Data prevista | Note |
 |---|---|---|---|
-| 2026-07-07-post-01-monaciello | approved | Da definire | Figma done con fondino-gradiente; prossimo passo: scheduled_at |
+| 2026-07-07-post-01-monaciello | approved | Da definire | Approvato; prossimo passo: scheduled_at |
+| 2026-07-07-post-04-fantasma-via-foria | approved | Da definire | Approvato; prossimo passo: scheduled_at |
+| 2026-07-07-post-05-palazzo-donnanna | approved | Da definire | Approvato; prossimo passo: scheduled_at |
 
 ## Pubblicati
 

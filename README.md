@@ -11,6 +11,10 @@ misteri, luoghi e tradizioni narrative napoletane.
    creativa.
 4. Validare il JSON prima di ogni passaggio importante.
 5. Salvare bozze, approvati, specifiche e manifest nelle cartelle `outputs/`.
+6. In Figma mostrare le fonti solo sull'ultima card del carousel; nelle altre
+   card il layer `source` deve essere nascosto/vuoto.
+7. Per i caroselli Instagram portrait verificare sempre card singole
+   `1080x1350` con titoli e testi grandi, non solo la strip completa.
 
 ## Validazione
 
@@ -32,4 +36,3 @@ npm run validate:queue
 - `content_queue/content_queue.schema.json`: contratto dei post.
 - `content_queue/*.json`: stato operativo dei post reali.
 - `outputs/figma/figma-map.schema.json`: contratto dei manifest Figma.
-

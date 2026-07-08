@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "post_id": "2026-07-07-post-01-monaciello",
+  "post_id": "2026-07-07-post-04-fantasma-via-foria",
   "status": "done",
-  "source_post": "content_queue/2026-07-07-post-01-monaciello.json",
+  "source_post": "content_queue/2026-07-07-post-04-fantasma-via-foria.json",
   "asset_rules": {
     "format": "png",
     "size_px": 1458000,
@@ -78,23 +78,22 @@
   "slides": [
     {
       "slide_number": 1,
-      "frame_name": "2026-07-07-post-01-monaciello-01-cover",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/01-cover-monaciello-saio.png",
-      "title": "Il Monaciello",
-      "copy": "Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno spiritello piccolo e misterioso che entrava nelle case senza bussare.",
-      "visual_note": "Corridoio domestico in penombra, sagoma bassa con cappuccio sul fondo, atmosfera sospesa ma non horror.",
-      "figma_frame_id": "4:3",
-      "figma_bitmap_layer_id": "4:4",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-01-il-fantasma-di-via-foria",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/01-cover-portone.png",
+      "title": "Il fantasma di Via Foria",
+      "copy": "Tra i portoni antichi e le chiese della zona si raccontava di una donna che, dopo il tramonto, tornava sempre nello stesso punto. Non cercava una casa. Cercava un uomo che non poteva piu nominarla.",
+      "visual_note": "Portone notturno, figura femminile velata in alto su una scala, luce calda da androne.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:4"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
           "name": "eyebrow",
-          "notes": "La leggenda in breve"
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -113,26 +112,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:3",
+      "figma_bitmap_layer_id": "77:4"
     },
     {
       "slide_number": 2,
-      "frame_name": "2026-07-07-post-01-monaciello-02-oggetti",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/02-oggetti-spariti.png",
-      "title": "Oggetti spariti",
-      "copy": "Nelle case affollate, tra bassi umidi, cucine strette e scale consumate, capitava che sparissero oggetti, che una sedia cambiasse posto, che un rumore arrivasse dal buio.",
-      "visual_note": "Oggetti domestici leggermente fuori posto, luce radente, dettaglio di una mano che chiude un cassetto.",
-      "figma_frame_id": "4:13",
-      "figma_bitmap_layer_id": "4:14",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-02-una-strada-di-confine",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/02-strada-confine.png",
+      "title": "Una strada di confine",
+      "copy": "Via Foria correva come una soglia: da una parte il centro antico, dall'altra il movimento dei quartieri, dei mercati, dei palazzi, delle carrozze e poi del traffico moderno. Una strada larga, rumorosa, ma piena di ingressi bui.",
+      "visual_note": "Veduta evocativa di Via Foria: strada ampia, facciate storiche, lampioni, ombre nei portoni.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:13"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -151,26 +152,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:12",
+      "figma_bitmap_layer_id": "77:13"
     },
     {
       "slide_number": 3,
-      "frame_name": "2026-07-07-post-01-monaciello-03-imprevedibile",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/03-voce-correva.png",
-      "title": "La voce correva",
-      "copy": "Quando nessuno trovava una spiegazione, qualcuno abbassava la voce e diceva che era passato lui: 'o munaciello, il piccolo monaco della tradizione napoletana.",
-      "visual_note": "Dettaglio di stoffa scura e fibbie, senza mostrare una creatura definita.",
-      "figma_frame_id": "4:23",
-      "figma_bitmap_layer_id": "4:24",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-03-la-voce-bassa",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/03-voce-bassa.png",
+      "title": "La voce bassa",
+      "copy": "La storia non veniva raccontata come una certezza. Veniva detta piano, quasi per non disturbare i muri. Si parlava di una giovane donna, di un prete, di un amore rimasto fuori posto in una citta che sapeva tutto e perdonava poco.",
+      "visual_note": "Dettaglio di balconi chiusi, panni scuri, finestra socchiusa, atmosfera di segreto.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:22"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -189,26 +192,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:21",
+      "figma_bitmap_layer_id": "77:22"
     },
     {
       "slide_number": 4,
-      "frame_name": "2026-07-07-post-01-monaciello-04-doni",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/04-ombra-cappuccio.png",
-      "title": "Un'ombra col cappuccio",
-      "copy": "Lo immaginavano basso, rapido, coperto da un cappuccio scuro. Non si faceva vedere quasi mai: restava negli angoli, dietro le porte, vicino alle scale.",
-      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente povero ma dignitoso.",
-      "figma_frame_id": "4:33",
-      "figma_bitmap_layer_id": "4:34",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-04-l-amore-proibito",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/04-amore-proibito.png",
+      "title": "L'amore proibito",
+      "copy": "Secondo la voce popolare, lei lo aspettava vicino alla chiesa o sotto un portone. Lui arrivava tardi, quando la strada si svuotava. Non c'erano promesse da mostrare alla luce: solo passi, silenzi e una colpa che diventava ogni sera piu pesante.",
+      "visual_note": "Ombra di tonaca lontana, figura femminile vicino a un portone, nessun volto riconoscibile.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:31"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -227,26 +232,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:30",
+      "figma_bitmap_layer_id": "77:31"
     },
     {
       "slide_number": 5,
-      "frame_name": "2026-07-07-post-01-monaciello-05-pozzari",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/05-dispetti-fortuna.png",
-      "title": "Dispetti e fortuna",
-      "copy": "Poteva fare paura, scompigliare la casa, turbare il sonno. Ma in certi racconti lasciava anche una moneta, un dono improvviso che portava fortuna.",
-      "visual_note": "Monete su un tavolo antico, ombra di finestra, ambiente domestico povero ma dignitoso.",
-      "figma_frame_id": "4:43",
-      "figma_bitmap_layer_id": "4:44",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-05-poi-qualcosa-accadde",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/05-qualcosa-accadde.png",
+      "title": "Poi qualcosa accadde",
+      "copy": "Nelle versioni piu scure, l'amore fini con una sparizione, una morte improvvisa o una vergogna da seppellire in fretta. Nessuno sapeva dire davvero come. E forse era proprio quel vuoto a tenere viva la paura.",
+      "visual_note": "Scala vuota, candela spenta, fazzoletto o velo lasciato su pietra.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:40"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -265,26 +272,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:39",
+      "figma_bitmap_layer_id": "77:40"
     },
     {
       "slide_number": 6,
-      "frame_name": "2026-07-07-post-01-monaciello-06-spiegazione",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/06-segreto-dono.png",
-      "title": "Il segreto del dono",
-      "copy": "Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.",
-      "visual_note": "Dettaglio di monete, cassetto o tavolo in penombra, con sensazione di dono trovato per caso.",
-      "figma_frame_id": "4:53",
-      "figma_bitmap_layer_id": "4:54",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-06-la-donna-sulle-scale",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/06-donna-scale.png",
+      "title": "La donna sulle scale",
+      "copy": "Da allora, diceva la leggenda, qualcuno la intravedeva sulle scale: una sagoma chiara, ferma, come se ascoltasse una porta che non si apriva piu. Non urlava, non inseguiva. Aspettava.",
+      "visual_note": "Pianerottolo antico, figura ferma contro luce, pareti consumate.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:49"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -303,26 +312,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:48",
+      "figma_bitmap_layer_id": "77:49"
     },
     {
       "slide_number": 7,
-      "frame_name": "2026-07-07-post-01-monaciello-07-tragica",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/07-sottosuolo-pozzari.png",
-      "title": "Dal sottosuolo",
-      "copy": "Una variante lo legava ai pozzari, uomini che si muovevano tra pozzi, cisterne e cunicoli. Dal ventre di Napoli potevano risalire nelle case come apparizioni.",
-      "visual_note": "Cunicolo in tufo, pozzo verticale, scala o appigli nel muro, figura umana lontana.",
-      "figma_frame_id": "4:63",
-      "figma_bitmap_layer_id": "4:64",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-07-non-un-mostro",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/07-non-mostro.png",
+      "title": "Non un mostro",
+      "copy": "Il suo fantasma faceva paura perche non sembrava venire dall'inferno, ma da una stanza qualunque. Era il resto di una storia umana: desiderio, segreto, giudizio, solitudine. Quelle cose che i palazzi trattengono anche quando gli inquilini cambiano.",
+      "visual_note": "Interno di palazzo napoletano, scale e ringhiere, polvere nella luce.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:58"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -341,26 +352,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:57",
+      "figma_bitmap_layer_id": "77:58"
     },
     {
       "slide_number": 8,
-      "frame_name": "2026-07-07-post-01-monaciello-08-caveat",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/08-fonti-caveat.png",
-      "title": "Storia o leggenda?",
-      "copy": "Del Monaciello non restava una sola origine certa. Restavano voci, libri, racconti di famiglia e versioni diverse, passate di bocca in bocca.",
-      "visual_note": "Libro antico aperto, appunti e mappa del centro storico.",
-      "figma_frame_id": "4:73",
-      "figma_bitmap_layer_id": "4:74",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-08-cosa-sappiamo",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/08-cosa-sappiamo.png",
+      "title": "Cosa sappiamo",
+      "copy": "Per ora non c'e una prova unica che chiuda la storia. C'e una traccia orale, un luogo preciso e un immaginario coerente con le leggende urbane napoletane: il peccato taciuto, la strada che osserva, il portone che diventa memoria.",
+      "visual_note": "Appunti, mappa di Via Foria, libro aperto, foto di portone senza elementi moderni invadenti.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:67"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -379,26 +392,28 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:66",
+      "figma_bitmap_layer_id": "77:67"
     },
     {
       "slide_number": 9,
-      "frame_name": "2026-07-07-post-01-monaciello-09-chiusura",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-01-monaciello-v3/09-passo-vicolo.png",
-      "title": "Il passo nel vicolo",
-      "copy": "E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata per caso e un piccolo passo che sembrava perdersi nel vicolo.",
-      "visual_note": "Portone socchiuso su vicolo notturno, luce calda dall'interno.",
-      "figma_frame_id": "4:83",
-      "figma_bitmap_layer_id": "4:84",
+      "frame_name": "2026-07-07-post-04-fantasma-via-foria-09-la-porta-chiusa",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/09-porta-chiusa.png",
+      "title": "La porta chiusa",
+      "copy": "E forse e questo che resta della leggenda: non la certezza di un'apparizione, ma l'idea che alcune storie, quando nessuno ha il coraggio di raccontarle, continuino a bussare da sole.",
+      "visual_note": "Porta chiusa, luce sottile dalla fessura, strada vuota dopo la pioggia.",
       "figma_layers": {
         "image": {
-          "name": "image"
+          "name": "image",
+          "id": "77:76"
         },
         "fondino": {
           "name": "fondino"
         },
         "eyebrow": {
-          "name": "eyebrow"
+          "name": "eyebrow",
+          "notes": "Voce orale di quartiere"
         },
         "title": {
           "name": "title"
@@ -417,11 +432,13 @@
         "footer": {
           "name": "footer"
         }
-      }
+      },
+      "figma_frame_id": "77:75",
+      "figma_bitmap_layer_id": "77:76"
     }
   ],
   "figma": {
     "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
-    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2"
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=77-2"
   }
 }

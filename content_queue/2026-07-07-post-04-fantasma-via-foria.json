@@ -1,0 +1,326 @@
+{
+  "post_id": "2026-07-07-post-04-fantasma-via-foria",
+  "status": "approved",
+  "priority": "high",
+  "topic": "Il fantasma dell'amante del prete in zona Via Foria",
+  "angle": "Una leggenda orale di quartiere: una donna legata a un amore proibito con un prete, ricordata come presenza notturna tra portoni, scale, chiese e palazzi di Via Foria. Il post deve raccontare l'atmosfera senza presentare la voce popolare come fatto storico accertato.",
+  "target": {
+    "audience": "Pubblico generalista interessato a Napoli gotica, fantasmi di quartiere, storie orali e luoghi riconoscibili.",
+    "goal": "Trasformare una voce locale su Via Foria in un racconto narrativo forte, mantenendo chiaro il caveat tra tradizione orale, contesto urbano documentabile e assenza di prova storica unica.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Codex",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Input editoriale: fantasma dell'amante del prete in zona Via Foria",
+      "type": "oral_tradition",
+      "url": "",
+      "author": "utente",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Spunto centrale della leggenda: una donna, indicata come amante di un prete, legata a una presenza spettrale nell'area di Via Foria.",
+      "caveat": "Fonte orale/editoriale: verifica l'esistenza dello spunto redazionale, non la storicita della leggenda.",
+      "notes": "Da trattare sempre come voce di quartiere, con caveat visibile."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Via Foria",
+      "type": "secondary",
+      "url": "https://it.wikipedia.org/wiki/Via_Foria",
+      "author": "Wikipedia contributors",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Contesto urbano: Via Foria delimita a nord il nucleo antico di Napoli, collega Piazza Cavour e Piazza Carlo III, attraversa aree storiche e conserva palazzi, chiese e stratificazioni urbane.",
+      "caveat": "Fonte enciclopedica sufficiente per contesto preliminare; da affiancare a bibliografia locale se si vuole rafforzare una pubblicazione definitiva.",
+      "notes": "Utile solo per contesto e geografia, non per dimostrare la leggenda del fantasma."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Chiesa di Santa Maria Addolorata dei Franchis",
+      "type": "secondary",
+      "url": "https://it.wikipedia.org/wiki/Chiesa_di_Santa_Maria_Addolorata_dei_Franchis",
+      "author": "Wikipedia contributors",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Contesto visuale e urbano: presenza di luoghi religiosi e cappelle nobiliari lungo Via Foria, utili a costruire un immaginario di chiese, portoni e cortili.",
+      "caveat": "Non supporta la leggenda specifica; serve solo come contesto ambientale da verificare con fonti migliori.",
+      "notes": "Da non usare per insinuare legami storici tra la chiesa e la voce dell'amante del prete."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Chiesa di San Carlo all'Arena",
+      "type": "secondary",
+      "url": "https://it.wikipedia.org/wiki/Chiesa_di_San_Carlo_all%27Arena",
+      "author": "Wikipedia contributors",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Contesto urbano-religioso lungo Via Foria: chiesa monumentale sul lato destro della strada, costruita tra XVII e XIX secolo nella zona dell'antica via arenosa e della Lava dei Vergini.",
+      "caveat": "Non supporta la leggenda specifica; da integrare con fonte storico-artistica piu stabile.",
+      "notes": "Usare solo per ambientazione e non per collegare la leggenda a questa chiesa."
+    },
+    {
+      "source_id": "src-005",
+      "title": "Porta San Gennaro",
+      "type": "secondary",
+      "url": "https://it.wikipedia.org/wiki/Porta_San_Gennaro",
+      "author": "Wikipedia contributors",
+      "published_at": "",
+      "checked_at": "2026-07-07",
+      "status": "verified",
+      "supports": "Contesto storico all'inizio di Via Foria: antica porta cittadina presso Piazza Cavour, legata al margine settentrionale della citta e al percorso verso le catacombe di San Gennaro.",
+      "caveat": "Non supporta la leggenda specifica; serve a rafforzare il tema della strada come soglia tra dentro/fuori, citta antica e aree settentrionali.",
+      "notes": "Da verificare con fonte istituzionale o bibliografica."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "La leggenda proposta parla di una donna legata a un amore proibito con un prete e ricordata come presenza spettrale nella zona di Via Foria.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Lo spunto arriva come tradizione orale/editoriale dall'utente.",
+      "caveat": "Verificato solo come voce orale/editoriale approvata; non come fatto storico o tradizione attestata da fonte scritta.",
+      "status": "verified",
+      "notes": "Mantenere formule caute: 'si raccontava', 'secondo una voce di quartiere', 'non c'e una prova unica'."
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Via Foria e una strada storica di Napoli, al margine nord del nucleo antico, con palazzi, chiese e stratificazioni urbane adatte a un racconto di quartiere.",
+      "source_ids": [
+        "src-002",
+        "src-003",
+        "src-004",
+        "src-005"
+      ],
+      "evidence": "Le fonti secondarie consultate descrivono Via Foria come asse storico e citano edifici civili, chiese e Porta San Gennaro lungo o presso il percorso.",
+      "caveat": "Il contesto urbano e documentabile; il collegamento con il fantasma resta tradizione orale.",
+      "status": "verified",
+      "notes": "Contesto sufficiente per passare al design; resta consigliabile integrare bibliografia locale prima della pubblicazione."
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Il post usa la figura della donna senza nome come racconto simbolico di segreto, vergogna pubblica, amore proibito e memoria dei portoni.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Interpretazione narrativa proposta dalla redazione a partire dallo spunto orale.",
+      "caveat": "Interpretazione creativa dichiarata; non va presentata come significato attestato della leggenda.",
+      "status": "verified",
+      "notes": "Mantenere separati racconto e fact-check."
+    }
+  ],
+  "cover": {
+    "headline": "Il fantasma di Via Foria",
+    "subheadline": "La donna che tornava a cercare il prete",
+    "visual_idea": "Portone antico su Via Foria di notte, luce gialla da un androne, figura femminile appena visibile sulle scale. Nessun horror esplicito, nessun volto sanguinoso. Cover approvata operativamente: outputs/figma/assets/2026-07-07-post-04-fantasma-via-foria-v1/01-cover-portone.png"
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Il fantasma di Via Foria",
+      "copy": "Tra i portoni antichi e le chiese della zona si raccontava di una donna che, dopo il tramonto, tornava sempre nello stesso punto. Non cercava una casa. Cercava un uomo che non poteva piu nominarla.",
+      "visual_note": "Portone notturno, figura femminile velata in alto su una scala, luce calda da androne.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Una strada di confine",
+      "copy": "Via Foria correva come una soglia: da una parte il centro antico, dall'altra il movimento dei quartieri, dei mercati, dei palazzi, delle carrozze e poi del traffico moderno. Una strada larga, rumorosa, ma piena di ingressi bui.",
+      "visual_note": "Veduta evocativa di Via Foria: strada ampia, facciate storiche, lampioni, ombre nei portoni.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "La voce bassa",
+      "copy": "La storia non veniva raccontata come una certezza. Veniva detta piano, quasi per non disturbare i muri. Si parlava di una giovane donna, di un prete, di un amore rimasto fuori posto in una citta che sapeva tutto e perdonava poco.",
+      "visual_note": "Dettaglio di balconi chiusi, panni scuri, finestra socchiusa, atmosfera di segreto.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "L'amore proibito",
+      "copy": "Secondo la voce popolare, lei lo aspettava vicino alla chiesa o sotto un portone. Lui arrivava tardi, quando la strada si svuotava. Non c'erano promesse da mostrare alla luce: solo passi, silenzi e una colpa che diventava ogni sera piu pesante.",
+      "visual_note": "Ombra di tonaca lontana, figura femminile vicino a un portone, nessun volto riconoscibile.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "Poi qualcosa accadde",
+      "copy": "Nelle versioni piu scure, l'amore fini con una sparizione, una morte improvvisa o una vergogna da seppellire in fretta. Nessuno sapeva dire davvero come. E forse era proprio quel vuoto a tenere viva la paura.",
+      "visual_note": "Scala vuota, candela spenta, fazzoletto o velo lasciato su pietra.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "La donna sulle scale",
+      "copy": "Da allora, diceva la leggenda, qualcuno la intravedeva sulle scale: una sagoma chiara, ferma, come se ascoltasse una porta che non si apriva piu. Non urlava, non inseguiva. Aspettava.",
+      "visual_note": "Pianerottolo antico, figura ferma contro luce, pareti consumate.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Non un mostro",
+      "copy": "Il suo fantasma faceva paura perche non sembrava venire dall'inferno, ma da una stanza qualunque. Era il resto di una storia umana: desiderio, segreto, giudizio, solitudine. Quelle cose che i palazzi trattengono anche quando gli inquilini cambiano.",
+      "visual_note": "Interno di palazzo napoletano, scale e ringhiere, polvere nella luce.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "Cosa sappiamo",
+      "copy": "Per ora non c'e una prova unica che chiuda la storia. C'e una traccia orale, un luogo preciso e un immaginario coerente con le leggende urbane napoletane: il peccato taciuto, la strada che osserva, il portone che diventa memoria.",
+      "visual_note": "Appunti, mappa di Via Foria, libro aperto, foto di portone senza elementi moderni invadenti.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-004",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "La porta chiusa",
+      "copy": "E forse e questo che resta della leggenda: non la certezza di un'apparizione, ma l'idea che alcune storie, quando nessuno ha il coraggio di raccontarle, continuino a bussare da sole.",
+      "visual_note": "Porta chiusa, luce sottile dalla fessura, strada vuota dopo la pioggia.",
+      "source_ids": [
+        "src-001"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Certe leggende non arrivano come una data, un nome scritto in archivio o un documento da citare. Arrivano come una frase detta piano: 'li, una volta, si raccontava di una donna'.\n\nNella zona di Via Foria, secondo una voce di quartiere ancora da verificare con fonti piu solide, circolava il racconto di una donna legata a un prete da un amore proibito. Un amore impossibile da mostrare, troppo fragile per diventare promessa, troppo scandaloso per essere detto ad alta voce.\n\nLa leggenda la immagina mentre torna tra portoni, scale e chiese, come se cercasse ancora qualcuno che non puo piu risponderle. Non e un fantasma mostruoso. E una presenza triste, umana, fatta di attesa e silenzio.\n\nVia Foria, con i suoi palazzi, le sue chiese e il suo ruolo di soglia del centro antico, diventa il luogo perfetto per una storia cosi: una strada rumorosa fuori, ma piena di buio dentro gli androni.\n\nNon sappiamo ancora se questa leggenda abbia una fonte scritta precisa. Per questo va raccontata per quello che e: una traccia orale, una memoria possibile, un racconto di quartiere. Ma a Napoli, spesso, anche le voci hanno un modo tutto loro di restare attaccate ai muri.",
+    "cta": "Tu conosci altre versioni di questa storia su Via Foria?",
+    "source_note": "Fonti iniziali consultate il 2026-07-07: input orale/editoriale dell'utente; voce Via Foria e contesto urbano da verificare con bibliografia locale. Fact-check ancora aperto."
+  },
+  "design_notes": {
+    "style_direction": "Gotico napoletano di quartiere, non horror splatter: portoni, scale, luce gialla, pietra scura, strada bagnata, facciate storiche. Atmosfera piu umana che soprannaturale.",
+    "safe_area": "Formato Instagram portrait 4:5 corretto: 1080x1350. Revisione leggibilita mobile v2: eyebrow 38px, titolo dinamico 88-118px, descrizione dinamica 47-56px, fondino-gradiente alto 760px. QA da fare sempre su singola card 1080x1350, non solo su striscia carousel ridotta.",
+    "asset_rules": [
+      "Nessuna scena esplicita di violenza o sessualizzazione.",
+      "Non rappresentare il prete in modo caricaturale o accusatorio: usare ombra, distanza, simboli indiretti.",
+      "Non mostrare croci o interni sacri in modo blasfemo.",
+      "La donna deve sembrare una presenza malinconica, non un mostro.",
+      "Asset senza testo, logo, fonte, CTA o watermark.",
+      "Mostrare le fonti solo sull ultima card del carousel; nelle altre slide il layer source resta nascosto/vuoto."
+    ],
+    "risks": [
+      "Rischio principale: leggenda specifica non ancora attestata da fonte scritta.",
+      "Rischio di trasformare una voce orale in accusa verso persone o luoghi reali.",
+      "Rischio di sensazionalismo religioso: mantenere tono rispettoso e caveat esplicito."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-07",
+    "asset_format": "1080x1350",
+    "asset_count": 9,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Asset 01-09 generati, normalizzati a 1080x1350, montati in Figma nel carousel node 77:2. QA visivo completato su cover, slide 5, slide 8 e slide 9: testo leggibile, caveat visibile, nessun testo/watermark negli asset, tono gotico coerente e non splatter. Revisione tipografica post-pubblicazione: formato 1080x1350 confermato; font e fondino aumentati in Figma per leggibilita nel feed Instagram. Revisione tipografica v2 applicata in Figma: testo molto piu grande e verificato su singole card 1080x1350. Fonti rimosse dalle card intermedie in Figma: restano visibili solo sull ultima card del carousel."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=77-2",
+    "manifest_path": "outputs/figma/2026-07-07-post-04-fantasma-via-foria-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-07",
+    "summary": "Fact-check passato con caveat forte: non e emersa una fonte scritta attendibile sulla leggenda specifica dell'amante del prete in zona Via Foria. Il post puo procedere perche l'editore ha approvato il taglio come voce orale di quartiere; il contesto urbano di Via Foria, chiese e Porta San Gennaro e documentabile. Nel copy il nucleo spettrale resta formulato come racconto orale, non come cronaca certa.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvazione ricevuta in chat: procediamo. Taglio approvato come voce orale di quartiere, non come fatto storico documentato."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Approvato con caveat obbligatorio: il nucleo della leggenda resta voce orale/editoriale; il contesto urbano e documentabile."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-07",
+      "notes": "Cover e set asset approvati operativamente dopo QA Figma: no testo, no watermark, tono gotico coerente."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvato in chat: tutti i post sono approvati."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-07",
+      "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+  }
+}
