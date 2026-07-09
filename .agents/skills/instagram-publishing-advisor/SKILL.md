@@ -18,10 +18,12 @@ avanza stati senza gate, non sostituisce `editor-instagram`,
 
 Leggere, se disponibili:
 
+- `AGENTS.md` per gate e regole di avanzamento.
 - `content_queue/BOARD.md` per stato umano della coda.
 - I JSON dei post candidati in `content_queue/`.
 - `outputs/approved/` e `outputs/drafts/` per copy disponibile.
 - `outputs/audits/` per rischi visuali o workflow.
+- `outputs/figma/QA_INDEX.md`, se presente, per rischi visuali residui.
 
 Se l'utente chiede "oggi", "questa settimana", "ultimo algoritmo" o consigli
 aggiornati, documentarsi online prima di rispondere. Le regole Instagram
@@ -44,6 +46,9 @@ Ogni risposta operativa deve includere:
 ## Regole Di Pubblicazione
 
 - Non consigliare di pubblicare contenuti sotto `approved`.
+- Non consigliare `scheduled` o pubblicazione se restano fonti `to_verify`,
+  claim `needs_context`, `fact_check.open_issues` aperti o audit bloccanti,
+  salvo decisione editoriale scritta.
 - Se un post e `figma_done` ma design/finale sono pending, proporre revisione
   finale prima della pubblicazione.
 - Se un post e in Figma ma non ha JSON operativo, trattarlo come `untracked`:

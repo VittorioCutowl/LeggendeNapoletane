@@ -180,6 +180,10 @@
         "checked_at": { "type": "string" },
         "asset_format": { "type": "string", "enum": ["1080x1350", "1080x1080", "1080x1920", "custom"] },
         "asset_count": { "type": "integer", "minimum": 0 },
+        "qa_artifacts": { "type": "array", "items": { "type": "string" } },
+        "checked_slide_numbers": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+        "visual_duplicate_check": { "type": "string" },
+        "source_layer_policy_checked": { "type": "boolean" },
         "checks": {
           "type": "object",
           "additionalProperties": false,
@@ -199,7 +203,44 @@
             "assets_have_no_text_logo_sources": { "type": "boolean" },
             "copy_line_budget_ok": { "type": "boolean" },
             "figma_template_layers_ready": { "type": "boolean" },
-            "figma_qa_sample_done": { "type": "boolean" }
+            "figma_qa_sample_done": { "type": "boolean" },
+            "italian_accents_ok": { "type": "boolean" },
+            "grammar_ok": { "type": "boolean" },
+            "text_size_homogeneous": { "type": "boolean" },
+            "source_visibility_ok": { "type": "boolean" },
+            "approved_copy_exported": { "type": "boolean" }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "copy_qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": { "type": "string", "enum": ["not_started", "passed", "needs_fix", "blocked"] },
+        "checked_at": { "type": "string" },
+        "accent_check": { "type": "string" },
+        "grammar_check": { "type": "string" },
+        "max_title_lines": { "type": "integer", "minimum": 1 },
+        "max_copy_lines": { "type": "integer", "minimum": 1 },
+        "source_layer_visible_only_last_slide": { "type": "boolean" },
+        "final_human_copy_path_exists": { "type": "boolean" },
+        "approved_md_status_matches_json": { "type": "boolean" },
+        "line_budget_per_slide": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["slide_number"],
+            "properties": {
+              "slide_number": { "type": "integer", "minimum": 1 },
+              "estimated_title_lines": { "type": "integer", "minimum": 0 },
+              "estimated_copy_lines": { "type": "integer", "minimum": 0 },
+              "font_size_applied": { "type": "number" },
+              "overflow_risk": { "type": "string", "enum": ["low", "medium", "high"] },
+              "notes": { "type": "string" }
+            }
           }
         },
         "notes": { "type": "string" }

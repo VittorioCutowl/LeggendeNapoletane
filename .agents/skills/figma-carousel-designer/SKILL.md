@@ -1,9 +1,25 @@
-# name: figma-carousel-designer
+---
+name: figma-carousel-designer
+description: Prepara specifiche visuali, asset, manifest e QA Figma per trasformare un carousel approvato in produzione.
+---
 
-## description
+# Figma Carousel Designer
 
 Prepara specifiche visuali e manifest per trasformare un carousel approvato in
 asset e montaggio Figma.
+
+## Documenti Da Leggere Prima
+
+- `AGENTS.md`
+- `content_queue/README.md`
+- `content_queue/BOARD.md`
+- JSON operativo del post in `content_queue/`
+- `brand/visual-style.md`
+- `brand/tono-di-voce.md`
+- `outputs/figma/README.md`
+- `outputs/figma/figma-map.schema.json`
+- `outputs/figma/ASSET_INDEX_TEMPLATE.md`
+- eventuali audit in `outputs/audits/`
 
 ## Quando Usare La Skill
 
@@ -36,3 +52,7 @@ Usare questa skill solo quando il post e in stato:
 - Non inserire testi, fonti, logo, CTA o caption negli asset locali.
 - Le immagini devono evocare luogo e leggenda senza diventare horror generico.
 - Compilare `production_preflight` prima di `figma_done`.
+- Registrare QA e prove visuali in modo rintracciabile: manifest, asset index,
+  screenshot o note in `outputs/figma/QA_INDEX.md` quando presente.
+- Se un asset e solo in Figma o non esiste localmente, dichiararlo nel manifest
+  o nell'asset index invece di farlo sembrare un path locale verificabile.

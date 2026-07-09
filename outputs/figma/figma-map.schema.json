@@ -96,6 +96,20 @@
           "title": { "type": "string" },
           "copy": { "type": "string" },
           "visual_note": { "type": "string" },
+          "asset_origin": {
+            "type": "string",
+            "enum": ["generated", "supplied", "archive", "drive", "figma_only", "local", "unknown"]
+          },
+          "asset_status": {
+            "type": "string",
+            "enum": ["draft", "in_review", "approved", "in_figma", "rejected", "replaced"]
+          },
+          "rights": { "type": "string" },
+          "qa_status": {
+            "type": "string",
+            "enum": ["pending", "passed", "needs_fix", "blocked", "superseded"]
+          },
+          "local_file_required": { "type": "boolean" },
           "figma_frame_id": { "type": "string" },
           "figma_bitmap_layer_id": { "type": "string" },
           "figma_layers": {
@@ -124,6 +138,29 @@
         "file_url": { "type": "string" },
         "node_url": { "type": "string" }
       }
+    },
+    "qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["pending", "passed", "needs_fix", "blocked", "superseded"]
+        },
+        "checked_at": { "type": "string" },
+        "checked_by": { "type": "string" },
+        "local_contact_sheet": { "type": "string" },
+        "figma_carousel_screenshot": { "type": "string" },
+        "checked_frames": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1 }
+        },
+        "open_issues": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notes": { "type": "string" }
+      }
     }
   },
   "$defs": {
@@ -134,6 +171,15 @@
       "properties": {
         "id": { "type": "string" },
         "name": { "type": "string" },
+        "visible": { "type": "boolean" },
+        "expected_text": { "type": "string" },
+        "locked": { "type": "boolean" },
+        "font_family": { "type": "string" },
+        "font_size": { "type": "number" },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "width": { "type": "number" },
+        "height": { "type": "number" },
         "notes": { "type": "string" }
       }
     }

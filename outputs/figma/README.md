@@ -31,6 +31,24 @@ I manifest canonici dei nuovi post vanno salvati qui.
 4. Import: popolare Figma dal manifest/template.
 5. QA: verificare cover, una slide centrale e una slide con copy lungo.
 
+## Definition Of Done Figma
+
+Un post puo passare a `figma_done` solo se:
+
+- il manifest e collegato al JSON operativo corretto;
+- `figma.file_url` punta al file canonico;
+- `figma.node_url` punta alla sezione o al primo frame reale del post;
+- il numero di frame nel manifest coincide con il numero di slide nel JSON;
+- ogni frame registra i layer attesi: `image`, `fondino`, `eyebrow`, `title`,
+  `description`, `source`, `logo`, `footer`;
+- il layer `source` e visibile solo sull'ultima card;
+- asset locali esistenti o asset `figma_only` dichiarati esplicitamente;
+- duplicati visuali assenti o motivati;
+- QA visuale linkato in `outputs/figma/QA_INDEX.md`, asset index, manifest o
+  audit;
+- cover, slide centrale, slide piu lunga e ultima card sono state controllate
+  singolarmente a `1080x1350`.
+
 ## Standard Visuale Corrente
 
 - Formato default: `1080x1350` px.

@@ -16,6 +16,23 @@ misteri, luoghi e tradizioni narrative napoletane.
 7. Per i caroselli Instagram portrait verificare sempre card singole
    `1080x1350` con titoli e testi grandi, non solo la strip completa.
 
+## Memoria Operativa
+
+Per non perdere riferimenti tra agenti e sessioni:
+
+- `AGENTS.md`: contratto madre, workflow, gate, skill e documenti obbligatori.
+- `content_queue/BOARD.md`: dashboard umana della coda e rischi residui.
+- `content_queue/content_queue.schema.json`: contratto JSON.
+- `brand/`: linea editoriale, tono, stile visuale e criteri.
+- `sources/`: regole fonti, template fonte e note di ricerca.
+- `.agents/skills/`: skill operative per ruoli editoriali, fact-check, Figma,
+  QA copy, QA visuale, publishing e performance.
+- `outputs/figma/QA_INDEX.md`: indice QA visuale e Figma.
+
+Prima di programmare un post, controllare che non restino fonti `to_verify`,
+claim `needs_context`, open issue di fact-check o audit aperti senza decisione
+editoriale scritta.
+
 ## Validazione
 
 PowerShell:

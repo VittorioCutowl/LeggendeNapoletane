@@ -25,6 +25,54 @@ lavagna.
 Non avanzare un contenuto usando fonti in conflitto senza registrare il
 conflitto nei claim, nei caveat o in `blocked`.
 
+## Indice Documenti Obbligatori
+
+Prima di lavorare su un post, leggere sempre:
+
+- `AGENTS.md`: contratto operativo, gate e regole di progetto.
+- `content_queue/README.md`: regole della coda contenuti.
+- `content_queue/content_queue.schema.json`: schema JSON operativo.
+- `content_queue/BOARD.md`: stato umano della coda.
+- JSON operativo del post in `content_queue/`.
+
+Per scelte editoriali leggere anche:
+
+- `brand/linea-editoriale.md`
+- `brand/tono-di-voce.md`
+- `brand/matrice-editoriale.md`
+- `brand/categorie-editoriali.md`
+- `brand/criteri-di-scelta.md`
+
+Per fonti, ricerca e fact-check leggere anche:
+
+- `sources/fonti-approvate.md`
+- `sources/SOURCE_CARD_TEMPLATE.md`
+- eventuali note in `sources/research/`
+
+Per design, asset e Figma leggere anche:
+
+- `brand/visual-style.md`
+- `outputs/figma/README.md`
+- `outputs/figma/figma-map.schema.json`
+- `outputs/figma/ASSET_INDEX_TEMPLATE.md`
+- eventuali audit in `outputs/audits/`
+- eventuali QA in `outputs/figma/qa/`
+
+## Quale Skill Usare
+
+| Caso | Skill | Stato tipico | Output atteso |
+|---|---|---|---|
+| Nuove idee o rosa leggende | `trend-scout` | `idea` | proposta, angolo, direzione fonti |
+| Priorita, angolo, approvazioni | `editor-instagram` | `idea`, `fact_checked`, `figma_done` | brief, approval, blocchi |
+| Scrittura carousel | `journalist-carousel` | `brief_ready`, `draft_ready` | slide, caption, claim |
+| Verifica fonti e claim | `fact-checker` | `fact_check_needed` | claim verificati, caveat, open issue |
+| Ricerca online e fonti esterne | `leggende-napoletane-factcheck-internet` | `idea`, `brief_ready`, `fact_check_needed` | fonti qualificate, conflitti, consultazione |
+| QA linguistico pre-pubblicazione | `instagram-carousel-copy-qa` | `figma_done`, `approved`, `scheduled` | report accenti, grammatica, line budget |
+| Design, asset, manifest Figma | `figma-carousel-designer` | `design_ready` | spec, manifest, preflight |
+| QA visuale e asset | `leggende-napoletane-visual-preflight` | `design_ready`, `figma_done`, `approved` | report asset, Figma, duplicati, screenshot |
+| Calendario pubblicazione | `instagram-publishing-advisor` | `approved`, `scheduled`, `published` | piano uscita, CTA, hashtag |
+| Lettura metriche | `post-performance-analyst` | `published` | insight e raccomandazioni |
+
 ## Ruoli Editoriali
 
 - **Editore**: definisce priorita, rubrica, angolo e approvazioni.
@@ -66,6 +114,18 @@ Usare solo questi valori in `status`:
 | qualsiasi | `archived` | Editore | motivo registrato |
 
 Se un gate non e soddisfatto, non forzare lo stato: compilare `blocked`.
+
+Prima di passare a `scheduled` o `published`, controllare che non restino:
+
+- fonti con `status = to_verify`;
+- claim con `status = needs_context` o `to_verify`;
+- `fact_check.open_issues` non risolti;
+- audit visuali o linguistici aperti;
+- mismatch tra JSON, `BOARD.md`, file approvato, design spec e manifest Figma.
+
+Se una criticita non blocca la pubblicazione, registrare una decisione
+editoriale esplicita in `approvals.final.notes`, `blocked.next_action` o nella
+sezione di attenzione della lavagna. Non lasciare residui invisibili.
 
 ## Fonti E Fact-Check
 
@@ -162,6 +222,18 @@ Il preflight passa solo se:
 - titoli e descrizioni rispettano il budget righe;
 - il template Figma ha layer stabili;
 - il QA visivo e stato fatto almeno su cover, slide centrale e slide lunga.
+
+## Validazione Obbligatoria
+
+Prima di dichiarare completo un cambio operativo eseguire:
+
+```bash
+npm run validate:queue
+```
+
+La validazione controlla i JSON in `content_queue/` e, quando presenti, i
+manifest Figma collegati. Se la validazione fallisce, non avanzare lo stato:
+correggere il problema o registrare un blocco.
 
 ## Cosa Non Fare
 

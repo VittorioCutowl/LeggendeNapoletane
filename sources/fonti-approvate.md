@@ -19,3 +19,21 @@ Questo file raccoglie tipi di fonti preferibili per leggende napoletane.
 - testi che mescolano storia e fantasia senza dichiararlo;
 - citazioni attribuite senza fonte primaria.
 
+Wikipedia puo essere usata per orientamento, contesto leggero o bibliografia di
+partenza, ma non deve reggere da sola un claim centrale ne una approvazione
+finale.
+
+## Workflow Di Ricerca
+
+1. Registrare ogni fonte candidata con `SOURCE_CARD_TEMPLATE.md`.
+2. Compilare sempre `url`, `checked_at`, `status`, `supports` e `caveat`.
+3. Segnare come `verified` solo fonti lette o controllate direttamente.
+4. Usare `to_verify` quando la fonte e promettente ma non ancora verificata.
+5. Se una fonte e utile ma debole, usarla solo per spunti o contesto secondario.
+6. Se due fonti confliggono, registrare il conflitto nei claim, nei caveat o in
+   `blocked`.
+7. Prima di `scheduled`, non lasciare fonti `to_verify` o claim
+   `needs_context` senza override editoriale scritto.
+
+Le note di ricerca lunghe o riutilizzabili vanno salvate in `sources/research/`
+con nome `YYYY-MM-DD-slug.md`.

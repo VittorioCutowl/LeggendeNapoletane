@@ -11,6 +11,8 @@ const expectedAssetSizes = {
   "1080x1080": { width: 1080, height: 1080 },
   "1080x1920": { width: 1080, height: 1920 }
 };
+const schedulingStatuses = new Set(["scheduled", "published"]);
+const warnings = [];
 const allowedStatus = new Set([
   "idea",
   "brief_ready",
@@ -70,6 +72,10 @@ function requireFields(file, object, fields, prefix = "") {
 
 function normalizeRelative(file) {
   return path.relative(root, file).replaceAll(path.sep, "/");
+}
+
+function warn(message) {
+  warnings.push(message);
 }
 
 function readImageSize(file) {
@@ -152,6 +158,9 @@ function validateManifest(file, post) {
   if (!manifest.figma.file_url || !manifest.figma.node_url) {
     throw new Error(`${manifestFile}: figma.file_url e figma.node_url devono essere compilati`);
   }
+  if (post.figma.file_url && manifest.figma.file_url && post.figma.file_url !== manifest.figma.file_url) {
+    throw new Error(`${manifestFile}: figma.file_url non coincide con il JSON operativo`);
+  }
   if (manifest.asset_rules.no_text_in_assets !== true) {
     throw new Error(`${manifestFile}: asset_rules.no_text_in_assets deve essere true`);
   }
@@ -174,12 +183,21 @@ function validateManifest(file, post) {
   }
 
   const manifestSlideNumbers = new Set();
+  const assetPaths = new Map();
+  const lastSlideNumber = Math.max(...manifest.slides.map((slide) => slide.slide_number));
   for (const slide of manifest.slides) {
     requireFields(manifestFile, slide, ["slide_number", "frame_name", "asset_path", "title", "copy", "visual_note", "figma_layers"], "slides[].");
     if (manifestSlideNumbers.has(slide.slide_number)) {
       throw new Error(`${manifestFile}: slide_number duplicato ${slide.slide_number}`);
     }
     manifestSlideNumbers.add(slide.slide_number);
+    if (slide.asset_path) {
+      const previousSlide = assetPaths.get(slide.asset_path);
+      if (previousSlide) {
+        warn(`${manifestFile}: asset_path duplicato ${slide.asset_path} su slide ${previousSlide} e ${slide.slide_number}; dichiarare eccezione se intenzionale`);
+      }
+      assetPaths.set(slide.asset_path, slide.slide_number);
+    }
     if (advancedDesignStatuses.has(post.status) && (!slide.figma_frame_id || !slide.figma_bitmap_layer_id)) {
       throw new Error(`${manifestFile}: slide ${slide.slide_number} richiede figma_frame_id e figma_bitmap_layer_id`);
     }
@@ -188,6 +206,13 @@ function validateManifest(file, post) {
         throw new Error(`${manifestFile}: slide ${slide.slide_number} manca figma_layers.${layer}.name`);
       }
     }
+    const sourceLayer = slide.figma_layers.source;
+    if (sourceLayer && sourceLayer.visible === true && slide.slide_number !== lastSlideNumber) {
+      throw new Error(`${manifestFile}: slide ${slide.slide_number} ha source visibile ma solo l'ultima card puo mostrarlo`);
+    }
+    if (sourceLayer && sourceLayer.visible === false && slide.slide_number === lastSlideNumber) {
+      warn(`${manifestFile}: ultima slide ${slide.slide_number} dichiara source non visibile; verificare policy fonti`);
+    }
 
     const assetFile = path.join(root, slide.asset_path);
     if (fs.existsSync(assetFile) && expectedSize) {
@@ -195,6 +220,14 @@ function validateManifest(file, post) {
       if (size.width !== expectedSize.width || size.height !== expectedSize.height) {
         throw new Error(`${assetFile}: dimensioni ${size.width}x${size.height}, attese ${expectedSize.width}x${expectedSize.height}`);
       }
+    } else if (
+      advancedDesignStatuses.has(post.status) &&
+      slide.asset_path &&
+      !slide.asset_path.startsWith("http") &&
+      slide.asset_origin !== "figma_only" &&
+      slide.local_file_required !== false
+    ) {
+      warn(`${manifestFile}: asset locale non trovato per slide ${slide.slide_number}: ${slide.asset_path}; dichiarare asset_origin figma_only o local_file_required false se e solo in Figma`);
     }
   }
 }
@@ -239,6 +272,18 @@ function validatePost(file, post) {
         throw new Error(`${file}: claim ${claim.claim_id} punta a source mancante ${sourceId}`);
       }
     }
+  }
+
+  const unresolvedSources = post.sources.filter((source) => source.status === "to_verify");
+  const unresolvedClaims = post.claims.filter((claim) => claim.status === "to_verify" || claim.status === "needs_context");
+  const openIssues = Array.isArray(post.fact_check?.open_issues)
+    ? post.fact_check.open_issues.filter((issue) => String(issue || "").trim())
+    : [];
+  if (schedulingStatuses.has(post.status) && (unresolvedSources.length || unresolvedClaims.length || openIssues.length)) {
+    throw new Error(`${file}: ${post.status} non puo avere fonti to_verify, claim aperti o fact_check.open_issues senza risoluzione`);
+  }
+  if (post.status === "approved" && (unresolvedSources.length || unresolvedClaims.length || openIssues.length)) {
+    warn(`${file}: approved con residui da decidere prima di scheduled (${unresolvedSources.length} fonti, ${unresolvedClaims.length} claim, ${openIssues.length} open issue)`);
   }
 
   const slideNumbers = new Set();
@@ -320,6 +365,10 @@ const files = fs
 
 for (const file of files) {
   validatePost(file, readJson(file));
+}
+
+for (const message of warnings) {
+  console.warn(`Warning: ${message}`);
 }
 
 console.log(`Content queue valida: ${files.length} file controllati.`);
