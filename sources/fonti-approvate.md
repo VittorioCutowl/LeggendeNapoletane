@@ -37,3 +37,11 @@ finale.
 
 Le note di ricerca lunghe o riutilizzabili vanno salvate in `sources/research/`
 con nome `YYYY-MM-DD-slug.md`.
+
+## Schede Fonte Attive
+
+- `serao_1895_la_citta_dell_amore`: Matilde Serao, `Leggende napoletane`,
+  capitolo `La citta dell'amore`, 1895. Scheda memoria:
+  `sources/research/serao-leggende-napoletane-la-citta-dell-amore.md`.
+  Usare come fonte letteraria primaria con caveat, non come prova storica
+  autonoma.

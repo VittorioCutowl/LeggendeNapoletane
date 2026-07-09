@@ -192,13 +192,20 @@ Ogni carosello deve avere:
   `fondino`, `eyebrow`, `title`, `description`, `source`, `logo`, `footer`.
 - Formato default: `1080x1350` px, rapporto `4:5`.
 - Per `1080x1350`, evitare fondini pieni invadenti. Usare di default un
-  fondino-gradiente nero quasi trasparente nella parte alta, solo per
-  leggibilita: layer `1080x760px` a `x=0`, `y=0`.
-- Box testo default aggiornati per leggibilita mobile: eyebrow 940x54px a x=72
-  y=52; titolo 940x166px a x=72 y=106; descrizione 942x430px a x=72 y=310;
-  fonte 820x30px nel footer.
-- Dimensioni testo default: eyebrow 38px, titolo dinamico 88-118px,
-  descrizione dinamica 47-56px, fonte 17px.
+  fondino-gradiente nero quasi trasparente su tutta la card, solo per
+  leggibilita: layer `1080x1350px` a `x=0`, `y=0`, con stop indicativi
+  `0.76 -> 0.64 -> 0.38 -> 0.13 -> 0.00`; deve proteggere titolo e descrizione
+  e diventare sempre piu chiaro dopo il testo fino alla dissolvenza completa.
+- Box testo default: eyebrow 900x44px a x=72 y=66; titolo 860x190px a x=72
+  y=115; descrizione 900x280px a x=72 y=314; fonte 820x30px nel footer.
+- Il testo descrittivo delle card (`description`) usa Lora Medium 48px con
+  interlinea indicativa 54px, salvo riduzioni motivate da overflow.
+- Il layer `source` deve esistere nel template, ma restare visibile solo
+  nell'ultima card del carosello. Nelle card precedenti va nascosto, non
+  eliminato, per mantenere la struttura layer stabile.
+- La paginazione `swipe-count` deve essere ripetuta su ogni card e stare dentro
+  la fascetta nera del footer, centrata verticalmente rispetto al layer
+  `footer`.
 - Verificare sempre singole card `1080x1350`, non solo screenshot della strip
   completa del carousel.
 - Gli asset locali devono essere senza testo, fonti, logo, CTA o watermark.

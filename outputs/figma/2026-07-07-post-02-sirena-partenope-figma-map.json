@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-07-post-02-sirena-partenope",
+  "status": "done",
+  "source_post": "content_queue/2026-07-07-post-02-sirena-partenope.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "template_duplicate",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "Cormorant Garamond SemiBold, small label",
+      "title": "Cormorant Garamond Bold, large display, letter spacing 0",
+      "description": "Lora Medium, controlled paragraph, letter spacing 0"
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "gradient",
+      "gradient_stops": [
+        {
+          "position": 0,
+          "color": "#000000",
+          "opacity": 0.76
+        },
+        {
+          "position": 0.24,
+          "color": "#000000",
+          "opacity": 0.64
+        },
+        {
+          "position": 0.46,
+          "color": "#000000",
+          "opacity": 0.38
+        },
+        {
+          "position": 0.68,
+          "color": "#000000",
+          "opacity": 0.13
+        },
+        {
+          "position": 0.92,
+          "color": "#000000",
+          "opacity": 0
+        },
+        {
+          "position": 1,
+          "color": "#000000",
+          "opacity": 0
+        }
+      ],
+      "notes": "Fondino-gradiente full-card: protegge titolo e descrizione e si schiarisce progressivamente dopo il testo, senza creare una fascia spezzata."
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 42,
+        "width": 900,
+        "height": 40
+      },
+      "title": {
+        "x": 72,
+        "y": 80,
+        "width": 900,
+        "height": 124
+      },
+      "description": {
+        "x": 72,
+        "y": 220,
+        "width": 930,
+        "height": 180
+      },
+      "source": {
+        "width": 820,
+        "height": 30,
+        "notes": "Nel footer."
+      }
+    },
+    "logo": "Layer logo testuale del progetto, montato in Figma."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-01-partenope",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/01-cover-partenope-fiabesca.png",
+      "title": "Partenope",
+      "copy": "Prima di diventare un nome per Napoli, Partenope era una voce sul mare: una sirena, un canto, una leggenda arrivata fino alla riva.",
+      "visual_note": "Alba sul golfo, roccia bagnata, profilo femminile appena suggerito dall'acqua; nessun testo nell'immagine.",
+      "figma_frame_id": "39:3",
+      "figma_bitmap_layer_id": "39:4",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:4"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "La leggenda in breve"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Treccani, Partenope, Enciclopedia on line"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-02-il-canto-mancato",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/02-canto-mancato-golfo.png",
+      "title": "Il canto mancato",
+      "copy": "Secondo una versione tarda del mito, Partenope canto per fermare Ulisse. Ma l'eroe passo oltre, legato al suo destino, e la voce della sirena rimase senza preda.",
+      "visual_note": "Mare aperto, nave lontana, onde scure e luce dorata; la sirena resta fuori campo o appena visibile.",
+      "figma_frame_id": "39:12",
+      "figma_bitmap_layer_id": "39:13",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:13"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Treccani, Partenope, Enciclopedia on line"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-03-la-caduta-nel-mare",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/03-caduta-mare-schiuma.png",
+      "title": "La caduta nel mare",
+      "copy": "La leggenda raccontava che, vinta dal silenzio di Ulisse, Partenope si getto tra le onde. Il mare raccolse il suo corpo e lo porto verso la costa campana.",
+      "visual_note": "Onda lunga e drammatica, piume o capelli nell'acqua come segno poetico, senza scena esplicita.",
+      "figma_frame_id": "39:21",
+      "figma_bitmap_layer_id": "39:22",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:22"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Treccani, Partenope, Enciclopedia on line"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-04-alla-foce-del-sebeto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/04-foce-sebeto.png",
+      "title": "Alla foce del Sebeto",
+      "copy": "Alcune fonti collocavano l'approdo alle foci del Sebeto. Li, attorno a un corpo diventato memoria, la città antica avrebbe ricevuto il nome di Partenope.",
+      "visual_note": "Riva antica, acqua dolce che incontra mare, tufo e vegetazione mediterranea, luce sospesa.",
+      "figma_frame_id": "39:30",
+      "figma_bitmap_layer_id": "39:31",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:31"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Treccani, Partenope, Enciclopedia on line; Treccani, Napoli, Enciclopedia dei ragazzi"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-05-una-tomba-nel-porto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/05-tomba-porto.png",
+      "title": "Una tomba nel porto",
+      "copy": "Strabone ricordava a Neapolis un monumento della sirena e giochi celebrati in suo onore. Non è una prova della leggenda: è la traccia di un culto, o di una memoria civica.",
+      "visual_note": "Porto antico immaginato, stele o cenotafio semplice, offerte rituali appena accennate.",
+      "figma_frame_id": "39:39",
+      "figma_bitmap_layer_id": "39:40",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:40"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Strabone, Geografia, libro V, 4.7, LacusCurtius; Treccani, Partenope, Enciclopedia Italiana; Treccani, Parthenope, Enciclopedia dell'Arte Antica"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-06-non-sempre-donna-pesce",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/06-sirena-alata-rilievo.png",
+      "title": "Non sempre donna-pesce",
+      "copy": "Oggi pensiamo alle sirene con la coda. Ma nel mondo antico potevano avere ali, corpo d'uccello e volto di donna: creature del canto, più che del mare da cartolina.",
+      "visual_note": "Figura arcaica alata su roccia, resa elegante e non mostruosa; evitare estetica cartoon o fantasy moderna.",
+      "figma_frame_id": "39:48",
+      "figma_bitmap_layer_id": "39:49",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:49"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Licofrone, Alexandra, vv. 494-1010, Theoi Classical Texts Library"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-07-la-città-la-riscrive",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/07-citta-riscrive-fontana.png",
+      "title": "La città la riscrive",
+      "copy": "Nei secoli Partenope tornò nelle immagini, nelle fontane, nei racconti colti e popolari. Napoli la trasformò da creatura sconfitta a madre simbolica della città.",
+      "visual_note": "Allusione alla Fontana di Spinacorona o a una figura in pietra consumata, con Vesuvio lontano e acqua in movimento.",
+      "figma_frame_id": "39:57",
+      "figma_bitmap_layer_id": "39:58",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:58"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "IRIS UniNA: Il mito di Partenope tra fonti letterarie e immagini; Treccani, Parthenope, Enciclopedia dell'Arte Antica"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-08-un-nome-che-resta",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v2/08-nome-resta-golfo.png",
+      "title": "Un nome che resta",
+      "copy": "Forse Partenope non fondo Napoli come farebbe una regina in un documento. Ma le diede qualcosa che i documenti non bastano a spiegare: un'origine da raccontare.",
+      "visual_note": "Golfo al tramonto, città vista dal mare, onde calme; chiusura evocativa con spazio pulito per testo.",
+      "figma_frame_id": "39:66",
+      "figma_bitmap_layer_id": "39:67",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:67"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Partenope"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Partenope, Enciclopedia Italiana; Treccani, Partenope, Enciclopedia on line; Strabone, Geografia, libro V, 4.7, LacusCurtius; IRIS UniNA: Il mito di Partenope tra fonti letterarie e immagini"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=39-2"
+  }
+}

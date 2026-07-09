@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-08-post-05-streghe-benevento-sabato",
+  "status": "done",
+  "source_post": "content_queue/2026-07-08-post-05-streghe-benevento-sabato.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "mixed",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "Inter Medium, small label",
+      "title": "Inter Bold, large display, letter spacing 0",
+      "description": "Inter Regular, controlled paragraph, letter spacing 0"
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "gradient",
+      "gradient_stops": [
+        {
+          "position": 0,
+          "color": "#000000",
+          "opacity": 0.76
+        },
+        {
+          "position": 0.24,
+          "color": "#000000",
+          "opacity": 0.64
+        },
+        {
+          "position": 0.46,
+          "color": "#000000",
+          "opacity": 0.38
+        },
+        {
+          "position": 0.68,
+          "color": "#000000",
+          "opacity": 0.13
+        },
+        {
+          "position": 0.92,
+          "color": "#000000",
+          "opacity": 0
+        },
+        {
+          "position": 1,
+          "color": "#000000",
+          "opacity": 0
+        }
+      ],
+      "notes": "Fondino-gradiente full-card: protegge titolo e descrizione e si schiarisce progressivamente dopo il testo, senza creare una fascia spezzata."
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 50,
+        "width": 900,
+        "height": 40
+      },
+      "title": {
+        "x": 72,
+        "y": 94,
+        "width": 900,
+        "height": 126
+      },
+      "description": {
+        "x": 72,
+        "y": 238,
+        "width": 930,
+        "height": 250
+      },
+      "source": {
+        "width": 820,
+        "height": 30,
+        "notes": "Nel footer."
+      }
+    },
+    "logo": "Layer logo del progetto, montato in Figma."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 01 Il noce delle Janare",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/01-cover-noce-janare.png",
+      "title": "Il noce delle Janare",
+      "copy": "Nel Sannio si raccontava di un albero che di notte non apparteneva più alla terra: un noce sulle rive del Sabato, dove le janare arrivavano nel vento.",
+      "visual_note": "Grande noce notturno presso un fiume, sagome appena accennate, luce lunare, atmosfera sospesa.",
+      "figma_frame_id": "107:3",
+      "figma_bitmap_layer_id": "107:4",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:4",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/01-cover-noce-janare.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "La leggenda in breve"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Pietro Piperno, De Nuce maga Beneventana, Cap. V De loco, et origine, Wikisource; Sannio Turismo, Mito delle streghe, superstizione e credenze popolari"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 02 Non Napoli, ma vicino",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/02-benevento-sannio.png",
+      "title": "Non Napoli, ma vicino",
+      "copy": "Questa non è una leggenda napoletana in senso stretto. è una leggenda campana: Benevento, il Sannio, il fiume Sabato e una fama che arrivava molto lontano.",
+      "visual_note": "Mappa evocativa Campania interna, strada antica verso Benevento, fiume e colline.",
+      "figma_frame_id": "107:14",
+      "figma_bitmap_layer_id": "107:15",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:15",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/02-benevento-sannio.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Sannio Turismo, Mito delle streghe, superstizione e credenze popolari; Janua - Museo delle Streghe, ideasannio"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 03 La notte del noce",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/03-notte-del-noce.png",
+      "title": "La notte del noce",
+      "copy": "Nelle versioni più note, le streghe si radunavano sotto il noce per danze, formule e riunioni notturne. La trattatistica le avrebbe chiamate sabba.",
+      "visual_note": "Noce visto dal basso, fronde mosse, cerchio di luce sul terreno, nessuna scena esplicita.",
+      "figma_frame_id": "107:25",
+      "figma_bitmap_layer_id": "107:26",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:26",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/03-notte-del-noce.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Sabba; Sannio Turismo, Mito delle streghe, superstizione e credenze popolari; Treccani, Streghe e stregoneria, Enciclopedia Italiana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 04 Il fiume Sabato",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/04-fiume-sabato.png",
+      "title": "Il fiume Sabato",
+      "copy": "Il nome del fiume rendeva la leggenda ancora più magnetica. Ma attenzione: sabba non nasce semplicemente da Sabato. Qui l'assonanza diventava racconto.",
+      "visual_note": "Acqua scura del fiume, riflesso della luna, radici del noce vicino alla riva.",
+      "figma_frame_id": "107:36",
+      "figma_bitmap_layer_id": "107:37",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:37",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/04-fiume-sabato.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Sabba; Pietro Piperno, De Nuce maga Beneventana, Cap. V De loco, et origine, Wikisource; Sannio Turismo, Mito delle streghe, superstizione e credenze popolari"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 05 San Barbato",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/05-san-barbato.png",
+      "title": "San Barbato",
+      "copy": "Una tradizione raccontava che San Barbato avesse abbattuto il noce idolatrico, spezzando un rito antico. Ma la leggenda diceva che l'albero tornava, come un'ombra.",
+      "visual_note": "Ascia o tronco spezzato, radici nel buio, chiesa lontana, tono agiografico e misterioso.",
+      "figma_frame_id": "107:47",
+      "figma_bitmap_layer_id": "107:48",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:48",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/05-san-barbato.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Pietro Piperno, De Nuce maga Beneventana, Cap. V De loco, et origine, Wikisource; Sannio Turismo, Mito delle streghe, superstizione e credenze popolari"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 06 Janare alla porta",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/06-janare-porta.png",
+      "title": "Janare alla porta",
+      "copy": "Le janare erano temute anche nelle case. Si diceva che potessero entrare dagli usci, leggere come vento sottile, e portare disordine, paura o maleficio.",
+      "visual_note": "Soglia di casa antica, fessura sotto la porta, vento e ombra, non mostrare aggressioni.",
+      "figma_frame_id": "107:58",
+      "figma_bitmap_layer_id": "107:59",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:59",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/06-janare-porta.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Sannio Turismo, Mito delle streghe, superstizione e credenze popolari; Treccani, Streghe e stregoneria, Enciclopedia Italiana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 07 Sale e scopa",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/07-sale-scopa.png",
+      "title": "Sale e scopa",
+      "copy": "Per difendersi, secondo la tradizione, si lasciavano sale o una scopa sull'uscio: la janara avrebbe contato granelli e fili finché il giorno la costringeva via.",
+      "visual_note": "Usciolo di pietra, piccola ciotola di sale, scopa di saggina, luce dell'alba.",
+      "figma_frame_id": "107:69",
+      "figma_bitmap_layer_id": "107:70",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:70",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/07-sale-scopa.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Sannio Turismo, Mito delle streghe, superstizione e credenze popolari"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 08 Fonti e paura",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/08-fonti-paura.png",
+      "title": "Fonti e paura",
+      "copy": "Le fonti non ci consegnano prove di voli e malefici. Ci consegnano trattati, processi, paure collettive e il modo in cui certi riti vennero trasformati in stregoneria.",
+      "visual_note": "Libro antico, verbali, inchiostro, noce disegnato, luce fredda da archivio.",
+      "figma_frame_id": "107:80",
+      "figma_bitmap_layer_id": "107:81",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:81",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/08-fonti-paura.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Treccani, Sabba; Pietro Piperno, Della superstitiosa noce di Benevento / De Nuce maga Beneventana, Wikisource; Pietro Piperno, De Nuce maga Beneventana, Cap. V De loco, et origine, Wikisource; Treccani, Streghe e stregoneria, Enciclopedia Italiana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 9,
+      "frame_name": "2026-07-08-post-05-streghe-benevento-sabato - 09 La memoria resta",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/09-memoria-resta.png",
+      "title": "La memoria resta",
+      "copy": "Oggi il mito delle streghe di Benevento continua nei racconti, nei musei e nell'immaginario del Sannio. Il noce forse non c’è più, ma la sua ombra sì.",
+      "visual_note": "Benevento contemporanea evocata, museo/porta antica, foglie di noce e fiume in dissolvenza.",
+      "figma_frame_id": "107:91",
+      "figma_bitmap_layer_id": "107:92",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "107:92",
+          "notes": "outputs/figma/assets/2026-07-08-post-05-streghe-benevento-sabato/09-memoria-resta.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Streghe di Benevento"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Janua - Museo delle Streghe, ideasannio; Italia.it, Janua - Museo Streghe Benevento"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=107-2"
+  }
+}

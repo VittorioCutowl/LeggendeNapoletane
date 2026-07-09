@@ -42,15 +42,16 @@ Contact sheet QA v2:
 
 ## Layout V3
 
-- Fondino: ombra-gradiente nera quasi trasparente, non fascia piena.
-- Dimensione layer: 1080x520 px, y=0.
+- Fondino: ombra-gradiente nera quasi trasparente full-card, non fascia piena.
+- Dimensione layer: 1080x1350 px, x=0, y=0.
 - Gradiente verticale consigliato:
-  - y=0: nero opacita 0.50;
-  - y=160: nero opacita 0.42;
-  - y=320: nero opacita 0.18;
-  - y=520: nero opacita 0.00.
+  - y=0: nero opacità 0.76;
+  - area titolo: nero opacità 0.64;
+  - area descrizione: nero opacità 0.38;
+  - dopo il testo: nero opacità 0.13;
+  - fondo card: nero opacità 0.00.
 - Il gradiente deve servire solo alla leggibilita del testo: deve sembrare
-  un'ombra morbida che sfuma verso il basso, lasciando respirare
+  un'ombra morbida che si schiarisce verso il basso, lasciando respirare
   l'illustrazione.
 - Testi sempre bianchi/bianco caldo.
 - Titoli: Cormorant Garamond Bold.
@@ -80,7 +81,7 @@ Contact sheet QA v2:
 
 ## Rischi Da Controllare
 
-- La figura non deve sembrare un demone certo: e una presenza folklorica.
+- La figura non deve sembrare un demone certo: è una presenza folklorica.
 - La pista dei pozzari va resa come atmosfera e contesto, non come spiegazione
   definitiva.
 - La slide 7 deve restare delicata: niente melodramma visuale o scena violenta.
