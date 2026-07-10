@@ -42,8 +42,15 @@ Usare questa skill quando:
 - Evitare horror generico, cartoline turistiche, folklore caricaturale e simboli
   religiosi gratuiti.
 - Immagini con aree pulite per titolo, descrizione e footer.
-- Fondino-gradiente alto leggero, non fascia piena invadente.
+- Fondino-gradiente leggero esteso su tutta la card, piu presente in alto e
+  dissolto fino al fondo; mai fascia piena invadente.
 - Box e dimensioni testo coerenti con gli standard del template.
+- Tutti i layer testuali in bianco puro `#FFFFFF`.
+- Titolo visibile solo sulla prima e sull'ultima card; descrizione delle card
+  interne collocata sotto l'eyebrow.
+- Occhi presenti solo se hanno una funzione narrativa verificabile; mai come
+  simbolo occultista generico, mai in cover salvo hook esplicito e mai in piu
+  di una card.
 - Source visibile solo sull'ultima card; nelle altre card nascosto/vuoto.
 - Asset duplicati registrati come scelta consapevole o sostituiti.
 - Asset path locali esistenti oppure dichiarati come `figma_only`.
@@ -61,4 +68,3 @@ Rispondere sempre con:
 - problemi stile o leggibilita;
 - prove QA consultate;
 - aggiornamenti consigliati per JSON, manifest, asset index o board.
-

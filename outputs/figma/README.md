@@ -52,17 +52,17 @@ Un post puo passare a `figma_done` solo se:
 ## Standard Visuale Corrente
 
 - Formato default: `1080x1350` px.
-- Fondino testo full-card: x=0, y=0, 1080x1350px, gradiente lungo che si schiarisce dopo il testo.
-- Box testo uniformi: eyebrow 900x44px a x=72 y=66; titolo 860x190px a x=72
-  y=115; descrizione 900x280px a x=72 y=314; fonte 820x30px nel footer.
-- Testo descrittivo (`description`): Lora Medium 48px, interlinea 54px.
-- Il layer `source` resta nel template di ogni card, ma deve essere visibile
-  solo nell'ultima card del carosello. Sulle card precedenti va nascosto per non
-  sporcare la grafica.
-- La paginazione `swipe-count` va ripetuta su ogni card e posizionata dentro la
-  fascetta nera del footer, centrata verticalmente sul layer `footer`.
-- Non variare l'altezza del fondino in base al testo della singola slide: il fondino resta sempre full-card. Se il
-  copy non entra nei box previsti, tornare alla bozza e riscrivere o dividere la
-  slide.
+- Fondino testo corrente: gradiente nero leggero x=0, y=0, 1080x1350px;
+  piu presente in alto e dissolto fino al fondo.
+- Box testo correnti: eyebrow 940x54px a x=72 y=52; titolo 940x166px a x=72
+  y=106; descrizione 942x430px a x=72 y=310; fonte 820x30px nel footer.
+- Dimensioni testo correnti: eyebrow 38px; titolo dinamico 88-118px;
+  descrizione dinamica 47-56px; fonte 17px.
+- Titolo: visibile solo su cover e chiusura; nascosto nelle card centrali, dove
+  la descrizione parte sotto l'eyebrow.
+- Colore testo: bianco puro `#FFFFFF` per ogni layer testuale, inclusi eyebrow,
+  fonte, logo e indicatori.
 - Verificare sempre almeno alcune singole card renderizzate a `1080x1350`,
   non solo screenshot della strip del carousel.
+- Non ridurre i font per far entrare copy troppo lungo: tornare alla bozza e
+  riscrivere o dividere la slide.

@@ -36,7 +36,10 @@ Usare questa skill quando un contenuto e in stato:
 - Il racconto deve avere atmosfera, ma non deve presentare folklore come fatto
   certo.
 - Prima di scrivere le slide, definire un budget righe unico per il post.
-- Default `1080x1350`: titolo massimo 2 righe, descrizione massimo 5 righe.
+- Default `1080x1350`: titolo massimo 2 righe su cover e chiusura,
+  descrizione massimo 5 righe. Nelle card interne scrivere un titolo di lavoro
+  per il JSON, ma non dipendere da esso per la lettura: in Figma restera
+  nascosto e la descrizione salira sotto l'eyebrow.
 - Registrare il budget righe in `design_notes.safe_area`.
 - Prima di consegnare la bozza, fare revisione linguistica di accenti,
   ortografia e punteggiatura.

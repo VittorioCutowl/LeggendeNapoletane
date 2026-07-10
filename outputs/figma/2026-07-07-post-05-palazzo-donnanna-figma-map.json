@@ -39,7 +39,7 @@
       "x": 0,
       "y": 0,
       "width": 1080,
-      "height": 760,
+      "height": 1350,
       "opacity": "gradient",
       "notes": "Revisione leggibilita Instagram v2: fondino-gradiente piu alto e contrastato per testi molto grandi su mobile."
     },
@@ -73,7 +73,7 @@
       }
     },
     "logo": "Usare il layer logo del template canonico.",
-    "source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
+    "title_policy":"Title visible only on first and last slide; body title hidden and description y=158.","source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
   },
   "slides": [
     {

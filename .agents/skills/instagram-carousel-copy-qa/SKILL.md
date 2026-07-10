@@ -41,8 +41,9 @@ Usare questa skill quando:
   `però`, `così`, `può`.
 - Nessuna forma ASCII semplificata nei copy pubblicabili, salvo slug o codice.
 - Titoli e descrizioni rispettano il budget righe dichiarato.
-- Default `1080x1350`: titolo massimo 2 righe, descrizione massimo 5 righe,
-  salvo decisione esplicita nel design spec.
+- Default `1080x1350`: titolo massimo 2 righe solo su cover e chiusura;
+  descrizione massimo 5 righe. Nelle card interne il layer titolo deve restare
+  nascosto e la descrizione deve partire sotto l'eyebrow.
 - Non ridurre il font sotto gli standard per far entrare copy troppo lungo:
   riscrivere o dividere la slide.
 - CTA singola, naturale e coerente con il post.
@@ -52,6 +53,8 @@ Usare questa skill quando:
 - Nessuna fonte `to_verify`, claim `needs_context` o open issue invisibile
   prima di `scheduled`, salvo override editoriale scritto.
 - Layer `source` visibile solo sull'ultima card nel manifest Figma.
+- Tutti i layer testuali, incluso eyebrow e fonte, usano bianco puro
+  `#FFFFFF`.
 
 ## Output Atteso
 
@@ -64,4 +67,3 @@ Rispondere sempre con:
 - problemi di line budget o Figma;
 - file consultati;
 - correzioni consigliate o blocchi da registrare.
-

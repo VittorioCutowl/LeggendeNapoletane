@@ -10,9 +10,9 @@
     "height": 1350,
     "no_text_in_assets": true
   },
-  "import_mode": "template_duplicate",
+  "import_mode": "figma_existing_carousel",
   "template_contract": {
-    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=4-2",
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
     "required_layers": [
       "image",
       "fondino",
@@ -30,9 +30,10 @@
       "height": 1350
     },
     "typography": {
-      "eyebrow": "inherited from approved Monaciello template",
-      "title": "Cormorant/Lora-style display inherited from template",
-      "description": "large readable narrative text inherited from template"
+      "eyebrow": "rubrica/source label",
+      "title": "large display, no negative letter spacing",
+      "description": "short paragraph, line budget to verify before import",
+      "notes": "Aggiornato dopo test pubblicazione v2: controllare sempre su singola card 1080x1350, non su screenshot strip del carousel."
     },
     "text_backdrop": {
       "x": 0,
@@ -40,432 +41,422 @@
       "width": 1080,
       "height": 1350,
       "opacity": "gradient",
-      "gradient_stops": [
-        {
-          "position": 0,
-          "color": "#000000",
-          "opacity": 0.76
-        },
-        {
-          "position": 0.24,
-          "color": "#000000",
-          "opacity": 0.64
-        },
-        {
-          "position": 0.46,
-          "color": "#000000",
-          "opacity": 0.38
-        },
-        {
-          "position": 0.68,
-          "color": "#000000",
-          "opacity": 0.13
-        },
-        {
-          "position": 0.92,
-          "color": "#000000",
-          "opacity": 0
-        },
-        {
-          "position": 1,
-          "color": "#000000",
-          "opacity": 0
-        }
-      ],
-      "notes": "Fondino-gradiente full-card: protegge titolo e descrizione e si schiarisce progressivamente dopo il testo, senza creare una fascia spezzata."
+      "notes": "Fondino-gradiente alto e contrastato per testi grandi su mobile."
     },
     "text_boxes": {
       "eyebrow": {
         "x": 72,
-        "y": 42,
-        "width": 900,
-        "height": 40
+        "y": 52,
+        "width": 940,
+        "height": 54,
+        "font_size": 38
       },
       "title": {
         "x": 72,
-        "y": 80,
-        "width": 900,
-        "height": 124
+        "y": 106,
+        "width": 940,
+        "height": 166,
+        "font_size": "88-118 dynamic by title length"
       },
       "description": {
         "x": 72,
-        "y": 220,
-        "width": 930,
-        "height": 180
+        "y": 310,
+        "width": 942,
+        "height": 430,
+        "font_size": "47-56 dynamic by copy length"
       },
       "source": {
         "width": 820,
         "height": 30,
-        "notes": "In footer."
+        "font_size": 17,
+        "notes": "Solo ultima card; nascosto/vuoto nelle card precedenti."
       }
     },
-    "logo": "Use the logo layer inherited from the canonical template."
+    "logo": "Usare il layer logo del template canonico.",
+    "title_policy":"Title visible only on first and last slide; body title hidden and description y=158.","source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
   },
   "slides": [
     {
       "slide_number": 1,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 01",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/01-cover-castel-ovo-crepuscolo.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-01-l-uovo-nascosto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/01-l-uovo-nascosto.png",
       "title": "L'uovo nascosto",
       "copy": "Sul mare di Napoli si raccontava di un castello che non reggeva solo su pietra e tufo, ma sul segreto fragile di un uovo.",
-      "visual_note": "Castel dell'Ovo visto dal mare al crepuscolo, atmosfera fiabesca napoletana, luce d'oro minima sotto la roccia.",
+      "visual_note": "Castello sul mare e luce misteriosa nei sotterranei.",
       "figma_frame_id": "60:3",
       "figma_bitmap_layer_id": "60:4",
       "figma_layers": {
         "image": {
-          "id": "60:4",
-          "name": "image"
+          "name": "image",
+          "id": "60:4"
         },
         "fondino": {
-          "id": "60:5",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:5"
         },
         "eyebrow": {
-          "id": "60:6",
           "name": "eyebrow",
+          "id": "60:6",
           "notes": "La leggenda in breve"
         },
         "title": {
-          "id": "60:7",
-          "name": "title"
+          "name": "title",
+          "id": "60:7"
         },
         "description": {
-          "id": "60:8",
-          "name": "description"
+          "name": "description",
+          "id": "60:8"
         },
         "source": {
-          "id": "60:11",
           "name": "source",
-          "notes": "Comune di Napoli; FAI"
+          "id": "60:11",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:10",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:10"
         },
         "footer": {
-          "id": "60:9",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:9"
         }
       }
     },
     {
       "slide_number": 2,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 02",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/02-megaride-mare-scuro.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-02-megaride",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/02-megaride.png",
       "title": "Megaride",
-      "copy": "Il castello sorgeva sull'antico isolotto di Megaride, dove il mare batteva la pietra e ogni onda sembrava portare una voce più antica della città.",
-      "visual_note": "Isolotto di Megaride, scogli, ponte e mare scuro; nessuna resa turistica lucida.",
+      "copy": "Il castello sorgeva sull'antico isolotto di Megaride, dove il mare batteva la pietra e ogni onda sembrava portare una voce piu antica della citta.",
+      "visual_note": "Isolotto e castello visti dal mare, pietra e onde.",
       "figma_frame_id": "60:12",
       "figma_bitmap_layer_id": "60:13",
       "figma_layers": {
         "image": {
-          "id": "60:13",
-          "name": "image"
+          "name": "image",
+          "id": "60:13"
         },
         "fondino": {
-          "id": "60:14",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:14"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:15",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:16",
-          "name": "title"
+          "name": "title",
+          "id": "60:16"
         },
         "description": {
-          "id": "60:17",
-          "name": "description"
+          "name": "description",
+          "id": "60:17"
         },
         "source": {
-          "id": "60:20",
           "name": "source",
-          "notes": "Comune di Napoli"
+          "id": "60:20",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:19",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:19"
         },
         "footer": {
-          "id": "60:18",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:18"
         }
       }
     },
     {
       "slide_number": 3,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 03",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/03-virgilio-mago-golfo.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-03-virgilio-mago",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/03-virgilio-mago.png",
       "title": "Virgilio mago",
       "copy": "Nel Medioevo e nei racconti popolari, Virgilio non era ricordato soltanto come poeta. A Napoli veniva immaginato anche come sapiente, incantatore, protettore.",
-      "visual_note": "Figura di poeta-mago in mantello, non stregone horror; pergamena, stelle, vento sul golfo.",
+      "visual_note": "Virgilio come sapiente antico, libri, stelle, strumenti, non mago fantasy.",
       "figma_frame_id": "60:21",
       "figma_bitmap_layer_id": "60:22",
       "figma_layers": {
         "image": {
-          "id": "60:22",
-          "name": "image"
+          "name": "image",
+          "id": "60:22"
         },
         "fondino": {
-          "id": "60:23",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:23"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:24",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:25",
-          "name": "title"
+          "name": "title",
+          "id": "60:25"
         },
         "description": {
-          "id": "60:26",
-          "name": "description"
+          "name": "description",
+          "id": "60:26"
         },
         "source": {
-          "id": "60:29",
           "name": "source",
-          "notes": "Serao; Treccani"
+          "id": "60:29",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:28",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:28"
         },
         "footer": {
-          "id": "60:27",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:27"
         }
       }
     },
     {
       "slide_number": 4,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 04",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/04-sotterraneo-uovo-gabbia.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-04-il-segreto-sotto-il-castello",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/04-il-segreto-sotto-il-castello.png",
       "title": "Il segreto sotto il castello",
       "copy": "Si diceva che proprio lui avesse nascosto un uovo nei sotterranei, chiuso in una gabbia e custodito in una stanza serrata, lontano dagli occhi di tutti.",
-      "visual_note": "Sotterraneo in tufo, gabbia o teca con uovo luminoso appena suggerito.",
+      "visual_note": "Sotterraneo, gabbia o nicchia, uovo fragile come talismano.",
       "figma_frame_id": "60:30",
       "figma_bitmap_layer_id": "60:31",
       "figma_layers": {
         "image": {
-          "id": "60:31",
-          "name": "image"
+          "name": "image",
+          "id": "60:31"
         },
         "fondino": {
-          "id": "60:32",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:32"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:33",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:34",
-          "name": "title"
+          "name": "title",
+          "id": "60:34"
         },
         "description": {
-          "id": "60:35",
-          "name": "description"
+          "name": "description",
+          "id": "60:35"
         },
         "source": {
-          "id": "60:38",
           "name": "source",
-          "notes": "Comune di Napoli; FAI"
+          "id": "60:38",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:37",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:37"
         },
         "footer": {
-          "id": "60:36",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:36"
         }
       }
     },
     {
       "slide_number": 5,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 05",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/05-sorte-napoli-uovo.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-05-la-sorte-di-napoli",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/05-la-sorte-di-napoli.png",
       "title": "La sorte di Napoli",
       "copy": "Da quell'uovo, raccontavano, dipendeva la fortuna del Castel Marino. Se si fosse spezzato, non sarebbe caduta solo una pietra: avrebbe tremato tutta Napoli.",
-      "visual_note": "Uovo fragile in controluce, castello sopra come peso sospeso, mare agitato in basso.",
+      "visual_note": "Castello in tensione, crepe simboliche, mare agitato.",
       "figma_frame_id": "60:39",
       "figma_bitmap_layer_id": "60:40",
       "figma_layers": {
         "image": {
-          "id": "60:40",
-          "name": "image"
+          "name": "image",
+          "id": "60:40"
         },
         "fondino": {
-          "id": "60:41",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:41"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:42",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:43",
-          "name": "title"
+          "name": "title",
+          "id": "60:43"
         },
         "description": {
-          "id": "60:44",
-          "name": "description"
+          "name": "description",
+          "id": "60:44"
         },
         "source": {
-          "id": "60:47",
           "name": "source",
-          "notes": "Comune di Napoli; FAI"
+          "id": "60:47",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:46",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:46"
         },
         "footer": {
-          "id": "60:45",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:45"
         }
       }
     },
     {
       "slide_number": 6,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 06",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/06-paura-rottura-arcone.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-06-la-paura-della-rottura",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/06-la-paura-della-rottura.png",
       "title": "La paura della rottura",
-      "copy": "Quando il castello subì gravi danni, la leggenda raccontava che la città temette per l'uovo. E la regina Giovanna I avrebbe dovuto calmare il panico.",
-      "visual_note": "Arcone danneggiato, folla in ombra, mare mosso.",
+      "copy": "Quando il castello subi gravi danni, la leggenda raccontava che la citta temette per l'uovo. E la regina Giovanna I avrebbe dovuto calmare il panico.",
+      "visual_note": "Folla preoccupata, regina in ombra, castello danneggiato ma non distrutto.",
       "figma_frame_id": "60:48",
       "figma_bitmap_layer_id": "60:49",
       "figma_layers": {
         "image": {
-          "id": "60:49",
-          "name": "image"
+          "name": "image",
+          "id": "60:49"
         },
         "fondino": {
-          "id": "60:50",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:50"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:51",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:52",
-          "name": "title"
+          "name": "title",
+          "id": "60:52"
         },
         "description": {
-          "id": "60:53",
-          "name": "description"
+          "name": "description",
+          "id": "60:53"
         },
         "source": {
-          "id": "60:56",
           "name": "source",
-          "notes": "Comune di Napoli"
+          "id": "60:56",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:55",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:55"
         },
         "footer": {
-          "id": "60:54",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:54"
         }
       }
     },
     {
       "slide_number": 7,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 07",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/07-giovanna-uovo-sostituito.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-07-un-uovo-sostituito",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/07-un-uovo-sostituito.png",
       "title": "Un uovo sostituito",
       "copy": "Si diceva che la regina avesse dichiarato di averlo sostituito, per rassicurare il popolo. Bastava quella parola, forse, a rimettere insieme il coraggio.",
-      "visual_note": "Sala antica, figura regale accennata, lume caldo e mani che custodiscono un piccolo oggetto.",
+      "visual_note": "Gesto regale e oggetto fragile, tono narrativo e non storico-letterale.",
       "figma_frame_id": "60:57",
       "figma_bitmap_layer_id": "60:58",
       "figma_layers": {
         "image": {
-          "id": "60:58",
-          "name": "image"
+          "name": "image",
+          "id": "60:58"
         },
         "fondino": {
-          "id": "60:59",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:59"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:60",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:61",
-          "name": "title"
+          "name": "title",
+          "id": "60:61"
         },
         "description": {
-          "id": "60:62",
-          "name": "description"
+          "name": "description",
+          "id": "60:62"
         },
         "source": {
-          "id": "60:65",
           "name": "source",
-          "notes": "Comune di Napoli"
+          "id": "60:65",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
         },
         "logo": {
-          "id": "60:64",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:64"
         },
         "footer": {
-          "id": "60:63",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:63"
         }
       }
     },
     {
       "slide_number": 8,
-      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo / 08",
-      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/08-castello-alba-segreto.png",
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-08-la-cosa-fragile",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/08-la-cosa-fragile.png",
       "title": "La cosa fragile",
-      "copy": "Forse l'uovo non fu mai trovato perché non era fatto per essere trovato. Era il simbolo di una città che affidava la propria forza a qualcosa di invisibile.",
-      "visual_note": "Castello all'alba, mare calmo, luce dorata che svanisce nei sotterranei.",
+      "copy": "Forse l'uovo non fu mai trovato perche non era fatto per essere trovato. Era il simbolo di una citta che affidava la propria forza a qualcosa di invisibile.",
+      "visual_note": "Chiusura sul castello al tramonto/notte, uovo come simbolo invisibile.",
       "figma_frame_id": "60:66",
       "figma_bitmap_layer_id": "60:67",
       "figma_layers": {
         "image": {
-          "id": "60:67",
-          "name": "image"
+          "name": "image",
+          "id": "60:67"
         },
         "fondino": {
-          "id": "60:68",
-          "name": "fondino"
+          "name": "fondino",
+          "id": "60:68"
         },
         "eyebrow": {
+          "name": "eyebrow",
           "id": "60:69",
-          "name": "eyebrow"
+          "notes": "Castel dell'Ovo"
         },
         "title": {
-          "id": "60:70",
-          "name": "title"
+          "name": "title",
+          "id": "60:70"
         },
         "description": {
-          "id": "60:71",
-          "name": "description"
+          "name": "description",
+          "id": "60:71"
         },
         "source": {
-          "id": "60:74",
           "name": "source",
-          "notes": "Comune di Napoli; Serao; Treccani"
+          "id": "60:74",
+          "notes": "Visibile in Figma: fonti concentrate sull ultima card del carousel.",
+          "visible": true
         },
         "logo": {
-          "id": "60:73",
-          "name": "logo"
+          "name": "logo",
+          "id": "60:73"
         },
         "footer": {
-          "id": "60:72",
-          "name": "footer"
+          "name": "footer",
+          "id": "60:72"
         }
       }
     }
   ],
   "figma": {
     "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
-    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=60-2"
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=60-2",
+    "root_node_id": "60:2",
+    "notes": "Carousel gia esistente in Figma; manifest ricostruito dal montaggio approvato."
   }
 }
