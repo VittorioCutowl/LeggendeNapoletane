@@ -1,0 +1,394 @@
+{
+  "post_id": "2026-07-08-post-05-streghe-benevento-sabato",
+  "status": "approved",
+  "priority": "high",
+  "topic": "Le streghe di Benevento e il fiume Sabato",
+  "angle": "La leggenda delle janare di Benevento raccontata attorno al noce sulle rive del fiume Sabato: il sabba, il mito longobardo, San Barbato, la memoria del Sannio e il caveat tra fonti seicentesche, tradizione popolare e demonizzazione di riti antichi.",
+  "target": {
+    "audience": "Pubblico generalista interessato a folklore campano, streghe, luoghi misteriosi e radici storiche delle leggende.",
+    "goal": "Raccontare una leggenda campana vicina all'immaginario napoletano senza spacciare confessioni, sabba o malefici come cronaca certa.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "redazione",
+    "journalist": "Codex",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Treccani, Sabba",
+      "type": "secondary",
+      "url": "https://www.treccani.it/enciclopedia/sabba/",
+      "author": "Istituto della Enciclopedia Italiana",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Definisce il sabba nella trattatistica sulle streghe dei secoli XV-XVII e cita il noce di Benevento come luogo celebre di queste riunioni immaginate.",
+      "caveat": "Fonte enciclopedica sintetica; utile per quadro storico della categoria 'sabba', non per ricostruire singoli eventi.",
+      "notes": "Da usare per evitare confusione tra fiume Sabato e origine generale del termine sabba."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Pietro Piperno, Della superstitiosa noce di Benevento / De Nuce maga Beneventana, Wikisource",
+      "type": "primary",
+      "url": "https://it.wikisource.org/wiki/Della_superstitiosa_noce_di_Benevento",
+      "author": "Pietro Piperno",
+      "published_at": "1640, edizione digitale Wikisource",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Trattato seicentesco interamente dedicato alla noce superstiziosa di Benevento, alle lamie/streghe, alla tradizione di San Barbato e alla fama del luogo presso stregoni e maghi.",
+      "caveat": "Testo erudito e demonologico del XVII secolo: prezioso come testimonianza culturale, non come prova oggettiva di sabba o apparizioni.",
+      "notes": "Usare come fonte storica della credenza, con forte caveat."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Pietro Piperno, De Nuce maga Beneventana, Cap. V De loco, et origine, Wikisource",
+      "type": "primary",
+      "url": "https://it.wikisource.org/wiki/Della_superstitiosa_noce_di_Benevento/De_Nuce_maga_Beneventana/Cap._V",
+      "author": "Pietro Piperno",
+      "published_at": "1640, edizione digitale Wikisource",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Descrive il luogo del noce vicino al fiume Sabato, la ripa delle janare, le confessioni riportate e la tradizione dell'abbattimento del noce da parte di San Barbato.",
+      "caveat": "Contiene linguaggio demonologico e interpretazioni del tempo; le confessioni vanno considerate dentro il contesto dei processi e della cultura della stregoneria.",
+      "notes": "Fonte utile per claim su Sabato, ripa e San Barbato, sempre come tradizione/attestazione."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Sannio Turismo, Mito delle streghe, superstizione e credenze popolari",
+      "type": "secondary",
+      "url": "https://www.sannioturismo.com/leggende.html",
+      "author": "Sannio Turismo",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Sintetizza la leggenda delle streghe di Benevento: riunioni attorno al noce sulle rive del Sabato, possibile legame con riti longobardi, San Barbato, janare, porta, sale e scopa.",
+      "caveat": "Fonte turistica/divulgativa; buona per orientamento locale, non per reggere da sola claim storici complessi.",
+      "notes": "Da affiancare a Treccani e Piperno."
+    },
+    {
+      "source_id": "src-005",
+      "title": "Treccani, Streghe e stregoneria, Enciclopedia Italiana",
+      "type": "secondary",
+      "url": "https://www.treccani.it/enciclopedia/streghe-e-stregoneria_%28Enciclopedia-Italiana%29/",
+      "author": "Stefano La Colla, Raffaele Corso",
+      "published_at": "1936",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Inquadra stregoneria, processi e folklore; menziona il noce di Benevento tra gli alberi delle riunioni notturne e descrive credenze su volo, malefici e bambini.",
+      "caveat": "Voce del 1936, con linguaggio e categorie del tempo; utile per contesto storico-folklorico, da leggere criticamente.",
+      "notes": "Usare per quadro europeo/italiano e non per sensazionalizzare."
+    },
+    {
+      "source_id": "src-006",
+      "title": "Janua - Museo delle Streghe, ideasannio",
+      "type": "secondary",
+      "url": "https://www.ideasannio.it/janua-museo-delle-streghe",
+      "author": "Cooperativa I.D.E.A.S.",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Presenta Janua come percorso divulgativo su storia, arte, tradizioni e leggende di Benevento e del Sannio, con attenzione alle janare, agli oggetti rituali e alle erbe.",
+      "caveat": "Fonte museale/divulgativa contemporanea; utile per indicare la continuità culturale del tema, non per provare i racconti antichi.",
+      "notes": "Buona per slide finale sul presente della memoria."
+    },
+    {
+      "source_id": "src-007",
+      "title": "Italia.it, Janua - Museo Streghe Benevento",
+      "type": "secondary",
+      "url": "https://www.italia.it/it/campania/benevento/intrattenimento/janua-museo-streghe-benevento",
+      "author": "Italia.it",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Descrive Janua come viaggio antropologico tra storia, arte, tradizioni e leggende di Benevento e del Sannio, nato da ricerche sul mondo magico delle Janare.",
+      "caveat": "Fonte istituzionale turistica; utile come conferma del museo e del taglio antropologico.",
+      "notes": "Supporto contemporaneo, non fonte storica primaria."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "La leggenda delle streghe di Benevento ruota attorno a un noce presso il fiume Sabato, dove le janare si sarebbero riunite di notte.",
+      "source_ids": [
+        "src-003",
+        "src-004",
+        "src-005"
+      ],
+      "evidence": "Piperno colloca la tradizione del noce vicino al fiume Sabato; Sannio Turismo e Treccani richiamano noce, riunioni notturne e folklore delle streghe.",
+      "caveat": "Il claim verifica l'esistenza della tradizione, non l'accadimento reale dei sabba.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Il sabba e una categoria della trattatistica demonologica tardo-medievale e moderna; Treccani cita il noce di Benevento come luogo celebre in questo immaginario.",
+      "source_ids": [
+        "src-001",
+        "src-005"
+      ],
+      "evidence": "Treccani definisce il sabba come riunione notturna descritta nella trattatistica dei secoli XV-XVII e cita il noce di Benevento.",
+      "caveat": "Il termine non deriva semplicemente dal fiume Sabato; l'assonanza locale va trattata come suggestione narrativa.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Una spiegazione della leggenda collega il noce a riti longobardi e alla figura di San Barbato, che avrebbe combattuto e abbattuto l'albero idolatrico.",
+      "source_ids": [
+        "src-003",
+        "src-004"
+      ],
+      "evidence": "Piperno narra la tradizione di San Barbato e dell'albero; Sannio Turismo riprende il quadro longobardo e il ruolo di Barbato.",
+      "caveat": "La ricostruzione mescola agiografia, demonologia e tradizione locale; non va presentata come cronaca lineare.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Il termine janara viene spesso collegato a ianua, porta, per la credenza che queste streghe potessero entrare nelle case passando sotto gli usci.",
+      "source_ids": [
+        "src-004"
+      ],
+      "evidence": "Sannio Turismo registra la spiegazione da janua/porta e la credenza sull'ingresso nelle case.",
+      "caveat": "È una etimologia tradizionale/divulgativa, da verificare con fonte linguistica prima di affermarla come certa.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Nella tradizione popolare, sale e scopa sull'uscio servivano a trattenere o allontanare la janara, costringendola a contare granelli o fili fino al giorno.",
+      "source_ids": [
+        "src-004"
+      ],
+      "evidence": "Sannio Turismo riporta la pratica difensiva legata a sale e scopa.",
+      "caveat": "Motivo folklorico, non pratica storica universalmente documentata.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "Il mito delle streghe di Benevento continua oggi come memoria culturale e museale, anche attraverso Janua - Museo delle Streghe.",
+      "source_ids": [
+        "src-006",
+        "src-007"
+      ],
+      "evidence": "Ideasannio e Italia.it presentano Janua come percorso su storia, arte, tradizioni e leggende di Benevento e del Sannio.",
+      "caveat": "La musealizzazione testimonia la rilevanza culturale del mito, non la veridicità dei racconti.",
+      "status": "verified",
+      "notes": ""
+    }
+  ],
+  "cover": {
+    "headline": "Il noce delle Janare",
+    "subheadline": "Le streghe di Benevento e il fiume Sabato",
+    "visual_idea": "Notte sul fiume Sabato, grande noce in controluce, acqua scura, vento tra le fronde, sagome femminili lontane e non horror. Tono folklorico, non satanico esplicito."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Il noce delle Janare",
+      "copy": "Nel Sannio si raccontava di un albero che di notte non apparteneva più alla terra: un noce sulle rive del Sabato, dove le janare arrivavano nel vento.",
+      "visual_note": "Grande noce notturno presso un fiume, sagome appena accennate, luce lunare, atmosfera sospesa.",
+      "source_ids": [
+        "src-003",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Non Napoli, ma vicino",
+      "copy": "Questa non è una leggenda napoletana in senso stretto. è una leggenda campana: Benevento, il Sannio, il fiume Sabato e una fama che arrivava molto lontano.",
+      "visual_note": "Mappa evocativa Campania interna, strada antica verso Benevento, fiume e colline.",
+      "source_ids": [
+        "src-004",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "La notte del noce",
+      "copy": "Nelle versioni più note, le streghe si radunavano sotto il noce per danze, formule e riunioni notturne. La trattatistica le avrebbe chiamate sabba.",
+      "visual_note": "Noce visto dal basso, fronde mosse, cerchio di luce sul terreno, nessuna scena esplicita.",
+      "source_ids": [
+        "src-001",
+        "src-004",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Il fiume Sabato",
+      "copy": "Il nome del fiume rendeva la leggenda ancora più magnetica. Ma attenzione: sabba non nasce semplicemente da Sabato. Qui l'assonanza diventava racconto.",
+      "visual_note": "Acqua scura del fiume, riflesso della luna, radici del noce vicino alla riva.",
+      "source_ids": [
+        "src-001",
+        "src-003",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "San Barbato",
+      "copy": "Una tradizione raccontava che San Barbato avesse abbattuto il noce idolatrico, spezzando un rito antico. Ma la leggenda diceva che l'albero tornava, come un'ombra.",
+      "visual_note": "Ascia o tronco spezzato, radici nel buio, chiesa lontana, tono agiografico e misterioso.",
+      "source_ids": [
+        "src-003",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Janare alla porta",
+      "copy": "Le janare erano temute anche nelle case. Si diceva che potessero entrare dagli usci, leggere come vento sottile, e portare disordine, paura o maleficio.",
+      "visual_note": "Soglia di casa antica, fessura sotto la porta, vento e ombra, non mostrare aggressioni.",
+      "source_ids": [
+        "src-004",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Sale e scopa",
+      "copy": "Per difendersi, secondo la tradizione, si lasciavano sale o una scopa sull'uscio: la janara avrebbe contato granelli e fili finché il giorno la costringeva via.",
+      "visual_note": "Usciolo di pietra, piccola ciotola di sale, scopa di saggina, luce dell'alba.",
+      "source_ids": [
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "Fonti e paura",
+      "copy": "Le fonti non ci consegnano prove di voli e malefici. Ci consegnano trattati, processi, paure collettive e il modo in cui certi riti vennero trasformati in stregoneria.",
+      "visual_note": "Libro antico, verbali, inchiostro, noce disegnato, luce fredda da archivio.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "La memoria resta",
+      "copy": "Oggi il mito delle streghe di Benevento continua nei racconti, nei musei e nell'immaginario del Sannio. Il noce forse non c’è più, ma la sua ombra sì.",
+      "visual_note": "Benevento contemporanea evocata, museo/porta antica, foglie di noce e fiume in dissolvenza.",
+      "source_ids": [
+        "src-006",
+        "src-007"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Nel Sannio, sulle rive del fiume Sabato, si raccontava di un grande noce.\n\nDi giorno era un albero. Di notte, secondo la leggenda, diventava il luogo delle janare: donne temute, invisibili, capaci di arrivare nel vento e radunarsi sotto le fronde per danze e formule.\n\nBenevento divenne così una delle città più legate all'immaginario delle streghe. La trattatistica demonologica parlo di sabba, e Treccani ricorda proprio il noce di Benevento tra i luoghi celebri di questo immaginario.\n\nMa il fiume Sabato non basta a spiegare il sabba. L'assonanza e potente, perfetta per il racconto, ma le parole e le paure arrivano da una storia più ampia: processi, trattati, demonizzazione di riti antichi e credenze popolari.\n\nUna tradizione raccontava anche San Barbato: il santo che avrebbe abbattuto il noce idolatrico. Eppure, nei racconti, l'albero sembrava tornare sempre. Come se certe paure, una volta piantate, mettessero radici più profonde del legno.\n\nNon abbiamo prove di voli, malefici o raduni reali. Abbiamo fonti che raccontano una credenza. è una credenza che, ancora oggi, continua a fare ombra sul fiume.",
+    "cta": "Conoscevi la leggenda del noce di Benevento?",
+    "source_note": "Fonti consultate il 2026-07-08: Treccani, Sabba; Treccani, Streghe e stregoneria; Pietro Piperno, Della superstitiosa noce di Benevento, Wikisource; Sannio Turismo; Janua Museo delle Streghe / Ideasannio; Italia.it."
+  },
+  "design_notes": {
+    "style_direction": "Tono visivo: gotico campano, fiume notturno, noce monumentale, fronde, vento, radici, soglie domestiche, sale e scopa. Atmosfera misteriosa ma non splatter, non satanica da film horror. Il racconto deve sembrare folklore e memoria, non occultismo sensazionalista.",
+    "safe_area": "Formato 1080x1350. Usare fondino-gradiente nero quasi trasparente su tutta la card: 1080x1350px a x=0 y=0, stop circa 0.76, 0.64, 0.38, 0.13, 0.00. Deve proteggere titolo e descrizione e schiarire progressivamente dopo il testo. Lasciare aree pulite per titolo, descrizione e fonte. Nomi frame Figma senza slash: usare separatore ' - '.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark.",
+      "Non mostrare rituali espliciti, nudita, sangue, sacrifici o scene violente.",
+      "Le janare devono essere suggerite con ombre, vento e fronde, non rappresentate come caricature halloween.",
+      "Distinguere visivamente Benevento/Sannio da Napoli: colline interne, fiume, noce, pietra longobarda.",
+      "La slide fonti deve avere tono archivistico e non sensazionalista."
+    ],
+    "risks": [
+      "Rischio geografico: non presentare Benevento come Napoli.",
+      "Rischio etimologico: non dire che sabba deriva dal fiume Sabato.",
+      "Rischio storico: non trasformare confessioni e demonologia in cronaca certa.",
+      "Rischio visuale: evitare estetica satanista o horror esplicita."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-08",
+    "asset_format": "1080x1350",
+    "asset_count": 9,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Illustrazioni narrative generate con imagegen built-in e normalizzate a 1080x1350; QA visivo locale su contact sheet completato. Figma montato nel file canonico con frame e layer stabili senza slash; ogni slide ha un solo layer image con PNG full-res incorporato in Figma, senza placeholder secondari, e manifest con asset_path dei PNG di produzione. Tipografia e scala allineate allo standard dei post approvati: Cormorant Garamond 38/98-118 per eyebrow/titoli, Lora 49 per descrizioni, Lora 18 per fonti/logo."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=107-2",
+    "manifest_path": "outputs/figma/2026-07-08-post-05-streghe-benevento-sabato-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-08",
+    "summary": "Fact-check superato con caveat: Benevento e Sannio sono trattati come ambito campano distinto da Napoli; sabba non viene fatto derivare dal fiume Sabato; Piperno e usato come fonte seicentesca demonologica che attesta la credenza, non i fatti; janara/ianua resta formulata come etimologia tradizionale/divulgativa.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Approvazione operativa ricevuta in chat: procediamo."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-08",
+      "notes": "Claims approvati con caveat geografici, etimologici e storico-documentari mantenuti nel copy."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-08",
+      "notes": "Cover illustrata generata e approvata operativamente dopo QA locale."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Procediamo: completato asset pack illustrato, manifest e montaggio Figma operativo."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Versione finale approvata fino alla fase precedente scheduling/pubblicazione."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+  }
+}

@@ -10,7 +10,7 @@ La leggenda dello spiritello domestico napoletano.
 ## Slide
 
 1. **Il Monaciello**  
-   Nel dopoguerra, tra i vicoli piu antichi di Napoli, si raccontava di uno
+   Nel dopoguerra, tra i vicoli più antichi di Napoli, si raccontava di uno
    spiritello piccolo e misterioso che entrava nelle case senza bussare.
 
 2. **Oggetti spariti**  
@@ -32,7 +32,7 @@ La leggenda dello spiritello domestico napoletano.
    racconti lasciava anche una moneta, un dono improvviso che portava fortuna.
 
 6. **Il segreto del dono**  
-   Chi riceveva quel dono, pero, non doveva vantarsene. La fortuna del
+   Chi riceveva quel dono, però, non doveva vantarsene. La fortuna del
    Monaciello amava il silenzio: raccontarla troppo poteva farla svanire.
 
 7. **Dal sottosuolo**  
@@ -45,12 +45,12 @@ La leggenda dello spiritello domestico napoletano.
    racconti di famiglia e versioni diverse, passate di bocca in bocca.
 
 9. **Il passo nel vicolo**  
-   E cosi la leggenda continuava: tra una porta socchiusa, una moneta trovata
+   e così la leggenda continuava: tra una porta socchiusa, una moneta trovata
    per caso e un piccolo passo che sembrava perdersi nel vicolo.
 
 ## Caption
 
-Nel dopoguerra, a Napoli, si raccontava sempre piu spesso di case visitate da
+Nel dopoguerra, a Napoli, si raccontava sempre più spesso di case visitate da
 una presenza misteriosa.
 
 Oggetti che sparivano. Sedie spostate. Cassetti lasciati aperti. Rumori nel
@@ -63,11 +63,11 @@ moneta, un segno improvviso di fortuna.
 
 Secondo alcune versioni, il mistero nasceva dai pozzari, uomini che conoscevano
 i cunicoli, i pozzi e le cisterne sotto Napoli. Secondo altre, il Monaciello
-apparteneva a una storia piu antica e dolorosa, tramandata anche da Matilde
+apparteneva a una storia più antica e dolorosa, tramandata anche da Matilde
 Serao.
 
-Non era una certezza storica: era una leggenda. E forse proprio per questo
-continuava a vivere, tra le case, le scale e i vicoli della citta.
+Non era una certezza storica: era una leggenda. è forse proprio per questo
+continuava a vivere, tra le case, le scale e i vicoli della città.
 
 CTA: A te avevano mai raccontato la leggenda del Monaciello?
 

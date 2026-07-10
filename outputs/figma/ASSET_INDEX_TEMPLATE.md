@@ -13,7 +13,7 @@ Usare questo modello per tracciare asset senza copiare file pesanti nel repo.
 - `approved`: approvato per Figma.
 - `in_figma`: asset gia montato in Figma.
 - `rejected`: scartato.
-- `replaced`: sostituito da una versione piu recente.
+- `replaced`: sostituito da una versione più recente.
 
 ## Regole
 

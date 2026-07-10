@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-08-post-04-bella-mbriana",
+  "status": "done",
+  "source_post": "content_queue/2026-07-08-post-04-bella-mbriana.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "mixed",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "Inter Medium, small label",
+      "title": "Inter Bold, large display, letter spacing 0",
+      "description": "Inter Regular, controlled paragraph, letter spacing 0"
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "gradient",
+      "gradient_stops": [
+        {
+          "position": 0,
+          "color": "#000000",
+          "opacity": 0.76
+        },
+        {
+          "position": 0.24,
+          "color": "#000000",
+          "opacity": 0.64
+        },
+        {
+          "position": 0.46,
+          "color": "#000000",
+          "opacity": 0.38
+        },
+        {
+          "position": 0.68,
+          "color": "#000000",
+          "opacity": 0.13
+        },
+        {
+          "position": 0.92,
+          "color": "#000000",
+          "opacity": 0
+        },
+        {
+          "position": 1,
+          "color": "#000000",
+          "opacity": 0
+        }
+      ],
+      "notes": "Fondino-gradiente full-card: protegge titolo e descrizione e si schiarisce progressivamente dopo il testo, senza creare una fascia spezzata."
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 50,
+        "width": 900,
+        "height": 40
+      },
+      "title": {
+        "x": 72,
+        "y": 94,
+        "width": 900,
+        "height": 126
+      },
+      "description": {
+        "x": 72,
+        "y": 238,
+        "width": 930,
+        "height": 240
+      },
+      "source": {
+        "width": 820,
+        "height": 30,
+        "notes": "Nel footer."
+      }
+    },
+    "logo": "Layer logo del progetto, montato in Figma."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 01 La Bella 'Mbriana",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/01-cover-casa-controra.png",
+      "title": "La Bella 'Mbriana",
+      "copy": "A Napoli si raccontava che alcune case non fossero mai davvero vuote. Nelle ore più luminose, una presenza gentile poteva passare senza fare rumore.",
+      "visual_note": "Stanza napoletana assolata, tenda bianca mossa dal vento, sedia vuota, presenza femminile appena suggerita dalla luce.",
+      "figma_frame_id": "103:3",
+      "figma_bitmap_layer_id": "103:4",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:4",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/01-cover-casa-controra.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "La leggenda in breve"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 02 Lo spirito della casa",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/02-spirito-casa.png",
+      "title": "Lo spirito della casa",
+      "copy": "La chiamavano Bella 'Mbriana. Non era una figura da spaventare i bambini: era lo spirito domestico che vegliava sulla casa e sulla sua serenità.",
+      "visual_note": "Dettagli domestici: tavolo, tovaglia, piatti semplici, luce calda sulla parete, atmosfera protettiva.",
+      "figma_frame_id": "103:14",
+      "figma_bitmap_layer_id": "103:15",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:15",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/02-spirito-casa.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Grandenapoli.it, Bonasera Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 03 Una principessa nell'ombra",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/03-principessa-vicolo.png",
+      "title": "Una principessa nell'ombra",
+      "copy": "Secondo una versione romantica, era stata una principessa perduta per amore, che vagava nei vicoli come un'ombra. Le case che l'accoglievano ricevevano fortuna.",
+      "visual_note": "Vicolo antico in pieno giorno, figura femminile vestita chiara vista di spalle, tono malinconico ma non spettrale.",
+      "figma_frame_id": "103:25",
+      "figma_bitmap_layer_id": "103:26",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:26",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/03-principessa-vicolo.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Neocore, Miti e leggende di Napoli: chi e la Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 04 La controra",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/04-controra-meridiana.png",
+      "title": "La controra",
+      "copy": "Il suo nome veniva legato alla meridiana, all'ora piena di sole. Per questo non abitava il buio: si lasciava intravedere nella luce ferma del pomeriggio.",
+      "visual_note": "Raggio di sole forte su pavimento di cotto, ombra di persiane, pulviscolo nell'aria, nessuna figura definita.",
+      "figma_frame_id": "103:36",
+      "figma_bitmap_layer_id": "103:37",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:37",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/04-controra-meridiana.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Neocore, Miti e leggende di Napoli: chi e la Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 05 La sedia vuota",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/05-sedia-vuota.png",
+      "title": "La sedia vuota",
+      "copy": "In alcune case si lasciava per lei una sedia libera, come per un'ospite invisibile. Era un gesto piccolo: riconoscere che la casa aveva un'anima.",
+      "visual_note": "Sedia impagliata vuota accanto al tavolo, piatto o bicchiere in più, luce di finestra, atmosfera intima.",
+      "figma_frame_id": "103:47",
+      "figma_bitmap_layer_id": "103:48",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:48",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/05-sedia-vuota.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Grandenapoli.it, Bonasera Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 06 Non offenderla",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/06-non-offenderla.png",
+      "title": "Non offenderla",
+      "copy": "La Bella 'Mbriana proteggeva, ma era anche capricciosa. Si diceva di non lamentarsi della casa, di tenerla pulita, di non parlare di traslochi tra quelle mura.",
+      "visual_note": "Interno ordinato ma vissuto, mani che sistemano una tovaglia, scatole da trasloco fuori dalla porta, caveat visivo sottile.",
+      "figma_frame_id": "103:58",
+      "figma_bitmap_layer_id": "103:59",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:59",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/06-non-offenderla.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Grandenapoli.it, Bonasera Bella 'Mbriana; Neocore, Miti e leggende di Napoli: chi e la Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 07 Il geco alla finestra",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/07-geco-finestra.png",
+      "title": "Il geco alla finestra",
+      "copy": "Alla sua presenza veniva collegato anche il geco, piccolo animale delle sere d'estate. Vederlo in casa non era sempre disgrazia: poteva essere buon augurio.",
+      "visual_note": "Piccolo geco vicino a una lampada o finestra, casa estiva, tono delicato, non macro inquietante.",
+      "figma_frame_id": "103:69",
+      "figma_bitmap_layer_id": "103:70",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:70",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/07-geco-finestra.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Neocore, Miti e leggende di Napoli: chi e la Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 08 Cosa sappiamo",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/08-fonti-caveat.png",
+      "title": "Cosa sappiamo",
+      "copy": "Le fonti ci consegnano una tradizione, non una cronaca. Comune di Napoli, repertori folklorici e testi ottocenteschi parlano di una credenza domestica, variata da famiglia a famiglia.",
+      "visual_note": "Libro aperto, appunti, finestra assolata, piccola ombra di geco; tono da caveat editoriale.",
+      "figma_frame_id": "103:80",
+      "figma_bitmap_layer_id": "103:81",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:81",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/08-fonti-caveat.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Google Books, Curiosità popolari tradizionali, tomo 8; Yumpu / Centrostudirpinia, Curiosità popolari tradizionali; Grandenapoli.it, Bonasera Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    },
+    {
+      "slide_number": 9,
+      "frame_name": "2026-07-08-post-04-bella-mbriana - 09 Una casa abitata",
+      "asset_path": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/09-casa-abitata.png",
+      "title": "Una casa abitata",
+      "copy": "Forse la Bella 'Mbriana serviva a questo: ricordare che una casa non è fatta solo di muri, ma di cura, silenzi, abitudini e rispetto.",
+      "visual_note": "Stanza al tramonto, sedia vuota illuminata, tenda che si solleva piano, atmosfera calda e conclusiva.",
+      "figma_frame_id": "103:91",
+      "figma_bitmap_layer_id": "103:92",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "103:92",
+          "notes": "outputs/figma/assets/2026-07-08-post-04-bella-mbriana/09-casa-abitata.png"
+        },
+        "fondino": {
+          "name": "fondino"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "notes": "Bella 'Mbriana"
+        },
+        "title": {
+          "name": "title"
+        },
+        "description": {
+          "name": "description"
+        },
+        "source": {
+          "name": "source",
+          "notes": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Grandenapoli.it, Bonasera Bella 'Mbriana"
+        },
+        "logo": {
+          "name": "logo"
+        },
+        "footer": {
+          "name": "footer"
+        }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=103-2"
+  }
+}

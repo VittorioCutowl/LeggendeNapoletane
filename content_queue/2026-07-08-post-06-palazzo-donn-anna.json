@@ -1,0 +1,403 @@
+{
+  "post_id": "2026-07-08-post-06-palazzo-donn-anna",
+  "status": "archived",
+  "priority": "high",
+  "topic": "Palazzo Donn'Anna",
+  "angle": "Palazzo Donn'Anna a Posillipo come rovina barocca sul mare in cui storia e leggenda si sovrappongono: Anna Carafa, Cosimo Fanzago, l'incompiuto, la confusione con Giovanna d’Angiò, amanti scomparsi, fantasmi e caveat tra fonte letteraria e tradizione popolare.",
+  "target": {
+    "audience": "Pubblico generalista interessato a Napoli, palazzi sul mare, leggende d'amore, rovine e misteri urbani.",
+    "goal": "Raccontare la leggenda di Palazzo Donn'Anna distinguendo il luogo reale e documentato dalle varianti popolari su fantasmi, amanti e regina Giovanna.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "redazione",
+    "journalist": "Codex",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "NapoliForMe / Comune di Napoli, Donn'Anna Palace",
+      "type": "secondary",
+      "url": "https://napoliforme.comune.napoli.it/en/pois/-/poi/Donn%E2%80%99Anna-Palace",
+      "author": "Comune di Napoli / NapoliForMe",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Indica Palazzo Donn'Anna come opera barocca di Cosimo Fanzago del 1642, legata ad Anna Carafa di Stigliano, moglie del viceré Guzmán de las Torres; spiega il palazzo ricavato nel banco di tufo sul mare, rimasto incompiuto dopo il ritorno del viceré in Spagna.",
+      "caveat": "Fonte istituzionale/turistica sintetica; utile per dati storici essenziali, non per varianti leggendarie.",
+      "notes": "Fonte centrale per contesto architettonico e storico."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Fondazione Culturale Ezio De Felice, Palazzo Donn'Anna",
+      "type": "secondary",
+      "url": "https://www.fondazionedefelice.it/palazzo-donnanna-2/",
+      "author": "Fondazione Culturale Ezio De Felice",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Riporta progettazione e costruzione nel 1642 da parte di Cosimo Fanzago per Anna Carafa; menziona il rientro del viceré, la morte di Anna Carafa, l'incompiutezza, il rapporto con il mare e il teatro aperto verso il golfo.",
+      "caveat": "Fonte legata a un ente culturale presente nel palazzo; molto utile per architettura e spazi, non prova delle leggende.",
+      "notes": "Usare per visual e architettura."
+    },
+    {
+      "source_id": "src-003",
+      "title": "FAI, I Luoghi del Cuore, Palazzo Donn'Anna",
+      "type": "secondary",
+      "url": "https://fondoambiente.it/luoghi/palazzo-donn-anna?ldc=",
+      "author": "FAI - Fondo per l'Ambiente Italiano",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Conferma costruzione per volontà di Anna Carafa, consorte del viceré, stile barocco, incompiutezza e uso attuale come abitazione privata; registra il nesso tra storia, leggenda e mistero.",
+      "caveat": "Scheda divulgativa; da affiancare a fonte istituzionale e Fondazione.",
+      "notes": "Buona per stato attuale e sintesi."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Arte.it, Palazzo Donn'Anna",
+      "type": "secondary",
+      "url": "https://www.arte.it/guida-arte/napoli/da-vedere/monumento/palazzo-donn-anna-2825",
+      "author": "Arte.it",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Descrive il palazzo progettato nel 1642 da Cosimo Fanzago per Anna Carafa, la posizione scenografica sul litorale di Posillipo e l'aspetto di rudere mai ultimato.",
+      "caveat": "Fonte culturale divulgativa; utile per supporto su architettura e paesaggio.",
+      "notes": ""
+    },
+    {
+      "source_id": "src-005",
+      "title": "Matilde Serao, Leggende napoletane / Il palazzo dogn'Anna, Wikisource",
+      "type": "secondary",
+      "url": "https://it.wikisource.org/wiki/Leggende_napoletane/Il_palazzo_dogn%27Anna",
+      "author": "Matilde Serao",
+      "published_at": "1895, edizione digitale Wikisource",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Testo letterario ottocentesco dedicato alla leggenda di Palazzo Donn'Anna, con Anna Carafa, Donna Mercede de las Torres, Gaetano di Casapesenna, rappresentazione teatrale, gelosia e sparizione.",
+      "caveat": "Opera letteraria e folklorica: attesta una versione narrativa, non prova la storicità degli episodi.",
+      "notes": "Fonte principale per la variante narrativa da trattare come racconto."
+    },
+    {
+      "source_id": "src-006",
+      "title": "Turismo.it, Le leggende tutte al femminile di Palazzo Donn'Anna",
+      "type": "secondary",
+      "url": "https://www.turismo.it/idee-di-viaggio/cultura-arte/le-leggende-tutte-al-femminile-di-palazzo-donnnanna-id-10890/",
+      "author": "Turismo.it",
+      "published_at": "2015 circa",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Riassume la sovrapposizione popolare tra Anna Carafa e Giovanna d’Angiò, le varianti sugli amanti gettati in mare o fatti sparire e il fantasma di Donna Mercede.",
+      "caveat": "Fonte divulgativa turistica; utile per registrare varianti, non per claim centrali non verificati.",
+      "notes": "Usare solo come supporto sulle varianti popolari."
+    },
+    {
+      "source_id": "src-007",
+      "title": "Grandenapoli.it, I fantasmi di Posillipo",
+      "type": "secondary",
+      "url": "https://grandenapoli.it/i-fantasmi-di-palazzo-donnanna/",
+      "author": "Grandenapoli.it",
+      "published_at": "2024 circa",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Racconta la ricezione contemporanea delle leggende di fantasmi a Palazzo Donn'Anna, con motivi di amore, morte e presenze sul mare.",
+      "caveat": "Fonte giornalistica/divulgativa recente; non regge da sola i claim, utile per ricezione moderna.",
+      "notes": ""
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Palazzo Donn'Anna si trova sul litorale di Posillipo e fu progettato nel 1642 da Cosimo Fanzago per Anna Carafa, principessa di Stigliano e moglie del viceré Ramiro de Guzman.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-004"
+      ],
+      "evidence": "Comune/NapoliForMe, Fondazione De Felice, FAI e Arte.it concordano su luogo, committenza, Fanzago e datazione al 1642.",
+      "caveat": "Dato storico-architettonico generale; verificare eventuali varianti nominali del viceré nei testi.",
+      "status": "to_verify",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Il palazzo rimase incompiuto dopo il rientro del viceré in Spagna e la morte di Anna Carafa, assumendo nel tempo l'aspetto di rovina monumentale sul mare.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-004"
+      ],
+      "evidence": "Le fonti architettoniche indicano l'incompiutezza e il legame scenografico con il mare di Posillipo.",
+      "caveat": "Il motivo della rovina alimenta la leggenda, ma non è di per se una prova di eventi misteriosi.",
+      "status": "to_verify",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Matilde Serao dedica una leggenda a Palazzo Donn'Anna, raccontando una trama di teatro, gelosia e sparizione legata a Donna Mercede de las Torres e Gaetano di Casapesenna.",
+      "source_ids": [
+        "src-005"
+      ],
+      "evidence": "Il testo Wikisource di Serao contiene il racconto del palazzo e dei personaggi narrativi.",
+      "caveat": "È una fonte letteraria ottocentesca: verifica la presenza della versione narrativa, non la storicità degli eventi.",
+      "status": "to_verify",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Nella tradizione popolare, la figura di Anna Carafa viene talvolta confusa o sovrapposta a Giovanna d’Angiò, con racconti su amanti scelti tra pescatori e poi fatti sparire.",
+      "source_ids": [
+        "src-006",
+        "src-007"
+      ],
+      "evidence": "Turismo.it e Grandenapoli registrano varianti popolari su Giovanna, amanti e fantasmi.",
+      "caveat": "Varianti tarde e divulgative, spesso in contraddizione con la cronologia storica; da raccontare come sovrapposizione popolare.",
+      "status": "to_verify",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Il teatro e le arcate sul mare sono elementi reali del palazzo e contribuiscono alla forza visiva della leggenda.",
+      "source_ids": [
+        "src-002",
+        "src-001"
+      ],
+      "evidence": "Fondazione De Felice descrive il teatro separato dal mare da tre arcate e ricavato nel tufo; NapoliForMe descrive il palazzo sul banco di tufo a picco sul mare.",
+      "caveat": "Claim architettonico/visuale, non leggendario.",
+      "status": "to_verify",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "Palazzo Donn'Anna e oggi usato come abitazione privata, quindi non va presentato come luogo liberamente visitabile o museo pubblico.",
+      "source_ids": [
+        "src-003"
+      ],
+      "evidence": "FAI indica che l'edificio e interamente utilizzato come abitazione privata.",
+      "caveat": "Verificare eventuali accessi specifici a spazi culturali della Fondazione; non generalizzare.",
+      "status": "to_verify",
+      "notes": ""
+    }
+  ],
+  "cover": {
+    "headline": "Palazzo Donn'Anna",
+    "subheadline": "La rovina sul mare dove Napoli invento i suoi fantasmi",
+    "visual_idea": "Palazzo Donn'Anna al tramonto visto dal mare, arcate scure, onde sugli scogli, finestre vuote, presenza femminile appena suggerita da una tenda o riflesso."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Palazzo Donn'Anna",
+      "copy": "A Posillipo c’è un palazzo che sembra uscito dal mare. Non è una rovina antica: è una casa incompiuta, diventata leggenda.",
+      "visual_note": "Palazzo sul mare al tramonto, arcate scure, onde, luce dorata, nessuna figura horror.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "A picco su Posillipo",
+      "copy": "Il palazzo fu pensato nel Seicento per Anna Carafa, principessa di Stigliano, e progettato da Cosimo Fanzago direttamente sul banco di tufo.",
+      "visual_note": "Dettaglio di tufo, mare e architettura barocca vista dal basso.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "Il sogno incompiuto",
+      "copy": "La costruzione rimase sospesa. Il viceré tornò in Spagna, Anna morì poco dopo, e quella dimora sul mare prese l'aspetto di una rovina abitata dal vento.",
+      "visual_note": "Cantiere barocco interrotto, pietra, impalcature evocate, mare oltre le arcate.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Il teatro sul mare",
+      "copy": "Dentro, il palazzo conservava anche un teatro aperto verso il golfo. Già questo bastava a farne una scena: il mare come platea, Napoli come fondale.",
+      "visual_note": "Teatro/arcate sul mare, scena vuota, Vesuvio lontano, atmosfera teatrale.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "La notte di Mercede",
+      "copy": "Nella leggenda raccontata da Matilde Serao, una rappresentazione teatrale accese gelosie e desideri. Donna Mercede spari, e il palazzo non dimentico.",
+      "visual_note": "Maschera teatrale, abito seicentesco, tenda rossa, figura femminile sfumata.",
+      "source_ids": [
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Amanti e fantasmi",
+      "copy": "Altre versioni confusero Anna Carafa con la regina Giovanna d’Angiò: amanti pescatori, notti segrete, corpi spariti tra finestre e mare.",
+      "visual_note": "Finestra alta sul mare, barca piccola, ombre lontane, niente scena violenta.",
+      "source_ids": [
+        "src-006",
+        "src-007"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "La leggenda sbaglia tempo",
+      "copy": "Qui serve cautela: Giovanna d’Angiò e Anna Carafa appartengono a epoche diverse. La leggenda le sovrappose per dare un volto alla paura.",
+      "visual_note": "Due ritratti o due ombre femminili separate da una crepa/linea temporale, tono caveat.",
+      "source_ids": [
+        "src-001",
+        "src-005",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "Cosa sappiamo",
+      "copy": "Sappiamo del palazzo, del progetto, dell'incompiuto, del mare. I fantasmi, invece, restano racconto: letteratura, voce popolare, ombra sulle arcate.",
+      "visual_note": "Libro aperto, planimetria, scorcio del palazzo sul mare, atmosfera documentaria.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "La casa delle onde",
+      "copy": "Forse Palazzo Donn'Anna fa paura perché non sembra mai finito. Ogni onda entra nella pietra e lascia una domanda senza risposta.",
+      "visual_note": "Palazzo al blu della sera, onde nelle arcate, finestra illuminata appena, chiusura poetica.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-004"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "A Posillipo, Palazzo Donn'Anna sembra nato dal mare.\n\nLe sue arcate guardano il golfo, la pietra si confonde con il tufo, le finestre sembrano aspettare qualcuno. Eppure non è una rovina antica: è un grande palazzo barocco del Seicento, progettato da Cosimo Fanzago per Anna Carafa, principessa di Stigliano e moglie del viceré.\n\nIl sogno rimase incompiuto. Il viceré tornò in Spagna, Anna morì poco dopo, e quella casa sul mare restò sospesa tra dimora, teatro e rovina.\n\nDa lì cominciò la leggenda. Matilde Serao racconta una versione fatta di rappresentazioni teatrali, gelosia e sparizioni: Donna Mercede de las Torres, Gaetano di Casapesenna, una notte in cui il palazzo sembrava diventare scena e trappola.\n\nAltre voci sovrapposero Anna Carafa alla regina Giovanna d’Angiò, immaginando amanti scelti tra i pescatori, notti segrete e corpi spariti nel mare. Ma qui bisogna essere onesti: storia e leggenda non coincidono. Le epoche si confondono, i nomi cambiano, la paura prende il posto dei documenti.\n\nQuello che resta è un palazzo vero, incompiuto, potentissimo. È una domanda che il mare continua a portare indietro, ogni sera, contro le sue arcate.",
+    "cta": "Ti fa più paura una casa abbandonata o una casa mai finita?",
+    "source_note": "Fonti consultate il 2026-07-08: NapoliForMe / Comune di Napoli; Fondazione Culturale Ezio De Felice; FAI; Arte.it; Matilde Serao, Leggende napoletane / Il palazzo dogn'Anna; Turismo.it; Grandenapoli."
+  },
+  "design_notes": {
+    "style_direction": "Tono visivo: gotico marino napoletano, tramonti e blu di Posillipo, tufo, arcate, teatro sul mare, vento, finestre vuote, figure femminili appena suggerite. Elegante e tragico, non horror esplicito. Deve sembrare una rovina abitata dal mare.",
+    "safe_area": "Formato 1080x1350. Usare fondino-gradiente nero quasi trasparente su tutta la card: 1080x1350px a x=0 y=0, stop circa 0.76, 0.64, 0.38, 0.13, 0.00. Deve proteggere titolo e descrizione e schiarire progressivamente dopo il testo. Lasciare aree pulite per titolo, descrizione e fonte. Nomi frame Figma senza slash: usare separatore ' - '.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark.",
+      "Non mostrare cadute, corpi o violenza esplicita.",
+      "Evitare erotizzazione delle leggende sugli amanti.",
+      "Rendere riconoscibile il palazzo sul mare, con arcate, tufo e Posillipo.",
+      "La slide caveat deve distinguere chiaramente storia documentata e leggenda."
+    ],
+    "risks": [
+      "Rischio di confondere Anna Carafa con Giovanna d’Angiò come fatto storico.",
+      "Rischio di presentare la leggenda degli amanti come cronaca certa.",
+      "Rischio di suggerire che il palazzo sia liberamente visitabile.",
+      "Rischio di trasformare una leggenda gotica in gossip sensazionalista."
+    ]
+  },
+  "production_preflight": {
+    "status": "not_started",
+    "checked_at": "",
+    "asset_format": "1080x1350",
+    "asset_count": 0,
+    "checks": {
+      "cover_approved": false,
+      "manifest_matches_slides": false,
+      "assets_named_and_sized": false,
+      "assets_have_no_text_logo_sources": false,
+      "copy_line_budget_ok": false,
+      "figma_template_layers_ready": false,
+      "figma_qa_sample_done": false
+    },
+    "notes": "Non passare a figma_done finché non esistono illustrazioni narrative reali e QA visivo su cover, slide teatrale e slide caveat."
+  },
+  "figma": {
+    "status": "not_started",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "",
+    "manifest_path": ""
+  },
+  "fact_check": {
+    "status": "needed",
+    "checked_by": "",
+    "checked_at": "",
+    "summary": "Claims pronti per verifica: controllare dati su Fanzago/1642/Anna Carafa, cause dell'incompiutezza, teatro sul mare, uso attuale privato e differenza tra Serao, Anna Carafa e varianti popolari su Giovanna d’Angiò.",
+    "open_issues": [
+      "Verificare la forma corretta del nome del viceré nelle fonti: Ramiro Núñez de Guzmán / duca di Medina de las Torres.",
+      "Mantenere la sovrapposizione Anna Carafa-Giovanna d’Angiò come variante popolare cronologicamente problematica.",
+      "Non citare le versioni su amanti e sparizioni senza caveat forte."
+    ]
+  },
+  "approvals": {
+    "editorial": {
+      "status": "rejected",
+      "by": "utente",
+      "at": "2026-07-09",
+      "notes": "Archiviato su decisione editoriale: secondo filone Palazzo Donn'Anna da buttare via; resta pubblicabile il post approved 2026-07-07-post-05-palazzo-donnanna."
+    },
+    "fact_check": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "cover": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "design": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "final": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    }
+  },
+  "publication": {
+    "status": "archived",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "Editore",
+    "reason": "Archiviato su decisione editoriale: duplicazione/sovrapposizione con il post Palazzo Donnanna gia approvato e confermato pubblicabile.",
+    "next_action": "Nessuna azione: contenuto archiviato."
+  }
+}

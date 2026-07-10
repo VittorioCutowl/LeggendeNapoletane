@@ -52,6 +52,9 @@ prima di programmare o pubblicare.
 | 2026-07-07-post-03-uovo-castel-dell-ovo | approved | passed con residui da decidere | 1+ | done | passed | Da definire | - |
 | 2026-07-07-post-04-fantasma-via-foria | approved | passed | 0, ma note da riallineare | done | passed | Da definire | - |
 | 2026-07-07-post-05-palazzo-donnanna | approved | passed | 0 | done | passed | Da definire | - |
+| 2026-07-08-post-04-bella-mbriana | approved | passed | 0 | done | passed | Da definire | - |
+| 2026-07-08-post-05-streghe-benevento-sabato | approved | passed | 0 | done | passed | Da definire | - |
+| 2026-07-08-post-06-palazzo-donn-anna | archived | needed | archiviato | not_started | not_started | - | - |
 | 2026-07-10-post-06-raimondo-di-sangro-cristo-velato | approved | passed | 0 | done | passed | Da definire | - |
 
 ## Pronti E Programmati
@@ -63,6 +66,8 @@ prima di programmare o pubblicare.
 | 2026-07-07-post-03-uovo-castel-dell-ovo | approved | Da definire | Approvato; portato nel workflow da Figma esistente; prossimo passo: scheduled_at |
 | 2026-07-07-post-02-sirena-partenope | approved | Da definire | Approvato; portato nel workflow da Figma esistente; prossimo passo: scheduled_at |
 | 2026-07-07-post-05-palazzo-donnanna | approved | Da definire | Approvato; prossimo passo: scheduled_at |
+| 2026-07-08-post-04-bella-mbriana | approved | Da definire | Approvato; Figma done; prossimo passo: scheduled_at |
+| 2026-07-08-post-05-streghe-benevento-sabato | approved | Da definire | Approvato; Figma done; prossimo passo: scheduled_at |
 | 2026-07-10-post-06-raimondo-di-sangro-cristo-velato | approved | Da definire | Approvato; Figma nodo 152:2; prossimo passo: scheduled_at |
 
 ## Pubblicati

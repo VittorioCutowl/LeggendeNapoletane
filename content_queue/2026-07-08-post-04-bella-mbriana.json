@@ -1,0 +1,393 @@
+{
+  "post_id": "2026-07-08-post-04-bella-mbriana",
+  "status": "approved",
+  "priority": "high",
+  "topic": "La Bella 'Mbriana",
+  "angle": "La Bella 'Mbriana come presenza domestica benevola e capricciosa della tradizione napoletana: spirito della casa, ombra luminosa della controra, posto lasciato libero a tavola, geco portafortuna e caveat tra memoria popolare, etimologie possibili e fonti divulgative.",
+  "target": {
+    "audience": "Pubblico generalista interessato a Napoli, folklore domestico, credenze familiari e leggende meno oscure.",
+    "goal": "Raccontare la Bella 'Mbriana senza trasformarla in fatto paranormale, distinguendo tradizione popolare, varianti, gesti domestici e fonti disponibili.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "redazione",
+    "journalist": "Codex",
+    "fact_checker": "",
+    "designer": ""
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Comune di Napoli, Il Munaciello e la Bella 'Mbriana",
+      "type": "secondary",
+      "url": "https://trasparenza.comune.napoli.it/flex/files/D.82f73d2f44da2b196217/29._Munaciello.pdf",
+      "author": "Comune di Napoli",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Riporta la leggenda della principessa infelice, la Bella 'Mbriana come spirito della casa, il legame con benessere e salute, l'aspetto sfuggente, l'etimologia da Meridiana, il divieto di lamentarsi della casa o parlare di trasloco, la sedia libera, l'ordine e il geco portafortuna.",
+      "caveat": "Scheda istituzionale divulgativa non datata; utile come fonte principale per la tradizione, non come prova storica degli eventi narrati.",
+      "notes": "Già usata nel progetto per il Monaciello; per Bella 'Mbriana contiene il nucleo operativo più completo."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Il Crepuscolo degli Dei, Bella 'mbriana",
+      "type": "secondary",
+      "url": "https://www.ilcrepuscolodeglidei.org/?title=Bella_%27mbriana",
+      "author": "Il Crepuscolo degli Dei",
+      "published_at": "ultima modifica 2026-04-11",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Classifica la Bella 'Mbriana come fata domestica campana benevola, associata alla casa; registra manifestazioni come farfalla, lucertola o ragno, il saluto propiziatorio, la sedia lasciata libera, l'etimologia da meridiana e il legame con Pino Daniele.",
+      "caveat": "Repertorio mitologico online; buono per varianti e sintesi comparativa, non fonte primaria.",
+      "notes": "Usare per registrare varianti su animali e lessico, non per claim storici centrali."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Google Books, Curiosità popolari tradizionali, tomo 8",
+      "type": "archive",
+      "url": "https://books.google.com/books/about/Curiosit%C3%A0_popolari_tradizionali.html?id=vsY_AAAAYAAJ",
+      "author": "Giuseppe Pitre, ed.; Gaetano Amalfi",
+      "published_at": "1890",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Scheda bibliografica e snippet del tomo ottocentesco Curiosità popolari tradizionali, nel cui indice digitale compare Bella Mbriana.",
+      "caveat": "Google Books fornisce metadati e anteprima/snippet, non una citazione completa agevole; non usare da sola per affermazioni minute.",
+      "notes": "Serve a datare una attestazione editoriale ottocentesca della voce nel circuito folklorico."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Yumpu / Centrostudirpinia, Curiosità popolari tradizionali",
+      "type": "archive",
+      "url": "https://www.yumpu.com/it/document/view/15106316/curiosita-popolari-tradizionali-centrostudirpiniait",
+      "author": "Riproduzione digitale da Giuseppe Pitre, Curiosità popolari tradizionali",
+      "published_at": "riproduzione digitale; testo originale 1890",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Contiene una trascrizione/visualizzazione del passo in cui la Bella 'Mbriana e presentata come augurio della casa e salutata con formula propiziatoria.",
+      "caveat": "Riproduzione digitale non istituzionale; da usare come supporto di controllo, non come unica base critica.",
+      "notes": "Evitare citazioni lunghe; parafrasare."
+    },
+    {
+      "source_id": "src-005",
+      "title": "Grandenapoli.it, Bonasera Bella 'Mbriana",
+      "type": "secondary",
+      "url": "https://grandenapoli.it/bonasera-bella-mbriana/",
+      "author": "Grandenapoli.it",
+      "published_at": "2007 circa, articolo ripreso da Rising republic n. 7",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Raccoglie motivi divulgativi moderni: Bella 'Mbriana come spirito benigno, figura contrapposta al Munaciello, donna vestita di bianco, sedia libera, ordine e serenità domestica.",
+      "caveat": "Fonte divulgativa giornalistica; utile per ricezione contemporanea, non per claim centrali senza riscontro.",
+      "notes": "Buona per tono e confronto col Monaciello."
+    },
+    {
+      "source_id": "src-006",
+      "title": "Neocore, Miti e leggende di Napoli: chi e la Bella 'Mbriana",
+      "type": "secondary",
+      "url": "https://neocore.it/miti-e-leggende-di-napoli-chi-e-la-bella-mbriana/",
+      "author": "Neocore Boutique Hotel Napoli",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Riassume varianti su etimologia, principessa infelice, controra, geco, farfalla, sedia libera, ordine, traslochi e ricezione artistica.",
+      "caveat": "Fonte turistica e divulgativa; da usare solo come supporto per varianti già coperte da fonti più solide.",
+      "notes": "Non regge da sola claim centrali."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "La Bella 'Mbriana e una figura del folklore napoletano associata alla casa, alla protezione domestica, al benessere e alla salute degli abitanti.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005"
+      ],
+      "evidence": "Comune di Napoli la descrive come spirito della casa che protegge un'abitazione; Crepuscolo degli Dei e Grandenapoli la registrano come presenza/fata domestica benevola.",
+      "caveat": "Si tratta di credenza e tradizione popolare, non di fatto verificabile.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Una leggenda racconta l'origine della Bella 'Mbriana come principessa impazzita per un amore infelice, accolta nelle case e poi legata alla fortuna domestica.",
+      "source_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "evidence": "Comune di Napoli e Neocore riportano la variante della principessa che vaga per i vicoli e delle famiglie ricompensate per averla accolta.",
+      "caveat": "Variante narrativa romantica e tarda; non va presentata come biografia storica.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Nella tradizione, la Bella 'Mbriana appare appena: accanto a una tenda, in un riflesso di finestra o tramite piccoli animali come il geco.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-006"
+      ],
+      "evidence": "Comune di Napoli cita tenda, riflesso e geco; Crepuscolo e Neocore registrano varianti con farfalla, lucertola/geco o altri animali.",
+      "caveat": "Sono forme narrative e simboliche diverse; evitare una sola immagine come canone assoluto.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Il nome 'Mbriana viene spesso collegato a Meridiana, cioè alla luce del giorno e alla controra, ma l'etimologia va trattata con prudenza.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-006"
+      ],
+      "evidence": "Comune di Napoli collega 'Mbriana/Meriana a Meridiana; Crepuscolo e Neocore riprendono il nesso con meridiana/ombra e controra.",
+      "caveat": "È una spiegazione etimologica tradizionale/divulgativa, non una dimostrazione linguistica definitiva.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Alla Bella 'Mbriana sono associati gesti domestici di rispetto: lasciare una sedia libera, tenere la casa in ordine e non parlare di trasloco dentro casa.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005",
+        "src-006"
+      ],
+      "evidence": "Le fonti concordano su sedia libera, ordine/pulizia e cautela verso lamentele o traslochi.",
+      "caveat": "Sono norme di credenza domestica, non prescrizioni universali o pratiche storiche documentate per tutte le famiglie.",
+      "status": "verified",
+      "notes": ""
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "Una attestazione ottocentesca del tema compare nel circuito delle Curiosità popolari tradizionali, dove la Bella 'Mbriana e indicata come augurio della casa.",
+      "source_ids": [
+        "src-003",
+        "src-004"
+      ],
+      "evidence": "Google Books identifica il tomo del 1890; la riproduzione Yumpu mostra il passo sulla Bella 'Mbriana come augurio domestico e saluto propiziatorio.",
+      "caveat": "La riproduzione testuale va controllata su copia bibliografica più affidabile prima di citare letteralmente.",
+      "status": "verified",
+      "notes": "Possibile punto di fact-check aggiuntivo."
+    }
+  ],
+  "cover": {
+    "headline": "La Bella 'Mbriana",
+    "subheadline": "Lo spirito luminoso della casa napoletana",
+    "visual_idea": "Interno napoletano antico durante la controra: tenda mossa dal vento, sedia vuota in luce calda, piccolo geco vicino alla finestra. Presenza femminile solo suggerita, non fantasma horror."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "La Bella 'Mbriana",
+      "copy": "A Napoli si raccontava che alcune case non fossero mai davvero vuote. Nelle ore più luminose, una presenza gentile poteva passare senza fare rumore.",
+      "visual_note": "Stanza napoletana assolata, tenda bianca mossa dal vento, sedia vuota, presenza femminile appena suggerita dalla luce.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Lo spirito della casa",
+      "copy": "La chiamavano Bella 'Mbriana. Non era una figura da spaventare i bambini: era lo spirito domestico che vegliava sulla casa e sulla sua serenità.",
+      "visual_note": "Dettagli domestici: tavolo, tovaglia, piatti semplici, luce calda sulla parete, atmosfera protettiva.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "Una principessa nell'ombra",
+      "copy": "Secondo una versione romantica, era stata una principessa perduta per amore, che vagava nei vicoli come un'ombra. Le case che l'accoglievano ricevevano fortuna.",
+      "visual_note": "Vicolo antico in pieno giorno, figura femminile vestita chiara vista di spalle, tono malinconico ma non spettrale.",
+      "source_ids": [
+        "src-001",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "La controra",
+      "copy": "Il suo nome veniva legato alla meridiana, all'ora piena di sole. Per questo non abitava il buio: si lasciava intravedere nella luce ferma del pomeriggio.",
+      "visual_note": "Raggio di sole forte su pavimento di cotto, ombra di persiane, pulviscolo nell'aria, nessuna figura definita.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "La sedia vuota",
+      "copy": "In alcune case si lasciava per lei una sedia libera, come per un'ospite invisibile. Era un gesto piccolo: riconoscere che la casa aveva un'anima.",
+      "visual_note": "Sedia impagliata vuota accanto al tavolo, piatto o bicchiere in più, luce di finestra, atmosfera intima.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Non offenderla",
+      "copy": "La Bella 'Mbriana proteggeva, ma era anche capricciosa. Si diceva di non lamentarsi della casa, di tenerla pulita, di non parlare di traslochi tra quelle mura.",
+      "visual_note": "Interno ordinato ma vissuto, mani che sistemano una tovaglia, scatole da trasloco fuori dalla porta, caveat visivo sottile.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Il geco alla finestra",
+      "copy": "Alla sua presenza veniva collegato anche il geco, piccolo animale delle sere d'estate. Vederlo in casa non era sempre disgrazia: poteva essere buon augurio.",
+      "visual_note": "Piccolo geco vicino a una lampada o finestra, casa estiva, tono delicato, non macro inquietante.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-006"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "body",
+      "title": "Cosa sappiamo",
+      "copy": "Le fonti ci consegnano una tradizione, non una cronaca. Comune di Napoli, repertori folklorici e testi ottocenteschi parlano di una credenza domestica, variata da famiglia a famiglia.",
+      "visual_note": "Libro aperto, appunti, finestra assolata, piccola ombra di geco; tono da caveat editoriale.",
+      "source_ids": [
+        "src-001",
+        "src-003",
+        "src-004",
+        "src-005"
+      ]
+    },
+    {
+      "slide_number": 9,
+      "role": "closing",
+      "title": "Una casa abitata",
+      "copy": "Forse la Bella 'Mbriana serviva a questo: ricordare che una casa non è fatta solo di muri, ma di cura, silenzi, abitudini e rispetto.",
+      "visual_note": "Stanza al tramonto, sedia vuota illuminata, tenda che si solleva piano, atmosfera calda e conclusiva.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-005"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "A Napoli si raccontava che alcune case non fossero mai davvero vuote.\n\nNelle ore più luminose, quando il sole entrava dalle persiane e il vento muoveva appena una tenda, poteva passare la Bella 'Mbriana: una presenza domestica, benevola e capricciosa, legata alla serenità della casa.\n\nSecondo una versione romantica, era stata una principessa ferita da un amore infelice, condannata a vagare per i vicoli come un'ombra. Le famiglie che la accoglievano ricevevano doni e fortuna. Col tempo, quella figura sarebbe diventata lo spirito buono del focolare.\n\nMa non era una presenza da trattare con leggerezza. Si diceva di lasciarle una sedia libera, di tenere la casa pulita, di non lamentarsi troppo delle sue stanze e di non parlare di traslochi dentro le mura, per non offenderla.\n\nAlla Bella 'Mbriana veniva collegato anche il geco, piccolo animale delle sere d'estate: in certe case, incontrarlo non era un fastidio da scacciare, ma un buon segno.\n\nNon abbiamo una cronaca certa. Abbiamo una tradizione domestica, fatta di gesti piccoli e racconti familiari. Forse la Bella 'Mbriana ricordava proprio questo: una casa vive finché qualcuno la rispetta.",
+    "cta": "Nella tua famiglia c'era un gesto o una frase per portare fortuna in casa?",
+    "source_note": "Fonti consultate il 2026-07-08: Comune di Napoli, Il Munaciello e la Bella 'Mbriana; Il Crepuscolo degli Dei, Bella 'mbriana; Google Books e riproduzioni di Curiosità popolari tradizionali; Grandenapoli; Neocore."
+  },
+  "design_notes": {
+    "style_direction": "Tono visivo: domestico, luminoso, fiabesco e napoletano. Interni antichi, tende, persiane, cotto, sedie impagliate, tovaglie, luce della controra, un geco discreto, una presenza femminile appena suggerita. Meno gotico del Monaciello: mistero caldo, cura della casa, silenzio.",
+    "safe_area": "Formato 1080x1350. Usare fondino-gradiente nero quasi trasparente su tutta la card: 1080x1350px a x=0 y=0, stop circa 0.76, 0.64, 0.38, 0.13, 0.00. Deve proteggere titolo e descrizione e schiarire progressivamente dopo il testo. Lasciare aree pulite per titolo, descrizione e fonte. Nomi frame Figma senza slash: usare separatore ' - '.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark.",
+      "Non rappresentare la Bella 'Mbriana come fantasma horror o apparizione aggressiva.",
+      "La presenza femminile deve essere suggerita da luce, ombra, tenda o riflesso, non resa come personaggio troppo esplicito.",
+      "Il geco deve essere piccolo e benevolo, non inquietante.",
+      "Evitare estetica turistica: la casa deve sembrare vissuta, ordinata, popolare ma dignitosa."
+    ],
+    "risks": [
+      "Rischio di presentare la leggenda come fenomeno paranormale certo.",
+      "Rischio di trattare l'etimologia Meridiana come dimostrata definitivamente.",
+      "Rischio di usare blog turistici per claim centrali.",
+      "Rischio di confondere la Bella 'Mbriana con Janara o Monaciello."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-08",
+    "asset_format": "1080x1350",
+    "asset_count": 9,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Vere illustrazioni narrative generate con imagegen built-in e normalizzate a 1080x1350; QA visivo locale su contact sheet completato. Figma montato nel file canonico con frame e layer stabili senza slash; ogni slide ha un solo layer image con PNG full-res incorporato in Figma, senza placeholder secondari, e manifest con asset_path dei PNG di produzione. Tipografia e scala allineate allo standard dei post approvati: Cormorant Garamond 38/88-118 per eyebrow/titoli, Lora 47-52 per descrizioni, Lora 18 per fonti/logo."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=103-2",
+    "manifest_path": "outputs/figma/2026-07-08-post-04-bella-mbriana-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-08",
+    "summary": "Fact-check superato con caveat: la Bella Mbriana e trattata come tradizione domestica napoletana, non come fenomeno paranormale certo. La fonte centrale e la scheda del Comune di Napoli; le fonti divulgative servono solo a registrare varianti. Il riferimento ottocentesco Pitre/Amalfi e mantenuto come attestazione editoriale da non citare letteralmente senza ulteriore controllo bibliografico.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Approvazione operativa ricevuta in chat: procediamo."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-08",
+      "notes": "Claims approvati mantenendo caveat su tradizione, etimologia e fonte ottocentesca."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-08",
+      "notes": "Cover illustrata generata e approvata operativamente dopo QA locale."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Procediamo: completato asset pack illustrato, manifest e montaggio Figma operativo."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-08",
+      "notes": "Versione finale approvata fino alla fase precedente scheduling/pubblicazione."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+  }
+}
