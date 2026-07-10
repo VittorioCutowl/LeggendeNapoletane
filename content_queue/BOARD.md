@@ -1,6 +1,6 @@
 # Lavagna Leggende Napoletane Instagram
 
-Ultimo aggiornamento: 2026-07-09
+Ultimo aggiornamento: 2026-07-10
 
 Questa lavagna e la vista umana della coda contenuti. I file JSON restano la
 fonte strutturata, ma qui si vede l'avanzamento a colpo d'occhio.
@@ -52,6 +52,7 @@ prima di programmare o pubblicare.
 | 2026-07-07-post-03-uovo-castel-dell-ovo | approved | passed con residui da decidere | 1+ | done | passed | Da definire | - |
 | 2026-07-07-post-04-fantasma-via-foria | approved | passed | 0, ma note da riallineare | done | passed | Da definire | - |
 | 2026-07-07-post-05-palazzo-donnanna | approved | passed | 0 | done | passed | Da definire | - |
+| 2026-07-10-post-06-raimondo-di-sangro-cristo-velato | approved | passed | 0 | done | passed | Da definire | - |
 
 ## Pronti E Programmati
 
@@ -62,6 +63,7 @@ prima di programmare o pubblicare.
 | 2026-07-07-post-03-uovo-castel-dell-ovo | approved | Da definire | Approvato; portato nel workflow da Figma esistente; prossimo passo: scheduled_at |
 | 2026-07-07-post-02-sirena-partenope | approved | Da definire | Approvato; portato nel workflow da Figma esistente; prossimo passo: scheduled_at |
 | 2026-07-07-post-05-palazzo-donnanna | approved | Da definire | Approvato; prossimo passo: scheduled_at |
+| 2026-07-10-post-06-raimondo-di-sangro-cristo-velato | approved | Da definire | Approvato; Figma nodo 152:2; prossimo passo: scheduled_at |
 
 ## Pubblicati
 

@@ -33,13 +33,20 @@
       "eyebrow": "rubrica/source label",
       "title": "large display, no negative letter spacing",
       "description": "short paragraph, line budget to verify before import",
-      "notes": "Aggiornato dopo test pubblicazione v2: controllare sempre su singola card 1080x1350, non su screenshot strip del carousel."
+      "notes": "Aggiornato dopo test pubblicazione v2: controllare sempre su singola card 1080x1350, non su screenshot strip del carousel. Bugfix 2026-07-08: rimosso Inter da Via Foria e riallineato alla tipografia canonica Leggende Napoletane.",
+      "font_families": {
+        "eyebrow": "Cormorant Garamond SemiBold",
+        "title": "Cormorant Garamond Bold",
+        "description": "Lora Medium",
+        "source": "Lora Medium",
+        "logo": "Lora Bold"
+      }
     },
     "text_backdrop": {
       "x": 0,
       "y": 0,
       "width": 1080,
-      "height": 760,
+      "height": 1350,
       "opacity": "gradient",
       "notes": "Revisione leggibilita Instagram v2: fondino-gradiente piu alto e contrastato per testi molto grandi su mobile."
     },
@@ -73,7 +80,7 @@
       }
     },
     "logo": "Usare il layer logo del template canonico.",
-    "source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
+    "title_policy":"Title visible only on first and last slide; body title hidden and description y=158.","source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
   },
   "slides": [
     {

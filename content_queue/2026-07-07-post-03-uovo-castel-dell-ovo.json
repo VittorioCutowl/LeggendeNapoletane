@@ -1,0 +1,295 @@
+{
+  "post_id": "2026-07-07-post-03-uovo-castel-dell-ovo",
+  "status": "approved",
+  "priority": "high",
+  "topic": "L'uovo di Castel dell'Ovo",
+  "angle": "La leggenda dell'uovo nascosto da Virgilio nei sotterranei di Castel dell'Ovo: un racconto sulla fragilita simbolica di Napoli, tra Megaride, Virgilio mago e paura popolare della rovina.",
+  "target": {
+    "audience": "Pubblico generalista interessato a castelli napoletani, leggende medievali, Virgilio mago e simboli urbani.",
+    "goal": "Raccontare la leggenda che da il nome a Castel dell'Ovo, distinguendo contesto storico del luogo, tradizione medievale su Virgilio e valore simbolico dell'uovo.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Codex",
+    "fact_checker": "Codex",
+    "designer": "Codex/Figma"
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Castel dell'Ovo",
+      "type": "secondary",
+      "url": "https://www.comune.napoli.it/casteldellovo",
+      "author": "Comune di Napoli",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "to_verify",
+      "supports": "Contesto istituzionale su Castel dell'Ovo e sulla leggenda del nome legata all'uovo.",
+      "caveat": "URL istituzionale da verificare prima della pubblicazione se cambia la scheda comunale.",
+      "notes": ""
+    },
+    {
+      "source_id": "src-002",
+      "title": "Matilde Serao, Leggende napoletane / L'uovo di Virgilio",
+      "type": "primary",
+      "url": "https://it.wikisource.org/wiki/Leggende_napoletane",
+      "author": "Matilde Serao",
+      "published_at": "1895",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Tradizione letteraria divulgativa napoletana su Virgilio mago, Castel Marino/Castel dell'Ovo e uovo custodito.",
+      "caveat": "Fonte letteraria: attesta la tradizione e il racconto, non un fatto storico.",
+      "notes": ""
+    },
+    {
+      "source_id": "src-003",
+      "title": "Virgilio nella tradizione medievale napoletana",
+      "type": "secondary",
+      "url": "https://www.treccani.it/enciclopedia/virgilio/",
+      "author": "Treccani",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Contesto sulla fortuna di Virgilio e sulle leggende medievali che lo trasformano in sapiente/mago.",
+      "caveat": "Fonte di contesto; non sostituisce la fonte specifica sulla leggenda dell'uovo.",
+      "notes": ""
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Castel dell'Ovo sorge sull'isolotto di Megaride, luogo centrale nell'immaginario costiero di Napoli.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "La scheda istituzionale e la tradizione locale collocano il castello sull'antico isolotto di Megaride.",
+      "caveat": "Contesto storico-geografico, non parte soprannaturale della leggenda.",
+      "status": "needs_context"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Nella tradizione napoletana medievale Virgilio viene spesso immaginato come sapiente e mago protettore della citta.",
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "evidence": "Serao riprende la figura di Virgilio incantatore; Treccani offre contesto sulla ricezione leggendaria di Virgilio.",
+      "caveat": "Figura leggendaria e letteraria, non dato biografico sul poeta storico.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "La leggenda racconta che Virgilio avrebbe nascosto un uovo nei sotterranei del castello e che dalla sua integrita dipendesse la sorte del castello e della citta.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ],
+      "evidence": "La tradizione divulgata da Serao e dalle schede locali lega il nome del castello all'uovo nascosto/custodito.",
+      "caveat": "Leggenda eziologica: spiega poeticamente il nome e il timore popolare, non un evento verificabile.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "La storia della regina Giovanna I che rassicura il popolo sostituendo l'uovo va raccontata come parte della leggenda, non come cronaca accertata.",
+      "source_ids": [
+        "src-002"
+      ],
+      "evidence": "Il racconto letterario riporta il panico per l'uovo e l'intervento rassicurante della regina.",
+      "caveat": "Episodio narrativo da mantenere nel registro del si diceva.",
+      "status": "verified"
+    }
+  ],
+  "cover": {
+    "headline": "L'uovo nascosto",
+    "subheadline": "Il segreto di Castel dell'Ovo",
+    "visual_idea": "Castel dell'Ovo sul mare, sotterranei in ombra, un uovo luminoso e fragile custodito in una gabbia o nicchia."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "L'uovo nascosto",
+      "copy": "Sul mare di Napoli si raccontava di un castello che non reggeva solo su pietra e tufo, ma sul segreto fragile di un uovo.",
+      "visual_note": "Castello sul mare e luce misteriosa nei sotterranei.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Megaride",
+      "copy": "Il castello sorgeva sull'antico isolotto di Megaride, dove il mare batteva la pietra e ogni onda sembrava portare una voce piu antica della citta.",
+      "visual_note": "Isolotto e castello visti dal mare, pietra e onde.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "Virgilio mago",
+      "copy": "Nel Medioevo e nei racconti popolari, Virgilio non era ricordato soltanto come poeta. A Napoli veniva immaginato anche come sapiente, incantatore, protettore.",
+      "visual_note": "Virgilio come sapiente antico, libri, stelle, strumenti, non mago fantasy.",
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Il segreto sotto il castello",
+      "copy": "Si diceva che proprio lui avesse nascosto un uovo nei sotterranei, chiuso in una gabbia e custodito in una stanza serrata, lontano dagli occhi di tutti.",
+      "visual_note": "Sotterraneo, gabbia o nicchia, uovo fragile come talismano.",
+      "source_ids": [
+        "src-001",
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "La sorte di Napoli",
+      "copy": "Da quell'uovo, raccontavano, dipendeva la fortuna del Castel Marino. Se si fosse spezzato, non sarebbe caduta solo una pietra: avrebbe tremato tutta Napoli.",
+      "visual_note": "Castello in tensione, crepe simboliche, mare agitato.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "La paura della rottura",
+      "copy": "Quando il castello subi gravi danni, la leggenda raccontava che la citta temette per l'uovo. E la regina Giovanna I avrebbe dovuto calmare il panico.",
+      "visual_note": "Folla preoccupata, regina in ombra, castello danneggiato ma non distrutto.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Un uovo sostituito",
+      "copy": "Si diceva che la regina avesse dichiarato di averlo sostituito, per rassicurare il popolo. Bastava quella parola, forse, a rimettere insieme il coraggio.",
+      "visual_note": "Gesto regale e oggetto fragile, tono narrativo e non storico-letterale.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "closing",
+      "title": "La cosa fragile",
+      "copy": "Forse l'uovo non fu mai trovato perche non era fatto per essere trovato. Era il simbolo di una citta che affidava la propria forza a qualcosa di invisibile.",
+      "visual_note": "Chiusura sul castello al tramonto/notte, uovo come simbolo invisibile.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Castel dell'Ovo ha un nome che sembra quasi uno scherzo. Ma a Napoli anche un nome puo diventare una leggenda.\n\nSi raccontava che Virgilio, non solo poeta ma sapiente e incantatore nella tradizione medievale, avesse nascosto nei sotterranei del castello un uovo chiuso in una gabbia. Da quell'uovo, dicevano, dipendeva la stabilita del castello. E forse anche la fortuna della citta.\n\nSe l'uovo si fosse rotto, non sarebbe crollata soltanto una muraglia. Avrebbe tremato Napoli intera, come se una cosa piccolissima reggesse il peso di tutto.\n\nLa leggenda arrivo fino alla storia di Giovanna I: dopo gravi danni al castello, il popolo avrebbe temuto per l'uovo, e la regina avrebbe dovuto rassicurarlo dicendo di averlo sostituito.\n\nNon sappiamo se quell'uovo sia mai esistito. Probabilmente no. Ma forse e proprio questo il punto: certe citta hanno bisogno di immaginare che la loro forza dipenda anche da qualcosa di fragile, nascosto, invisibile.",
+    "cta": "Tu l'avevi mai sentita la leggenda dell'uovo di Virgilio?",
+    "source_note": "Fonti consultate il 2026-07-08: Comune di Napoli, Castel dell'Ovo; Matilde Serao, Leggende napoletane; Treccani per contesto su Virgilio e tradizione leggendaria."
+  },
+  "design_notes": {
+    "style_direction": "Gotico marino napoletano, Castel dell'Ovo e sotterranei: pietra, tufo, mare, lanterne, Virgilio sapiente, uovo fragile come talismano. Evitare fantasy generico e castelli medievali non napoletani.",
+    "safe_area": "Formato Instagram portrait 4:5 corretto: 1080x1350. Standard leggibilita mobile: eyebrow 38px, titolo dinamico 88-118px, descrizione dinamica 47-56px, fondino-gradiente alto 760px. QA da fare sempre su singola card 1080x1350, non solo su striscia carousel ridotta.",
+    "asset_rules": [
+      "Asset senza testo, logo, fonti, CTA o watermark.",
+      "Mostrare le fonti solo sull ultima card del carousel; nelle altre slide il layer source resta nascosto/vuoto.",
+      "Usare le illustrazioni gia montate in Figma come fonte visuale corrente; recuperare/esportare PNG locali solo se serve pacchetto offline."
+    ],
+    "risks": [
+      "Rischio di presentare l'uovo come oggetto storico reale.",
+      "Rischio di confondere Virgilio poeta storico con la figura medievale del Virgilio mago.",
+      "Rischio di perdere il castello come protagonista visivo: mantenerlo riconoscibile in apertura e chiusura."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-08",
+    "asset_format": "1080x1350",
+    "asset_count": 8,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Carousel gia montato in Figma sul nodo 60:2; testi estratti dai layer Figma, fonti visibili solo sull ultima card, formato 1080x1350 confermato. Asset locali indicizzati come placeholder Figma-derived da esportare se serve consegna offline."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=60-2",
+    "manifest_path": "outputs/figma/2026-07-07-post-03-uovo-castel-dell-ovo-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-08",
+    "summary": "Fact-check passato con caveat: l'uovo di Virgilio e trattato come leggenda eziologica e tradizione letteraria; Virgilio mago e distinto dal Virgilio storico.",
+    "open_issues": [
+      "Verificare URL istituzionale aggiornato del Comune di Napoli prima della pubblicazione se si vuole citarlo pubblicamente."
+    ]
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Post gia prodotto in Figma nella sequenza editoriale precedente; portato ora nel workflow repo."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Fact-check passato con caveat registrati."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Cover gia montata in Figma."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Carousel gia montato in Figma e allineato allo standard tipografico/fonti."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Completamento operativo richiesto dall utente per i post con illustrazioni gia prodotte."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": ""
+  }
+}

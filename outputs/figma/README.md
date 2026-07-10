@@ -52,12 +52,16 @@ Un post puo passare a `figma_done` solo se:
 ## Standard Visuale Corrente
 
 - Formato default: `1080x1350` px.
-- Fondino testo corrente: gradiente nero quasi trasparente x=0, y=0,
-  1080x760px.
+- Fondino testo corrente: gradiente nero leggero x=0, y=0, 1080x1350px;
+  piu presente in alto e dissolto fino al fondo.
 - Box testo correnti: eyebrow 940x54px a x=72 y=52; titolo 940x166px a x=72
   y=106; descrizione 942x430px a x=72 y=310; fonte 820x30px nel footer.
 - Dimensioni testo correnti: eyebrow 38px; titolo dinamico 88-118px;
   descrizione dinamica 47-56px; fonte 17px.
+- Titolo: visibile solo su cover e chiusura; nascosto nelle card centrali, dove
+  la descrizione parte sotto l'eyebrow.
+- Colore testo: bianco puro `#FFFFFF` per ogni layer testuale, inclusi eyebrow,
+  fonte, logo e indicatori.
 - Verificare sempre almeno alcune singole card renderizzate a `1080x1350`,
   non solo screenshot della strip del carousel.
 - Non ridurre i font per far entrare copy troppo lungo: tornare alla bozza e

@@ -192,13 +192,17 @@ Ogni carosello deve avere:
   `fondino`, `eyebrow`, `title`, `description`, `source`, `logo`, `footer`.
 - Formato default: `1080x1350` px, rapporto `4:5`.
 - Per `1080x1350`, evitare fondini pieni invadenti. Usare di default un
-  fondino-gradiente nero quasi trasparente nella parte alta, solo per
-  leggibilita: layer `1080x760px` a `x=0`, `y=0`.
+  fondino-gradiente nero leggero su tutta la card (`1080x1350px` a `x=0`,
+  `y=0`): piu presente in alto e dissolto fino a trasparenza sul fondo.
 - Box testo default aggiornati per leggibilita mobile: eyebrow 940x54px a x=72
   y=52; titolo 940x166px a x=72 y=106; descrizione 942x430px a x=72 y=310;
   fonte 820x30px nel footer.
 - Dimensioni testo default: eyebrow 38px, titolo dinamico 88-118px,
   descrizione dinamica 47-56px, fonte 17px.
+- Tutti i layer testuali (`eyebrow`, `title`, `description`, `source`, `logo` e
+  indicatori) usano bianco puro `#FFFFFF`, senza accenti cromatici.
+- Il layer `title` e visibile solo sulla cover e sulla card finale. Nelle card
+  centrali deve restare nascosto; la `description` sale sotto l'eyebrow.
 - Verificare sempre singole card `1080x1350`, non solo screenshot della strip
   completa del carousel.
 - Gli asset locali devono essere senza testo, fonti, logo, CTA o watermark.
@@ -207,6 +211,11 @@ Ogni carosello deve avere:
   layer `source` deve essere visibile solo sull'ultima card del carousel. Nelle
   altre card deve restare nascosto/vuoto.
 - Le immagini devono lasciare aree pulite per titolo, descrizione e footer.
+- L'occhio non e un simbolo generico del mistero: puo comparire solo come
+  dettaglio umano o narrativo quando sguardo, visione, sorveglianza o
+  testimonianza sono centrali nel racconto. Mai come icona/logo o "occhio che
+  tutto vede", mai ripetuto in piu card, e mai in cover salvo che lo sguardo
+  sia il vero hook del post.
 
 ## Preflight Produzione
 

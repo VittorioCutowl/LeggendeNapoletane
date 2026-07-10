@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-07-post-03-uovo-castel-dell-ovo",
+  "status": "done",
+  "source_post": "content_queue/2026-07-07-post-03-uovo-castel-dell-ovo.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "figma_existing_carousel",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "rubrica/source label",
+      "title": "large display, no negative letter spacing",
+      "description": "short paragraph, line budget to verify before import",
+      "notes": "Aggiornato dopo test pubblicazione v2: controllare sempre su singola card 1080x1350, non su screenshot strip del carousel."
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "gradient",
+      "notes": "Fondino-gradiente alto e contrastato per testi grandi su mobile."
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 52,
+        "width": 940,
+        "height": 54,
+        "font_size": 38
+      },
+      "title": {
+        "x": 72,
+        "y": 106,
+        "width": 940,
+        "height": 166,
+        "font_size": "88-118 dynamic by title length"
+      },
+      "description": {
+        "x": 72,
+        "y": 310,
+        "width": 942,
+        "height": 430,
+        "font_size": "47-56 dynamic by copy length"
+      },
+      "source": {
+        "width": 820,
+        "height": 30,
+        "font_size": 17,
+        "notes": "Solo ultima card; nascosto/vuoto nelle card precedenti."
+      }
+    },
+    "logo": "Usare il layer logo del template canonico.",
+    "title_policy":"Title visible only on first and last slide; body title hidden and description y=158.","source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-01-l-uovo-nascosto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/01-l-uovo-nascosto.png",
+      "title": "L'uovo nascosto",
+      "copy": "Sul mare di Napoli si raccontava di un castello che non reggeva solo su pietra e tufo, ma sul segreto fragile di un uovo.",
+      "visual_note": "Castello sul mare e luce misteriosa nei sotterranei.",
+      "figma_frame_id": "60:3",
+      "figma_bitmap_layer_id": "60:4",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:4"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:5"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:6",
+          "notes": "La leggenda in breve"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:7"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:8"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:11",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:10"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:9"
+        }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-02-megaride",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/02-megaride.png",
+      "title": "Megaride",
+      "copy": "Il castello sorgeva sull'antico isolotto di Megaride, dove il mare batteva la pietra e ogni onda sembrava portare una voce piu antica della citta.",
+      "visual_note": "Isolotto e castello visti dal mare, pietra e onde.",
+      "figma_frame_id": "60:12",
+      "figma_bitmap_layer_id": "60:13",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:13"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:14"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:15",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:16"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:17"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:20",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:19"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:18"
+        }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-03-virgilio-mago",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/03-virgilio-mago.png",
+      "title": "Virgilio mago",
+      "copy": "Nel Medioevo e nei racconti popolari, Virgilio non era ricordato soltanto come poeta. A Napoli veniva immaginato anche come sapiente, incantatore, protettore.",
+      "visual_note": "Virgilio come sapiente antico, libri, stelle, strumenti, non mago fantasy.",
+      "figma_frame_id": "60:21",
+      "figma_bitmap_layer_id": "60:22",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:22"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:23"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:24",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:25"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:26"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:29",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:28"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:27"
+        }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-04-il-segreto-sotto-il-castello",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/04-il-segreto-sotto-il-castello.png",
+      "title": "Il segreto sotto il castello",
+      "copy": "Si diceva che proprio lui avesse nascosto un uovo nei sotterranei, chiuso in una gabbia e custodito in una stanza serrata, lontano dagli occhi di tutti.",
+      "visual_note": "Sotterraneo, gabbia o nicchia, uovo fragile come talismano.",
+      "figma_frame_id": "60:30",
+      "figma_bitmap_layer_id": "60:31",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:31"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:32"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:33",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:34"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:35"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:38",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:37"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:36"
+        }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-05-la-sorte-di-napoli",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/05-la-sorte-di-napoli.png",
+      "title": "La sorte di Napoli",
+      "copy": "Da quell'uovo, raccontavano, dipendeva la fortuna del Castel Marino. Se si fosse spezzato, non sarebbe caduta solo una pietra: avrebbe tremato tutta Napoli.",
+      "visual_note": "Castello in tensione, crepe simboliche, mare agitato.",
+      "figma_frame_id": "60:39",
+      "figma_bitmap_layer_id": "60:40",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:40"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:41"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:42",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:43"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:44"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:47",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:46"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:45"
+        }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-06-la-paura-della-rottura",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/06-la-paura-della-rottura.png",
+      "title": "La paura della rottura",
+      "copy": "Quando il castello subi gravi danni, la leggenda raccontava che la citta temette per l'uovo. E la regina Giovanna I avrebbe dovuto calmare il panico.",
+      "visual_note": "Folla preoccupata, regina in ombra, castello danneggiato ma non distrutto.",
+      "figma_frame_id": "60:48",
+      "figma_bitmap_layer_id": "60:49",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:49"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:50"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:51",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:52"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:53"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:56",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:55"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:54"
+        }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-07-un-uovo-sostituito",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/07-un-uovo-sostituito.png",
+      "title": "Un uovo sostituito",
+      "copy": "Si diceva che la regina avesse dichiarato di averlo sostituito, per rassicurare il popolo. Bastava quella parola, forse, a rimettere insieme il coraggio.",
+      "visual_note": "Gesto regale e oggetto fragile, tono narrativo e non storico-letterale.",
+      "figma_frame_id": "60:57",
+      "figma_bitmap_layer_id": "60:58",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:58"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:59"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:60",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:61"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:62"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:65",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:64"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:63"
+        }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-07-post-03-uovo-castel-dell-ovo-08-la-cosa-fragile",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-03-uovo-castel-dell-ovo-v1/08-la-cosa-fragile.png",
+      "title": "La cosa fragile",
+      "copy": "Forse l'uovo non fu mai trovato perche non era fatto per essere trovato. Era il simbolo di una citta che affidava la propria forza a qualcosa di invisibile.",
+      "visual_note": "Chiusura sul castello al tramonto/notte, uovo come simbolo invisibile.",
+      "figma_frame_id": "60:66",
+      "figma_bitmap_layer_id": "60:67",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "60:67"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "60:68"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "60:69",
+          "notes": "Castel dell'Ovo"
+        },
+        "title": {
+          "name": "title",
+          "id": "60:70"
+        },
+        "description": {
+          "name": "description",
+          "id": "60:71"
+        },
+        "source": {
+          "name": "source",
+          "id": "60:74",
+          "notes": "Visibile in Figma: fonti concentrate sull ultima card del carousel.",
+          "visible": true
+        },
+        "logo": {
+          "name": "logo",
+          "id": "60:73"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "60:72"
+        }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=60-2",
+    "root_node_id": "60:2",
+    "notes": "Carousel gia esistente in Figma; manifest ricostruito dal montaggio approvato."
+  }
+}

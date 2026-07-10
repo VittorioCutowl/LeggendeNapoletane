@@ -1,0 +1,293 @@
+{
+  "post_id": "2026-07-07-post-02-sirena-partenope",
+  "status": "approved",
+  "priority": "high",
+  "topic": "Sirena Partenope",
+  "angle": "Partenope come mito fondativo e nome poetico di Napoli: dalla sirena legata al ciclo di Ulisse alla memoria civica della citta antica, con caveat tra mito, culto e rilettura napoletana.",
+  "target": {
+    "audience": "Pubblico generalista interessato a miti fondativi, Napoli antica, sirene e origine poetica della citta.",
+    "goal": "Raccontare Partenope come leggenda identitaria di Napoli, distinguendo il mito dalla prova storica e valorizzando il passaggio da creatura sconfitta a simbolo civico.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Codex",
+    "fact_checker": "Codex",
+    "designer": "Codex/Figma"
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Partenope",
+      "type": "secondary",
+      "url": "https://www.treccani.it/enciclopedia/partenope/",
+      "author": "Treccani",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Contesto mitologico sulla figura di Partenope e sul legame tra sirena, mito e nome antico della citta.",
+      "caveat": "Fonte enciclopedica: utile per orientamento e sintesi, da affiancare a fonti antiche per i dettagli.",
+      "notes": ""
+    },
+    {
+      "source_id": "src-002",
+      "title": "Strabone, Geografia: Neapolis e il monumento di Partenope",
+      "type": "primary",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/5D*.html",
+      "author": "Strabone",
+      "published_at": "I secolo a.C. - I secolo d.C.",
+      "checked_at": "2026-07-08",
+      "status": "verified",
+      "supports": "Attestazione antica del monumento/tomba di Partenope e dei giochi celebrati a Neapolis.",
+      "caveat": "Fonte antica: attesta memoria/culto civico, non dimostra la storicita della leggenda narrativa tarda.",
+      "notes": "Usare come appoggio per la slide sulla tomba e i giochi."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Partenope tra mito e tradizione napoletana",
+      "type": "secondary",
+      "url": "https://www.fedoa.unina.it/",
+      "author": "Universita degli Studi di Napoli Federico II / archivio istituzionale",
+      "published_at": "",
+      "checked_at": "2026-07-08",
+      "status": "to_verify",
+      "supports": "Contesto accademico da usare per approfondire la ricezione del mito di Partenope a Napoli.",
+      "caveat": "Segnaposto di ricerca: verificare scheda/articolo specifico prima della pubblicazione se si vuole citare in modo puntuale.",
+      "notes": "In Figma la fonte finale e indicata come IRIS UniNA; da completare con record specifico."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Partenope e una figura mitica legata alla tradizione delle sirene e al nome poetico/antico di Napoli.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "La fonte enciclopedica collega Partenope alla tradizione mitologica e alla memoria della citta.",
+      "caveat": "Si tratta di mito e tradizione, non di fondazione storica documentata.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Una versione del mito lega Partenope al fallimento del canto rivolto a Ulisse e alla morte in mare della sirena.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Il racconto e tramandato come variante mitica collegata al ciclo delle sirene.",
+      "caveat": "Variante narrativa: evitare formule da cronaca certa.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Strabone ricorda a Neapolis un monumento della sirena Partenope e giochi celebrati in suo onore.",
+      "source_ids": [
+        "src-002"
+      ],
+      "evidence": "La Geografia di Strabone cita memoria monumentale e celebrazioni legate a Partenope.",
+      "caveat": "Attesta una memoria/culto civico antico, non la verita letterale del mito.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Nel tempo Napoli ha trasformato Partenope da creatura mitica sconfitta a simbolo identitario della citta.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "evidence": "Sintesi interpretativa del percorso di ricezione del mito nel racconto urbano napoletano.",
+      "caveat": "Interpretazione culturale: da rafforzare con fonte accademica specifica se il post viene pubblicato con apparato piu rigoroso.",
+      "status": "needs_context"
+    }
+  ],
+  "cover": {
+    "headline": "Partenope",
+    "subheadline": "La sirena che divento Napoli",
+    "visual_idea": "Sirena antica sul mare del golfo, non fantasy generico: figura sospesa tra mito greco, costa campana e nascita poetica della citta."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "Partenope",
+      "copy": "Prima di diventare un nome per Napoli, Partenope era una voce sul mare: una sirena, un canto, una leggenda arrivata fino alla riva.",
+      "visual_note": "Sirena antica in controluce sul mare, costa napoletana suggerita, tono mitico e non turistico.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Il canto mancato",
+      "copy": "Secondo una versione tarda del mito, Partenope canto per fermare Ulisse. Ma l'eroe passo oltre, legato al suo destino, e la voce della sirena rimase senza preda.",
+      "visual_note": "Ulisse lontano sul mare, corde/albero della nave suggeriti, Partenope come presenza sonora.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "La caduta nel mare",
+      "copy": "La leggenda raccontava che, vinta dal silenzio di Ulisse, Partenope si getto tra le onde. Il mare raccolse il suo corpo e lo porto verso la costa campana.",
+      "visual_note": "Onde scure, corpo/ombra di sirena portata dalla corrente, niente dramma splatter.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Alla foce del Sebeto",
+      "copy": "Alcune fonti collocavano l'approdo alle foci del Sebeto. Li, attorno a un corpo diventato memoria, la citta antica avrebbe ricevuto il nome di Partenope.",
+      "visual_note": "Foce antica, acqua dolce e mare, costa arcaica, citta appena evocata.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "Una tomba nel porto",
+      "copy": "Strabone ricordava a Neapolis un monumento della sirena e giochi celebrati in suo onore. Non e una prova della leggenda: e la traccia di un culto, o di una memoria civica.",
+      "visual_note": "Monumento antico presso il porto, offerte/giochi evocati, tono archeologico.",
+      "source_ids": [
+        "src-002"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Non sempre donna-pesce",
+      "copy": "Oggi pensiamo alle sirene con la coda. Ma nel mondo antico potevano avere ali, corpo d'uccello e volto di donna: creature del canto, piu che del mare da cartolina.",
+      "visual_note": "Sirena arcaica con ali e volto femminile, iconografia antica, non pin-up marina.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "La citta la riscrive",
+      "copy": "Nei secoli Partenope torno nelle immagini, nelle fontane, nei racconti colti e popolari. Napoli la trasformo da creatura sconfitta a madre simbolica della citta.",
+      "visual_note": "Fontana/immagine civica, stratificazione di libri, mare e citta.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "closing",
+      "title": "Un nome che resta",
+      "copy": "Forse Partenope non fondo Napoli come farebbe una regina in un documento. Ma le diede qualcosa che i documenti non bastano a spiegare: un'origine da raccontare.",
+      "visual_note": "Chiusura poetica sul golfo, nome Partenope come eco sulla citta.",
+      "source_ids": [
+        "src-001",
+        "src-002",
+        "src-003"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "Prima di essere una parola da cartolina, Partenope era una sirena.\n\nLa leggenda la immagina nel momento piu fragile: canta per fermare Ulisse, ma Ulisse passa oltre. Allora il mare raccoglie la sua sconfitta e la porta verso la costa campana, dove il suo nome diventa memoria, racconto, origine.\n\nLe fonti antiche non ci consegnano una fondazione storica come farebbe un documento. Ci consegnano qualcosa di diverso: Strabone ricorda a Neapolis un monumento della sirena e giochi celebrati in suo onore. Una traccia civica, religiosa, simbolica.\n\nDa li, nei secoli, Napoli ha continuato a riscriverla. Partenope non resta solo una creatura vinta: diventa un nome della citta, una madre immaginaria, un modo per dire che Napoli nasce anche da una voce arrivata dal mare.\n\nE forse e questo il punto delle leggende: non spiegano tutto, ma danno alle citta una memoria da raccontare.",
+    "cta": "Tu conoscevi la storia della sirena Partenope?",
+    "source_note": "Fonti consultate il 2026-07-08: Treccani, voce Partenope; Strabone, Geografia; riferimento Figma a IRIS UniNA da completare con scheda specifica prima della pubblicazione."
+  },
+  "design_notes": {
+    "style_direction": "Mito marino napoletano con taglio classico: mare del golfo, iconografia antica delle sirene, luce mediterranea, reperti, fontane e memoria civica. Evitare estetica fantasy generica o sirena da cartolina.",
+    "safe_area": "Formato Instagram portrait 4:5 corretto: 1080x1350. Standard leggibilita mobile: eyebrow 38px, titolo dinamico 88-118px, descrizione dinamica 47-56px, fondino-gradiente alto 760px. QA da fare sempre su singola card 1080x1350, non solo su striscia carousel ridotta.",
+    "asset_rules": [
+      "Asset senza testo, logo, fonti, CTA o watermark.",
+      "Mostrare le fonti solo sull ultima card del carousel; nelle altre slide il layer source resta nascosto/vuoto.",
+      "Usare le illustrazioni gia montate in Figma come fonte visuale corrente; recuperare/esportare PNG locali solo se serve pacchetto offline."
+    ],
+    "risks": [
+      "Rischio di presentare il mito come fondazione storica certa.",
+      "Rischio di usare una sirena moderna donna-pesce dove il racconto parla anche di iconografia antica.",
+      "Rischio di citare IRIS UniNA senza record specifico: completare fonte se si vuole apparato definitivo."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-08",
+    "asset_format": "1080x1350",
+    "asset_count": 8,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true
+    },
+    "notes": "Carousel gia montato in Figma sul nodo 39:2; testi estratti dai layer Figma, fonti visibili solo sull ultima card, formato 1080x1350 confermato. Asset locali indicizzati come placeholder Figma-derived da esportare se serve consegna offline."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=39-2",
+    "manifest_path": "outputs/figma/2026-07-07-post-02-sirena-partenope-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-08",
+    "summary": "Fact-check passato con caveat: Partenope e trattata come mito/tradizione identitaria, Strabone come attestazione di memoria civica antica, non come prova letterale della leggenda.",
+    "open_issues": [
+      "Completare il riferimento IRIS UniNA con scheda specifica prima della pubblicazione se si vuole citarlo in caption o fonti pubbliche."
+    ]
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Post gia prodotto in Figma nella sequenza editoriale precedente; portato ora nel workflow repo."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Fact-check passato con caveat registrati."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Cover gia montata in Figma."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Carousel gia montato in Figma e allineato allo standard tipografico/fonti."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente/Codex",
+      "at": "2026-07-08",
+      "notes": "Completamento operativo richiesto dall utente per i post con illustrazioni gia prodotte."
+    }
+  },
+  "publication": {
+    "status": "not_scheduled",
+    "scheduled_at": "",
+    "published_at": "",
+    "published_url": ""
+  },
+  "performance": {
+    "status": "not_available",
+    "metrics": {},
+    "observations": [],
+    "recommendations": []
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": ""
+  }
+}

@@ -40,17 +40,25 @@ Usare questa skill solo quando il post e in stato:
 - Formato default `1080x1350`.
 - Standard leggibilita Instagram portrait: controllare sempre singole card
   `1080x1350`, non solo la strip del carousel.
-- Fondino testo corrente: gradiente nero quasi trasparente x=0, y=0,
-  1080x760px.
+- Fondino testo corrente: gradiente nero leggero x=0, y=0, 1080x1350px;
+  piu presente in alto e dissolto fino a trasparenza sul fondo.
 - Box testo corrente: eyebrow 940x54 a x=72 y=52, titolo 940x166 a x=72
   y=106, descrizione 942x430 a x=72 y=310, fonte 820x30 nel footer.
 - Dimensioni testo correnti: eyebrow 38px, titolo dinamico 88-118px,
   descrizione dinamica 47-56px, fonte 17px.
+- Usare bianco puro `#FFFFFF` per tutti i layer testuali, inclusi eyebrow,
+  fonte, logo e indicatori.
+- Mostrare il titolo soltanto su cover e chiusura. Nelle card centrali
+  nasconderlo e portare la descrizione sotto l'eyebrow (y=158px).
 - Mostrare le fonti solo sull'ultima card del carousel: nelle altre slide il
   layer `source` deve restare nascosto/vuoto. Le fonti restano comunque
   tracciate nel JSON operativo e nella caption.
 - Non inserire testi, fonti, logo, CTA o caption negli asset locali.
 - Le immagini devono evocare luogo e leggenda senza diventare horror generico.
+- L'occhio non e un simbolo generico del mistero: usarlo solo come dettaglio
+  umano/narrativo se sguardo, visione, sorveglianza o testimonianza sono
+  centrali al claim. Mai come icona, logo, occhio onniveggente o decorazione;
+  massimo una card e mai in cover, salvo che sia il hook esplicito.
 - Compilare `production_preflight` prima di `figma_done`.
 - Registrare QA e prove visuali in modo rintracciabile: manifest, asset index,
   screenshot o note in `outputs/figma/QA_INDEX.md` quando presente.

@@ -85,7 +85,7 @@ Impatto:
 - Non si puo fare perceptual hash locale o sostituire asset senza recuperarli
   da Figma o rigenerarli.
 
-### P2 - Partenope e Uovo sono in Figma ma fuori workflow repo
+### P2 - Partenope e Uovo erano in Figma ma fuori workflow repo
 
 Carousel presenti in Figma:
 
@@ -97,16 +97,20 @@ Risultato duplicati:
 - Partenope: nessun `imageHash` duplicato tra gli 8 frame.
 - Uovo: nessun `imageHash` duplicato tra gli 8 frame.
 
-Problema:
+Problema rilevato nell'audit iniziale:
 
 - Non esistono file `content_queue/*.json` corrispondenti.
 - Non esistono manifest locali corrispondenti.
 - Non risultano in `content_queue/BOARD.md`.
 
-Impatto:
+Risoluzione 2026-07-08:
 
-- Sono post visualmente montati ma non governati dal workflow.
-- Mancano fonti, claim, stato, approvals, preflight e tracciamento editoriale.
+- Creati `content_queue/2026-07-07-post-02-sirena-partenope.json` e
+  `content_queue/2026-07-07-post-03-uovo-castel-dell-ovo.json`.
+- Creati manifest Figma, draft, approved copy, design spec e asset index.
+- Aggiornato `content_queue/BOARD.md`.
+- Entrambi i post sono ora `approved`, con preflight passato e fonti visibili
+  solo sull'ultima card del carousel.
 
 ### P3 - Via Foria pulito sui duplicati
 
@@ -141,11 +145,11 @@ Nota:
    - Portare nel workspace gli asset realmente usati o rigenerarli.
    - Salvare una contact sheet locale.
 
-4. **Portare Partenope e Uovo nel workflow**
-   - Creare `content_queue` JSON per entrambi.
-   - Creare manifest Figma.
-   - Aggiornare `BOARD.md`.
-   - Fare fact-check e approvals prima di considerarli pronti.
+4. **Verificare fonti puntuali Partenope/Uovo prima della pubblicazione**
+   - Partenope: completare il riferimento IRIS UniNA con record specifico se lo
+     si vuole citare pubblicamente.
+   - Uovo: verificare l'URL istituzionale aggiornato del Comune di Napoli prima
+     della schedulazione.
 
 5. **Aggiungere un controllo automatico**
    - Estendere `scripts/validate-content-queue.mjs` per fallire quando lo stesso
@@ -155,6 +159,8 @@ Nota:
 ## Stato Finale Audit
 
 - Monaciello: `needs_fix` per duplicati visuali e manifest non coerente.
-- Partenope: `untracked_in_repo`, nessun duplicato esatto in Figma.
-- Uovo di Castel dell'Ovo: `untracked_in_repo`, nessun duplicato esatto in Figma.
+- Partenope: `approved`, portato nel workflow repo, nessun duplicato esatto in
+  Figma.
+- Uovo di Castel dell'Ovo: `approved`, portato nel workflow repo, nessun
+  duplicato esatto in Figma.
 - Via Foria: `figma_done`, nessun duplicato esatto in Figma.

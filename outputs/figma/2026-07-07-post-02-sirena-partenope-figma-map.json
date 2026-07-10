@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-07-post-02-sirena-partenope",
+  "status": "done",
+  "source_post": "content_queue/2026-07-07-post-02-sirena-partenope.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "figma_existing_carousel",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "rubrica/source label",
+      "title": "large display, no negative letter spacing",
+      "description": "short paragraph, line budget to verify before import",
+      "notes": "Aggiornato dopo test pubblicazione v2: controllare sempre su singola card 1080x1350, non su screenshot strip del carousel."
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "gradient",
+      "notes": "Fondino-gradiente alto e contrastato per testi grandi su mobile."
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 52,
+        "width": 940,
+        "height": 54,
+        "font_size": 38
+      },
+      "title": {
+        "x": 72,
+        "y": 106,
+        "width": 940,
+        "height": 166,
+        "font_size": "88-118 dynamic by title length"
+      },
+      "description": {
+        "x": 72,
+        "y": 310,
+        "width": 942,
+        "height": 430,
+        "font_size": "47-56 dynamic by copy length"
+      },
+      "source": {
+        "width": 820,
+        "height": 30,
+        "font_size": 17,
+        "notes": "Solo ultima card; nascosto/vuoto nelle card precedenti."
+      }
+    },
+    "logo": "Usare il layer logo del template canonico.",
+    "title_policy":"Title visible only on first and last slide; body title hidden and description y=158.","source_policy": "Fonti visibili solo sull ultima card del carousel; layer source nascosto/vuoto nelle slide precedenti."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-01-partenope",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/01-partenope.png",
+      "title": "Partenope",
+      "copy": "Prima di diventare un nome per Napoli, Partenope era una voce sul mare: una sirena, un canto, una leggenda arrivata fino alla riva.",
+      "visual_note": "Sirena antica in controluce sul mare, costa napoletana suggerita, tono mitico e non turistico.",
+      "figma_frame_id": "39:3",
+      "figma_bitmap_layer_id": "39:4",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:4"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:5"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:6",
+          "notes": "LA LEGGENDA IN BREVE"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:7"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:8"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:11",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:10"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:9"
+        }
+      }
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-02-il-canto-mancato",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/02-il-canto-mancato.png",
+      "title": "Il canto mancato",
+      "copy": "Secondo una versione tarda del mito, Partenope canto per fermare Ulisse. Ma l'eroe passo oltre, legato al suo destino, e la voce della sirena rimase senza preda.",
+      "visual_note": "Ulisse lontano sul mare, corde/albero della nave suggeriti, Partenope come presenza sonora.",
+      "figma_frame_id": "39:12",
+      "figma_bitmap_layer_id": "39:13",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:13"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:14"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:15",
+          "notes": "ULISSE E LA SIRENA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:16"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:17"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:20",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:19"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:18"
+        }
+      }
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-03-la-caduta-nel-mare",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/03-la-caduta-nel-mare.png",
+      "title": "La caduta nel mare",
+      "copy": "La leggenda raccontava che, vinta dal silenzio di Ulisse, Partenope si getto tra le onde. Il mare raccolse il suo corpo e lo porto verso la costa campana.",
+      "visual_note": "Onde scure, corpo/ombra di sirena portata dalla corrente, niente dramma splatter.",
+      "figma_frame_id": "39:21",
+      "figma_bitmap_layer_id": "39:22",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:22"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:23"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:24",
+          "notes": "LA LEGGENDA TARDA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:25"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:26"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:29",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:28"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:27"
+        }
+      }
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-04-alla-foce-del-sebeto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/04-alla-foce-del-sebeto.png",
+      "title": "Alla foce del Sebeto",
+      "copy": "Alcune fonti collocavano l'approdo alle foci del Sebeto. Li, attorno a un corpo diventato memoria, la citta antica avrebbe ricevuto il nome di Partenope.",
+      "visual_note": "Foce antica, acqua dolce e mare, costa arcaica, citta appena evocata.",
+      "figma_frame_id": "39:30",
+      "figma_bitmap_layer_id": "39:31",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:31"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:32"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:33",
+          "notes": "IL LUOGO DEL MITO"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:34"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:35"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:38",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:37"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:36"
+        }
+      }
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-05-una-tomba-nel-porto",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/05-una-tomba-nel-porto.png",
+      "title": "Una tomba nel porto",
+      "copy": "Strabone ricordava a Neapolis un monumento della sirena e giochi celebrati in suo onore. Non e una prova della leggenda: e la traccia di un culto, o di una memoria civica.",
+      "visual_note": "Monumento antico presso il porto, offerte/giochi evocati, tono archeologico.",
+      "figma_frame_id": "39:39",
+      "figma_bitmap_layer_id": "39:40",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:40"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:41"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:42",
+          "notes": "MEMORIA CIVICA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:43"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:44"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:47",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:46"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:45"
+        }
+      }
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-06-non-sempre-donna-pesce",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/06-non-sempre-donna-pesce.png",
+      "title": "Non sempre donna-pesce",
+      "copy": "Oggi pensiamo alle sirene con la coda. Ma nel mondo antico potevano avere ali, corpo d'uccello e volto di donna: creature del canto, piu che del mare da cartolina.",
+      "visual_note": "Sirena arcaica con ali e volto femminile, iconografia antica, non pin-up marina.",
+      "figma_frame_id": "39:48",
+      "figma_bitmap_layer_id": "39:49",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:49"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:50"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:51",
+          "notes": "LA FORMA ANTICA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:52"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:53"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:56",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:55"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:54"
+        }
+      }
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-07-la-citta-la-riscrive",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/07-la-citta-la-riscrive.png",
+      "title": "La citta la riscrive",
+      "copy": "Nei secoli Partenope torno nelle immagini, nelle fontane, nei racconti colti e popolari. Napoli la trasformo da creatura sconfitta a madre simbolica della citta.",
+      "visual_note": "Fontana/immagine civica, stratificazione di libri, mare e citta.",
+      "figma_frame_id": "39:57",
+      "figma_bitmap_layer_id": "39:58",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:58"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:59"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:60",
+          "notes": "LA CITTA LA RICORDA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:61"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:62"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:65",
+          "notes": "Nascosto in Figma: fonti visibili solo sull ultima card.",
+          "visible": false
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:64"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:63"
+        }
+      }
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-07-post-02-sirena-partenope-08-un-nome-che-resta",
+      "asset_path": "outputs/figma/assets/2026-07-07-post-02-sirena-partenope-v1/08-un-nome-che-resta.png",
+      "title": "Un nome che resta",
+      "copy": "Forse Partenope non fondo Napoli come farebbe una regina in un documento. Ma le diede qualcosa che i documenti non bastano a spiegare: un'origine da raccontare.",
+      "visual_note": "Chiusura poetica sul golfo, nome Partenope come eco sulla citta.",
+      "figma_frame_id": "39:66",
+      "figma_bitmap_layer_id": "39:67",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "39:67"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "39:68"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "39:69",
+          "notes": "IL CUNTO CONTINUA"
+        },
+        "title": {
+          "name": "title",
+          "id": "39:70"
+        },
+        "description": {
+          "name": "description",
+          "id": "39:71"
+        },
+        "source": {
+          "name": "source",
+          "id": "39:74",
+          "notes": "Visibile in Figma: fonti concentrate sull ultima card del carousel.",
+          "visible": true
+        },
+        "logo": {
+          "name": "logo",
+          "id": "39:73"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "39:72"
+        }
+      }
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=39-2",
+    "root_node_id": "39:2",
+    "notes": "Carousel gia esistente in Figma; manifest ricostruito dal montaggio approvato."
+  }
+}

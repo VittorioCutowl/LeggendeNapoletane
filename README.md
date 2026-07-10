@@ -29,6 +29,18 @@ Per non perdere riferimenti tra agenti e sessioni:
   QA copy, QA visuale, publishing e performance.
 - `outputs/figma/QA_INDEX.md`: indice QA visuale e Figma.
 
+### Decisioni Visuali Persistenti
+
+- Formato card: `1080x1350`; fondino-gradiente nero leggero su tutta la card,
+  dal 38% circa in alto a trasparenza sul fondo.
+- Testo: bianco puro `#FFFFFF` in ogni layer testuale.
+- Titolo: solo su cover e chiusura; nelle card interne la descrizione parte
+  sotto l'eyebrow.
+- Fonte: visibile solo nell'ultima card.
+- Occhio: solo dettaglio narrativo quando necessario al claim; mai simbolo
+  occultista generico, logo o decorazione. Massimo una card e mai in cover,
+  salvo hook esplicito.
+
 Prima di programmare un post, controllare che non restino fonti `to_verify`,
 claim `needs_context`, open issue di fact-check o audit aperti senza decisione
 editoriale scritta.

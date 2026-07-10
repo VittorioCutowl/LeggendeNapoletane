@@ -9,11 +9,21 @@ Le immagini devono sostenere il racconto senza inserire testo negli asset.
 - Palette notturne, minerali, marine o devozionali secondo il tema.
 - Aree pulite per titolo, copy e metadati.
 - Testi, fonti, logo e CTA vengono montati in Figma, non dentro gli asset.
-- Per i caroselli 1080x1350, preferire un fondino-gradiente quasi trasparente
-  nella parte alta invece di una fascia piena: deve sembrare un'ombra morbida
-  al servizio della leggibilita, con dissolvenza verso il basso.
-- Il gradiente consigliato parte da nero al 50% circa in alto, passa per 42% e
-  18%, e arriva a 0% entro circa 520 px di altezza.
+- Per i caroselli 1080x1350, preferire un fondino-gradiente nero molto leggero
+  su tutta la card invece di una fascia piena: deve sembrare un'ombra morbida
+  al servizio della leggibilita, con dissolvenza continua fino a trasparenza sul
+  fondo.
+- Il gradiente consigliato parte da nero al 38% circa in alto, passa per 16%
+  a meta card e arriva a 0% sul fondo.
+- Il titolo appare solo sulla prima e sull'ultima card. Nelle card interne la
+  descrizione si allinea sotto l'eyebrow, lasciando respirare l'immagine.
+- Tutto il testo montato in Figma usa bianco puro `#FFFFFF`: niente eyebrow oro
+  o altri accenti cromatici.
+- L'occhio e un dettaglio narrativo, non un segno grafico del mistero. Usarlo
+  soltanto se sguardo, visione, sorveglianza o testimonianza sono centrali al
+  claim della card; al massimo una card per carousel. Mai come icona, logo,
+  "occhio che tutto vede" o decorazione occultista; mai in cover, salvo che lo
+  sguardo sia il hook esplicito del post.
 
 ## Prompt Canonico Immagini
 
@@ -31,7 +41,8 @@ Negative prompt operativo:
 ```text
 horror generico, cartolina turistica, folklore caricaturale, stereotipi,
 testo, logo, watermark, CTA, fonti, simboli religiosi gratuiti, fondino nero
-compatto, composizione troppo affollata
+compatto, composizione troppo affollata, occhio che tutto vede, occhio
+stilizzato decorativo, occhi ripetuti senza funzione narrativa
 ```
 
 ## Budget Testo 1080x1350
