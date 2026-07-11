@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-07-post-01-monaciello",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "Il Monaciello",
   "angle": "Il Monaciello come leggenda domestica napoletana raccontata al passato, tra dopoguerra, case antiche, dispetti, doni, sottosuolo e varianti popolari.",
@@ -337,22 +337,10 @@
       "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-07-post-04-fantasma-via-foria",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "Il fantasma dell'amante del prete in zona Via Foria",
   "angle": "Una leggenda orale di quartiere: una donna legata a un amore proibito con un prete, ricordata come presenza notturna tra portoni, scale, chiese e palazzi di Via Foria. Il post deve raccontare l'atmosfera senza presentare la voce popolare come fatto storico accertato.",
@@ -305,22 +305,10 @@
       "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

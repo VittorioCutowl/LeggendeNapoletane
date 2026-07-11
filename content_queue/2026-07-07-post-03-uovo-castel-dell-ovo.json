@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-07-post-03-uovo-castel-dell-ovo",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "L'uovo di Castel dell'Ovo",
   "angle": "La leggenda dell'uovo nascosto da Virgilio nei sotterranei di Castel dell'Ovo: un racconto sulla fragilita simbolica di Napoli, tra Megaride, Virgilio mago e paura popolare della rovina.",
@@ -274,22 +274,10 @@
       "notes": "Completamento operativo richiesto dall utente per i post con illustrazioni gia prodotte."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": ""
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

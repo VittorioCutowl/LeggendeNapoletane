@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-10-post-06-raimondo-di-sangro-cristo-velato",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "Raimondo di Sangro, il Cristo velato e la leggenda dell'alchimia",
   "angle": "Il principe come sperimentatore reale e personaggio mitizzato: la meraviglia del Cristo velato nasce dallo scalpello di Giuseppe Sanmartino, non da una marmorizzazione alchemica.",
@@ -73,7 +73,9 @@
     {
       "claim_id": "claim-001",
       "text": "Raimondo di Sangro (1710-1771) fu un principe napoletano interessato a meccanica, chimica e sperimentazione, oltre che committente della Cappella Sansevero.",
-      "source_ids": ["src-001"],
+      "source_ids": [
+        "src-001"
+      ],
       "evidence": "Treccani descrive interessi per chimica e meccanica e le attività sperimentali del principe; la biografia enciclopedica riporta le date di nascita e morte.",
       "caveat": "Definirlo automaticamente 'alchimista' appiattisce un profilo settecentesco più complesso; nel post il termine resta legato alla fama e alle leggende.",
       "status": "verified",
@@ -82,7 +84,10 @@
     {
       "claim_id": "claim-002",
       "text": "Il Cristo velato fu scolpito da Giuseppe Sanmartino nel 1753; un bozzetto preparatorio era stato commissionato ad Antonio Corradini.",
-      "source_ids": ["src-002", "src-004"],
+      "source_ids": [
+        "src-002",
+        "src-004"
+      ],
       "evidence": "Il Museo Cappella Sansevero attribuisce il capolavoro a Sanmartino; la Certosa di San Martino documenta il bozzetto di Corradini e l'esecuzione di Sanmartino dopo la sua morte.",
       "caveat": "Evitare la scorciatoia 'Raimondo di Sangro fece il Cristo': fu il committente, non lo scultore.",
       "status": "verified",
@@ -91,7 +96,9 @@
     {
       "claim_id": "claim-003",
       "text": "Il velo del Cristo velato non fu ottenuto con un procedimento alchemico: la statua è scolpita in un unico blocco di marmo.",
-      "source_ids": ["src-002"],
+      "source_ids": [
+        "src-002"
+      ],
       "evidence": "La fonte museale richiama un pagamento del 16 dicembre 1752, lettere di Raimondo di Sangro e la biografia di Origlia che descrivono il velo come marmo dello stesso blocco della statua.",
       "caveat": "La leggenda della marmorizzazione è parte della ricezione dell'opera e può essere raccontata, purché esplicitamente smentita come spiegazione materiale.",
       "status": "verified",
@@ -100,7 +107,9 @@
     {
       "claim_id": "claim-004",
       "text": "La fama di sperimentatore di Raimondo di Sangro contribuì a una leggenda nera fatta di prodigi, delitti attribuiti e segreti di laboratorio.",
-      "source_ids": ["src-003"],
+      "source_ids": [
+        "src-003"
+      ],
       "evidence": "Il Museo Cappella Sansevero ricostruisce il mito e qualifica tali racconti come 'leggenda nera' e folklore.",
       "caveat": "Non presentare i racconti di patti diabolici, omicidi o esperimenti sui corpi come cronaca o prova storica.",
       "status": "verified",
@@ -119,7 +128,10 @@
       "title": "Il principe e il velo",
       "copy": "Raimondo di Sangro, il Cristo velato e una leggenda che non muore.",
       "visual_note": "Velo di marmo in primo piano, Palazzo Sansevero evocato sullo sfondo; spazio pulito nella parte alta.",
-      "source_ids": ["src-002", "src-003"]
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ]
     },
     {
       "slide_number": 2,
@@ -127,7 +139,10 @@
       "title": "Un uomo che amava stupire",
       "copy": "Principe, committente, curioso di chimica e meccanica: Raimondo di Sangro coltivava davvero esperimenti e invenzioni. Ed era bravo a lasciare qualche segreto in penombra.",
       "visual_note": "Tavolo settecentesco con lenti, ingranaggi e carte, senza alambicchi caricaturali né simboli satanici.",
-      "source_ids": ["src-001", "src-003"]
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
     },
     {
       "slide_number": 3,
@@ -135,7 +150,9 @@
       "title": "La fama diventa leggenda",
       "copy": "Nei vicoli intorno alla cappella si raccontavano luci, rumori e laboratori notturni. Da qui crebbe la sua leggenda nera: un principe che sembrava conoscere i segreti della natura.",
       "visual_note": "Vico napoletano notturno, finestre illuminate e ombre discrete; atmosfera urbana, non horror esplicito.",
-      "source_ids": ["src-003"]
+      "source_ids": [
+        "src-003"
+      ]
     },
     {
       "slide_number": 4,
@@ -143,7 +160,9 @@
       "title": "Poi c'è quel velo",
       "copy": "Davanti al Cristo velato, il marmo sembra stoffa: aderisce al corpo, lascia intuire il volto, pare quasi trasparente. È qui che il mistero diventa irresistibile.",
       "visual_note": "Dettaglio poetico di panneggio marmoreo, senza riprodurre fedelmente l'opera se non con asset autorizzato.",
-      "source_ids": ["src-002"]
+      "source_ids": [
+        "src-002"
+      ]
     },
     {
       "slide_number": 5,
@@ -151,7 +170,10 @@
       "title": "La voce più famosa",
       "copy": "Per più di due secoli molti hanno immaginato che il principe avesse trasformato un velo vero in pietra con l'alchimia. È una leggenda, non la tecnica dell'opera.",
       "visual_note": "Una mano che sfiora un velo marmoreo; contrasto visivo lieve tra trama tessile e venature della pietra.",
-      "source_ids": ["src-002", "src-003"]
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ]
     },
     {
       "slide_number": 6,
@@ -159,7 +181,9 @@
       "title": "La verità è nello scalpello",
       "copy": "Il Cristo velato è scolpito in un unico blocco di marmo. Documenti e lettere dell'epoca lo dicono chiaramente: il velo è pietra, lavorata con un'abilità quasi incredibile.",
       "visual_note": "Scalpello, polvere di marmo e blocco di pietra; scena artigianale luminosa e rispettosa.",
-      "source_ids": ["src-002"]
+      "source_ids": [
+        "src-002"
+      ]
     },
     {
       "slide_number": 7,
@@ -167,7 +191,10 @@
       "title": "Non il principe, ma gli artisti",
       "copy": "Raimondo di Sangro fu il committente. Antonio Corradini preparò il bozzetto; dopo la sua morte, Giuseppe Sanmartino scolpì nel 1753 il capolavoro che vediamo oggi.",
       "visual_note": "Bozzetto in terracotta accanto a mani di scultore e marmo; composizione tripartita, pulita.",
-      "source_ids": ["src-002", "src-004"]
+      "source_ids": [
+        "src-002",
+        "src-004"
+      ]
     },
     {
       "slide_number": 8,
@@ -175,7 +202,10 @@
       "title": "La meraviglia resta vera",
       "copy": "La leggenda non rende il Cristo velato più straordinario. Semmai lo rende più vicino: perché la verità è che una mano umana è riuscita a far sembrare il marmo un respiro.",
       "visual_note": "Dettaglio contemplativo di marmo e luce, spazio per fonti soltanto su questa ultima card.",
-      "source_ids": ["src-002", "src-004"]
+      "source_ids": [
+        "src-002",
+        "src-004"
+      ]
     }
   ],
   "caption": {
@@ -230,14 +260,54 @@
     "final_human_copy_path_exists": true,
     "approved_md_status_matches_json": true,
     "line_budget_per_slide": [
-      {"slide_number": 1, "estimated_title_lines": 1, "estimated_copy_lines": 2, "overflow_risk": "low"},
-      {"slide_number": 2, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 3, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 4, "estimated_title_lines": 1, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 5, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 6, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 7, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"},
-      {"slide_number": 8, "estimated_title_lines": 2, "estimated_copy_lines": 4, "overflow_risk": "low"}
+      {
+        "slide_number": 1,
+        "estimated_title_lines": 1,
+        "estimated_copy_lines": 2,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 2,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 3,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 4,
+        "estimated_title_lines": 1,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 5,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 6,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 7,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      },
+      {
+        "slide_number": 8,
+        "estimated_title_lines": 2,
+        "estimated_copy_lines": 4,
+        "overflow_risk": "low"
+      }
     ],
     "notes": "QA finale superato su Figma: copy approvato, fonti soltanto nell'ultima card e line budget confermato su card singole 1080x1350."
   },
@@ -255,18 +325,41 @@
     "open_issues": []
   },
   "approvals": {
-    "editorial": {"status": "approved", "by": "utente", "at": "2026-07-10", "notes": "Approvazione esplicita in chat: proseguire fino al Figma finale, sempre approvato per questo task."},
-    "fact_check": {"status": "approved", "by": "Codex", "at": "2026-07-10", "notes": "Fonti e caveat verificati; nessuna fonte to_verify né claim needs_context."},
-    "cover": {"status": "approved", "by": "utente", "at": "2026-07-10", "notes": "Approvazione esplicita in chat per il flusso completo del task."},
-    "design": {"status": "approved", "by": "utente", "at": "2026-07-10", "notes": "Montaggio completato nel file Figma canonico, nodo 152:2."},
-    "final": {"status": "approved", "by": "utente", "at": "2026-07-10", "notes": "Approvazione esplicita in chat per il Figma finale del task."}
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-10",
+      "notes": "Approvazione esplicita in chat: proseguire fino al Figma finale, sempre approvato per questo task."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-10",
+      "notes": "Fonti e caveat verificati; nessuna fonte to_verify né claim needs_context."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-10",
+      "notes": "Approvazione esplicita in chat per il flusso completo del task."
+    },
+    "design": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-10",
+      "notes": "Montaggio completato nel file Figma canonico, nodo 152:2."
+    },
+    "final": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-10",
+      "notes": "Approvazione esplicita in chat per il Figma finale del task."
+    }
   },
-  "publication": {"status": "not_scheduled", "scheduled_at": "", "published_at": "", "published_url": ""},
-  "performance": {"status": "not_available", "metrics": {}, "observations": [], "recommendations": []},
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": "Social manager: definire publication.scheduled_at quando si decide il calendario editoriale."
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

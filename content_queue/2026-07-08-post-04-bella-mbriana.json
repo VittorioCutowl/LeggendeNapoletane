@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-08-post-04-bella-mbriana",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "La Bella 'Mbriana",
   "angle": "La Bella 'Mbriana come presenza domestica benevola e capricciosa della tradizione napoletana: spirito della casa, ombra luminosa della controra, posto lasciato libero a tavola, geco portafortuna e caveat tra memoria popolare, etimologie possibili e fonti divulgative.",
@@ -372,22 +372,10 @@
       "notes": "Versione finale approvata fino alla fase precedente scheduling/pubblicazione."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

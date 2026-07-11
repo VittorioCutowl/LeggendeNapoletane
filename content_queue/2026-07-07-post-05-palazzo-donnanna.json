@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-07-post-05-palazzo-donnanna",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "Palazzo Donn'Anna",
   "angle": "Palazzo Donn'Anna come rovina viva sul mare di Posillipo: dalla descrizione notturna di Matilde Serao alla leggenda di Mercede de las Torres, Gaetano di Casapesenna e della gelosia di Donna Anna Carafa.",
@@ -285,22 +285,10 @@
       "notes": "Approvazione finale ricevuta in chat: tutti i post sono approvati."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": "Social manager: compilare publication.scheduled_at per programmare la pubblicazione."
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

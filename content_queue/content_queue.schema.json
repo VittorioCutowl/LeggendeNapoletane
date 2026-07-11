@@ -22,8 +22,6 @@
     "figma",
     "fact_check",
     "approvals",
-    "publication",
-    "performance",
     "blocked"
   ],
   "properties": {
@@ -42,37 +40,76 @@
         "fact_checked",
         "design_ready",
         "figma_done",
-        "approved",
-        "scheduled",
-        "published",
         "archived"
       ]
     },
     "priority": {
       "type": "string",
-      "enum": ["low", "medium", "high", "urgent"]
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "urgent"
+      ]
     },
-    "topic": { "type": "string", "minLength": 3 },
-    "angle": { "type": "string", "minLength": 3 },
+    "topic": {
+      "type": "string",
+      "minLength": 3
+    },
+    "angle": {
+      "type": "string",
+      "minLength": 3
+    },
     "target": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["audience", "goal", "format"],
+      "required": [
+        "audience",
+        "goal",
+        "format"
+      ],
       "properties": {
-        "audience": { "type": "string", "minLength": 1 },
-        "goal": { "type": "string", "minLength": 1 },
-        "format": { "type": "string", "enum": ["carousel", "single_card", "reel", "story"] }
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "goal": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "carousel",
+            "single_card",
+            "reel",
+            "story"
+          ]
+        }
       }
     },
     "editorial_owner": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["editor", "journalist", "fact_checker", "designer"],
+      "required": [
+        "editor",
+        "journalist",
+        "fact_checker",
+        "designer"
+      ],
       "properties": {
-        "editor": { "type": "string" },
-        "journalist": { "type": "string" },
-        "fact_checker": { "type": "string" },
-        "designer": { "type": "string" }
+        "editor": {
+          "type": "string"
+        },
+        "journalist": {
+          "type": "string"
+        },
+        "fact_checker": {
+          "type": "string"
+        },
+        "designer": {
+          "type": "string"
+        }
       }
     },
     "sources": {
@@ -81,22 +118,65 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["source_id", "title", "type", "status", "url", "checked_at"],
+        "required": [
+          "source_id",
+          "title",
+          "type",
+          "status",
+          "url",
+          "checked_at"
+        ],
         "properties": {
-          "source_id": { "type": "string", "pattern": "^src-[0-9]{3}$" },
-          "title": { "type": "string", "minLength": 3 },
+          "source_id": {
+            "type": "string",
+            "pattern": "^src-[0-9]{3}$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3
+          },
           "type": {
             "type": "string",
-            "enum": ["primary", "secondary", "archive", "oral_tradition", "field_note", "internal", "placeholder"]
+            "enum": [
+              "primary",
+              "secondary",
+              "archive",
+              "oral_tradition",
+              "field_note",
+              "internal",
+              "placeholder"
+            ]
           },
-          "url": { "type": "string" },
-          "author": { "type": "string" },
-          "published_at": { "type": "string" },
-          "checked_at": { "type": "string" },
-          "status": { "type": "string", "enum": ["to_verify", "verified", "rejected", "placeholder"] },
-          "supports": { "type": "string" },
-          "caveat": { "type": "string" },
-          "notes": { "type": "string" }
+          "url": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string"
+          },
+          "checked_at": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "to_verify",
+              "verified",
+              "rejected",
+              "placeholder"
+            ]
+          },
+          "supports": {
+            "type": "string"
+          },
+          "caveat": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
@@ -105,29 +185,69 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["claim_id", "text", "source_ids", "evidence", "caveat", "status"],
+        "required": [
+          "claim_id",
+          "text",
+          "source_ids",
+          "evidence",
+          "caveat",
+          "status"
+        ],
         "properties": {
-          "claim_id": { "type": "string", "pattern": "^claim-[0-9]{3}$" },
-          "text": { "type": "string", "minLength": 3 },
+          "claim_id": {
+            "type": "string",
+            "pattern": "^claim-[0-9]{3}$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 3
+          },
           "source_ids": {
             "type": "array",
-            "items": { "type": "string", "pattern": "^src-[0-9]{3}$" }
+            "items": {
+              "type": "string",
+              "pattern": "^src-[0-9]{3}$"
+            }
           },
-          "evidence": { "type": "string" },
-          "caveat": { "type": "string" },
-          "status": { "type": "string", "enum": ["to_verify", "verified", "rejected", "needs_context"] },
-          "notes": { "type": "string" }
+          "evidence": {
+            "type": "string"
+          },
+          "caveat": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "to_verify",
+              "verified",
+              "rejected",
+              "needs_context"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
         }
       }
     },
     "cover": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["headline", "subheadline", "visual_idea"],
+      "required": [
+        "headline",
+        "subheadline",
+        "visual_idea"
+      ],
       "properties": {
-        "headline": { "type": "string" },
-        "subheadline": { "type": "string" },
-        "visual_idea": { "type": "string" }
+        "headline": {
+          "type": "string"
+        },
+        "subheadline": {
+          "type": "string"
+        },
+        "visual_idea": {
+          "type": "string"
+        }
       }
     },
     "slides": {
@@ -136,16 +256,42 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["slide_number", "role", "title", "copy", "visual_note", "source_ids"],
+        "required": [
+          "slide_number",
+          "role",
+          "title",
+          "copy",
+          "visual_note",
+          "source_ids"
+        ],
         "properties": {
-          "slide_number": { "type": "integer", "minimum": 1 },
-          "role": { "type": "string", "enum": ["cover", "body", "closing"] },
-          "title": { "type": "string" },
-          "copy": { "type": "string" },
-          "visual_note": { "type": "string" },
+          "slide_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "cover",
+              "body",
+              "closing"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "copy": {
+            "type": "string"
+          },
+          "visual_note": {
+            "type": "string"
+          },
           "source_ids": {
             "type": "array",
-            "items": { "type": "string", "pattern": "^src-[0-9]{3}$" }
+            "items": {
+              "type": "string",
+              "pattern": "^src-[0-9]{3}$"
+            }
           }
         }
       }
@@ -153,37 +299,108 @@
     "caption": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["text", "cta", "source_note"],
+      "required": [
+        "text",
+        "cta",
+        "source_note"
+      ],
       "properties": {
-        "text": { "type": "string" },
-        "cta": { "type": "string" },
-        "source_note": { "type": "string" }
+        "text": {
+          "type": "string"
+        },
+        "cta": {
+          "type": "string"
+        },
+        "source_note": {
+          "type": "string"
+        }
       }
     },
     "design_notes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["style_direction", "safe_area", "asset_rules", "risks"],
+      "required": [
+        "style_direction",
+        "safe_area",
+        "asset_rules",
+        "risks"
+      ],
       "properties": {
-        "style_direction": { "type": "string" },
-        "safe_area": { "type": "string" },
-        "asset_rules": { "type": "array", "items": { "type": "string" } },
-        "risks": { "type": "array", "items": { "type": "string" } }
+        "style_direction": {
+          "type": "string"
+        },
+        "safe_area": {
+          "type": "string"
+        },
+        "asset_rules": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "risks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "production_preflight": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "checked_at", "asset_format", "asset_count", "checks", "notes"],
+      "required": [
+        "status",
+        "checked_at",
+        "asset_format",
+        "asset_count",
+        "checks",
+        "notes"
+      ],
       "properties": {
-        "status": { "type": "string", "enum": ["not_started", "passed", "needs_fix"] },
-        "checked_at": { "type": "string" },
-        "asset_format": { "type": "string", "enum": ["1080x1350", "1080x1080", "1080x1920", "custom"] },
-        "asset_count": { "type": "integer", "minimum": 0 },
-        "qa_artifacts": { "type": "array", "items": { "type": "string" } },
-        "checked_slide_numbers": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
-        "visual_duplicate_check": { "type": "string" },
-        "source_layer_policy_checked": { "type": "boolean" },
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_started",
+            "passed",
+            "needs_fix"
+          ]
+        },
+        "checked_at": {
+          "type": "string"
+        },
+        "asset_format": {
+          "type": "string",
+          "enum": [
+            "1080x1350",
+            "1080x1080",
+            "1080x1920",
+            "custom"
+          ]
+        },
+        "asset_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "qa_artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "checked_slide_numbers": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "visual_duplicate_check": {
+          "type": "string"
+        },
+        "source_layer_policy_checked": {
+          "type": "boolean"
+        },
         "checks": {
           "type": "object",
           "additionalProperties": false,
@@ -197,142 +414,277 @@
             "figma_qa_sample_done"
           ],
           "properties": {
-            "cover_approved": { "type": "boolean" },
-            "manifest_matches_slides": { "type": "boolean" },
-            "assets_named_and_sized": { "type": "boolean" },
-            "assets_have_no_text_logo_sources": { "type": "boolean" },
-            "copy_line_budget_ok": { "type": "boolean" },
-            "figma_template_layers_ready": { "type": "boolean" },
-            "figma_qa_sample_done": { "type": "boolean" },
-            "italian_accents_ok": { "type": "boolean" },
-            "grammar_ok": { "type": "boolean" },
-            "text_size_homogeneous": { "type": "boolean" },
-            "source_visibility_ok": { "type": "boolean" },
-            "approved_copy_exported": { "type": "boolean" }
+            "cover_approved": {
+              "type": "boolean"
+            },
+            "manifest_matches_slides": {
+              "type": "boolean"
+            },
+            "assets_named_and_sized": {
+              "type": "boolean"
+            },
+            "assets_have_no_text_logo_sources": {
+              "type": "boolean"
+            },
+            "copy_line_budget_ok": {
+              "type": "boolean"
+            },
+            "figma_template_layers_ready": {
+              "type": "boolean"
+            },
+            "figma_qa_sample_done": {
+              "type": "boolean"
+            },
+            "italian_accents_ok": {
+              "type": "boolean"
+            },
+            "grammar_ok": {
+              "type": "boolean"
+            },
+            "text_size_homogeneous": {
+              "type": "boolean"
+            },
+            "source_visibility_ok": {
+              "type": "boolean"
+            },
+            "approved_copy_exported": {
+              "type": "boolean"
+            }
           }
         },
-        "notes": { "type": "string" }
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "copy_qa": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "status": { "type": "string", "enum": ["not_started", "passed", "needs_fix", "blocked"] },
-        "checked_at": { "type": "string" },
-        "accent_check": { "type": "string" },
-        "grammar_check": { "type": "string" },
-        "max_title_lines": { "type": "integer", "minimum": 1 },
-        "max_copy_lines": { "type": "integer", "minimum": 1 },
-        "source_layer_visible_only_last_slide": { "type": "boolean" },
-        "final_human_copy_path_exists": { "type": "boolean" },
-        "approved_md_status_matches_json": { "type": "boolean" },
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_started",
+            "passed",
+            "needs_fix",
+            "blocked"
+          ]
+        },
+        "checked_at": {
+          "type": "string"
+        },
+        "accent_check": {
+          "type": "string"
+        },
+        "grammar_check": {
+          "type": "string"
+        },
+        "max_title_lines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_copy_lines": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_layer_visible_only_last_slide": {
+          "type": "boolean"
+        },
+        "final_human_copy_path_exists": {
+          "type": "boolean"
+        },
+        "approved_md_status_matches_json": {
+          "type": "boolean"
+        },
         "line_budget_per_slide": {
           "type": "array",
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["slide_number"],
+            "required": [
+              "slide_number"
+            ],
             "properties": {
-              "slide_number": { "type": "integer", "minimum": 1 },
-              "estimated_title_lines": { "type": "integer", "minimum": 0 },
-              "estimated_copy_lines": { "type": "integer", "minimum": 0 },
-              "font_size_applied": { "type": "number" },
-              "overflow_risk": { "type": "string", "enum": ["low", "medium", "high"] },
-              "notes": { "type": "string" }
+              "slide_number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "estimated_title_lines": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "estimated_copy_lines": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "font_size_applied": {
+                "type": "number"
+              },
+              "overflow_risk": {
+                "type": "string",
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "notes": {
+                "type": "string"
+              }
             }
           }
         },
-        "notes": { "type": "string" }
+        "notes": {
+          "type": "string"
+        }
       }
     },
     "figma": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "file_url", "node_url", "manifest_path"],
+      "required": [
+        "status",
+        "file_url",
+        "node_url",
+        "manifest_path"
+      ],
       "properties": {
-        "status": { "type": "string", "enum": ["not_started", "in_progress", "done", "needs_review"] },
-        "file_url": { "type": "string" },
-        "node_url": { "type": "string" },
-        "manifest_path": { "type": "string" }
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_started",
+            "in_progress",
+            "done",
+            "needs_review"
+          ]
+        },
+        "file_url": {
+          "type": "string"
+        },
+        "node_url": {
+          "type": "string"
+        },
+        "manifest_path": {
+          "type": "string"
+        }
       }
     },
     "fact_check": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "checked_by", "checked_at", "summary", "open_issues"],
+      "required": [
+        "status",
+        "checked_by",
+        "checked_at",
+        "summary",
+        "open_issues"
+      ],
       "properties": {
-        "status": { "type": "string", "enum": ["not_started", "needed", "passed", "failed", "needs_review"] },
-        "checked_by": { "type": "string" },
-        "checked_at": { "type": "string" },
-        "summary": { "type": "string" },
-        "open_issues": { "type": "array", "items": { "type": "string" } }
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_started",
+            "needed",
+            "passed",
+            "failed",
+            "needs_review"
+          ]
+        },
+        "checked_by": {
+          "type": "string"
+        },
+        "checked_at": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "open_issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "approvals": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["editorial", "fact_check", "cover", "design", "final"],
+      "required": [
+        "editorial",
+        "fact_check",
+        "cover",
+        "design",
+        "final"
+      ],
       "properties": {
-        "editorial": { "$ref": "#/$defs/approval" },
-        "fact_check": { "$ref": "#/$defs/approval" },
-        "cover": { "$ref": "#/$defs/approval" },
-        "design": { "$ref": "#/$defs/approval" },
-        "final": { "$ref": "#/$defs/approval" }
-      }
-    },
-    "publication": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["status", "scheduled_at", "published_at", "published_url"],
-      "properties": {
-        "status": { "type": "string", "enum": ["not_scheduled", "scheduled", "published", "archived"] },
-        "scheduled_at": { "type": "string" },
-        "published_at": { "type": "string" },
-        "published_url": { "type": "string" }
-      }
-    },
-    "performance": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["status", "metrics", "observations", "recommendations"],
-      "properties": {
-        "status": { "type": "string", "enum": ["not_available", "pending", "reviewed"] },
-        "metrics": {
-          "type": "object",
-          "additionalProperties": { "type": ["number", "string", "null"] }
+        "editorial": {
+          "$ref": "#/$defs/approval"
         },
-        "observations": { "type": "array", "items": { "type": "string" } },
-        "recommendations": { "type": "array", "items": { "type": "string" } }
+        "fact_check": {
+          "$ref": "#/$defs/approval"
+        },
+        "cover": {
+          "$ref": "#/$defs/approval"
+        },
+        "design": {
+          "$ref": "#/$defs/approval"
+        },
+        "final": {
+          "$ref": "#/$defs/approval"
+        }
       }
     },
     "blocked": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["is_blocked", "blocked_by_role", "reason", "next_action"],
+      "required": [
+        "is_blocked",
+        "blocked_by_role",
+        "reason",
+        "next_action"
+      ],
       "properties": {
-        "is_blocked": { "type": "boolean" },
-        "blocked_by_role": { "type": "string" },
-        "reason": { "type": "string" },
-        "next_action": { "type": "string" }
+        "is_blocked": {
+          "type": "boolean"
+        },
+        "blocked_by_role": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "next_action": {
+          "type": "string"
+        }
       }
     }
   },
   "allOf": [
     {
-      "if": { "properties": { "status": { "const": "fact_checked" } } },
+      "if": {
+        "properties": {
+          "status": {
+            "const": "fact_checked"
+          }
+        }
+      },
       "then": {
         "properties": {
           "fact_check": {
             "properties": {
-              "status": { "const": "passed" }
+              "status": {
+                "const": "passed"
+              }
             }
           },
           "approvals": {
             "properties": {
               "fact_check": {
                 "properties": {
-                  "status": { "const": "approved" }
+                  "status": {
+                    "const": "approved"
+                  }
                 }
               }
             }
@@ -341,19 +693,29 @@
       }
     },
     {
-      "if": { "properties": { "status": { "const": "design_ready" } } },
+      "if": {
+        "properties": {
+          "status": {
+            "const": "design_ready"
+          }
+        }
+      },
       "then": {
         "properties": {
           "fact_check": {
             "properties": {
-              "status": { "const": "passed" }
+              "status": {
+                "const": "passed"
+              }
             }
           },
           "approvals": {
             "properties": {
               "editorial": {
                 "properties": {
-                  "status": { "const": "approved" }
+                  "status": {
+                    "const": "approved"
+                  }
                 }
               }
             }
@@ -362,141 +724,37 @@
       }
     },
     {
-      "if": { "properties": { "status": { "const": "figma_done" } } },
+      "if": {
+        "properties": {
+          "status": {
+            "const": "figma_done"
+          }
+        }
+      },
       "then": {
         "properties": {
           "figma": {
             "properties": {
-              "status": { "const": "done" }
+              "status": {
+                "const": "done"
+              }
             }
           },
           "approvals": {
             "properties": {
               "cover": {
                 "properties": {
-                  "status": { "const": "approved" }
+                  "status": {
+                    "const": "approved"
+                  }
                 }
               }
             }
           },
           "production_preflight": {
             "properties": {
-              "status": { "const": "passed" }
-            }
-          }
-        }
-      }
-    },
-    {
-      "if": { "properties": { "status": { "const": "approved" } } },
-      "then": {
-        "properties": {
-          "approvals": {
-            "properties": {
-              "design": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              },
-              "final": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              }
-            }
-          },
-          "figma": {
-            "properties": {
-              "status": { "const": "done" }
-            }
-          },
-          "production_preflight": {
-            "properties": {
-              "status": { "const": "passed" }
-            }
-          }
-        }
-      }
-    },
-    {
-      "if": { "properties": { "status": { "const": "scheduled" } } },
-      "then": {
-        "properties": {
-          "publication": {
-            "properties": {
-              "status": { "const": "scheduled" },
-              "scheduled_at": { "type": "string", "minLength": 1 }
-            }
-          },
-          "approvals": {
-            "properties": {
-              "design": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              },
-              "final": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              }
-            }
-          },
-          "figma": {
-            "properties": {
-              "status": { "const": "done" }
-            }
-          },
-          "production_preflight": {
-            "properties": {
-              "status": { "const": "passed" }
-            }
-          }
-        }
-      }
-    },
-    {
-      "if": { "properties": { "status": { "const": "published" } } },
-      "then": {
-        "properties": {
-          "publication": {
-            "properties": {
-              "status": { "const": "published" },
-              "scheduled_at": { "type": "string", "minLength": 1 },
-              "published_at": { "type": "string", "minLength": 1 },
-              "published_url": { "type": "string", "minLength": 1 }
-            }
-          },
-          "approvals": {
-            "properties": {
-              "design": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              },
-              "final": {
-                "properties": {
-                  "status": { "const": "approved" }
-                }
-              }
-            }
-          },
-          "figma": {
-            "properties": {
-              "status": { "const": "done" }
-            }
-          },
-          "production_preflight": {
-            "properties": {
-              "status": { "const": "passed" }
-            }
-          },
-          "sources": {
-            "not": {
-              "contains": {
-                "properties": {
-                  "type": { "const": "placeholder" }
-                }
+              "status": {
+                "const": "passed"
               }
             }
           }
@@ -508,12 +766,31 @@
     "approval": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status", "by", "at", "notes"],
+      "required": [
+        "status",
+        "by",
+        "at",
+        "notes"
+      ],
       "properties": {
-        "status": { "type": "string", "enum": ["pending", "approved", "rejected", "needs_changes"] },
-        "by": { "type": "string" },
-        "at": { "type": "string" },
-        "notes": { "type": "string" }
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "needs_changes"
+          ]
+        },
+        "by": {
+          "type": "string"
+        },
+        "at": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
       }
     }
   }

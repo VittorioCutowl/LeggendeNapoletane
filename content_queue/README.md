@@ -4,8 +4,7 @@ La coda contenuti raccoglie i post in lavorazione come file JSON conformi a
 `content_queue.schema.json`.
 
 `BOARD.md` e la lavagna leggibile della coda: serve per vedere a colpo d'occhio
-quali leggende sono da decidere, in scrittura, da verificare, in design, pronte
-o pubblicate.
+quali leggende sono da decidere, in scrittura, da verificare o in produzione Figma.
 
 ## Regole
 
@@ -19,7 +18,7 @@ Ogni post deve avere:
 - caveat chiari tra storia, leggenda, variante e interpretazione;
 - stato fact-check in `fact_check`;
 - stato Figma in `figma`;
-- approval e blocchi tracciati;
+- approvazioni necessarie alla produzione e blocchi tracciati;
 - `production_preflight` compilato prima di `figma_done`.
 
 ## Regole Figma E Fonti
@@ -44,9 +43,6 @@ fact_check_needed
 fact_checked
 design_ready
 figma_done
-approved
-scheduled
-published
 archived
 ```
 

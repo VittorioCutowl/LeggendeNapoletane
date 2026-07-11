@@ -382,18 +382,6 @@
       "notes": ""
     }
   },
-  "publication": {
-    "status": "archived",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "Editore",

@@ -3,15 +3,13 @@ import path from "node:path";
 
 const root = process.cwd();
 const queueDir = path.join(root, "content_queue");
-const advancedDesignStatuses = new Set(["figma_done", "approved", "scheduled", "published"]);
-const finalApprovalStatuses = new Set(["approved", "scheduled", "published"]);
+const advancedDesignStatuses = new Set(["figma_done"]);
 const requiredFigmaLayers = ["image", "fondino", "eyebrow", "title", "description", "source", "logo", "footer"];
 const expectedAssetSizes = {
   "1080x1350": { width: 1080, height: 1350 },
   "1080x1080": { width: 1080, height: 1080 },
   "1080x1920": { width: 1080, height: 1920 }
 };
-const schedulingStatuses = new Set(["scheduled", "published"]);
 const warnings = [];
 const allowedStatus = new Set([
   "idea",
@@ -21,9 +19,6 @@ const allowedStatus = new Set([
   "fact_checked",
   "design_ready",
   "figma_done",
-  "approved",
-  "scheduled",
-  "published",
   "archived"
 ]);
 
@@ -45,8 +40,6 @@ const requiredTopLevel = [
   "figma",
   "fact_check",
   "approvals",
-  "publication",
-  "performance",
   "blocked"
 ];
 
@@ -279,12 +272,6 @@ function validatePost(file, post) {
   const openIssues = Array.isArray(post.fact_check?.open_issues)
     ? post.fact_check.open_issues.filter((issue) => String(issue || "").trim())
     : [];
-  if (schedulingStatuses.has(post.status) && (unresolvedSources.length || unresolvedClaims.length || openIssues.length)) {
-    throw new Error(`${file}: ${post.status} non puo avere fonti to_verify, claim aperti o fact_check.open_issues senza risoluzione`);
-  }
-  if (post.status === "approved" && (unresolvedSources.length || unresolvedClaims.length || openIssues.length)) {
-    warn(`${file}: approved con residui da decidere prima di scheduled (${unresolvedSources.length} fonti, ${unresolvedClaims.length} claim, ${openIssues.length} open issue)`);
-  }
 
   const slideNumbers = new Set();
   for (const slide of post.slides) {
@@ -327,12 +314,6 @@ function validatePost(file, post) {
   if (advancedDesignStatuses.has(post.status) && post.figma.status !== "done") {
     throw new Error(`${file}: ${post.status} richiede figma.status done`);
   }
-  if (finalApprovalStatuses.has(post.status) && post.approvals.design.status !== "approved") {
-    throw new Error(`${file}: ${post.status} richiede approvals.design approved`);
-  }
-  if (finalApprovalStatuses.has(post.status) && post.approvals.final.status !== "approved") {
-    throw new Error(`${file}: ${post.status} richiede approvals.final approved`);
-  }
   if (advancedDesignStatuses.has(post.status) && post.production_preflight.status !== "passed") {
     throw new Error(`${file}: ${post.status} richiede production_preflight.status passed`);
   }
@@ -344,18 +325,6 @@ function validatePost(file, post) {
     }
   }
   validateManifest(file, post);
-  if (post.status === "scheduled" && post.publication.status !== "scheduled") {
-    throw new Error(`${file}: scheduled richiede publication.status scheduled`);
-  }
-  if (post.status === "scheduled" && !post.publication.scheduled_at) {
-    throw new Error(`${file}: scheduled richiede publication.scheduled_at compilato`);
-  }
-  if (post.status === "published" && post.publication.status !== "published") {
-    throw new Error(`${file}: published richiede publication.status published`);
-  }
-  if (post.status === "published" && (!post.publication.scheduled_at || !post.publication.published_at || !post.publication.published_url)) {
-    throw new Error(`${file}: published richiede scheduled_at, published_at e published_url compilati`);
-  }
 }
 
 const files = fs

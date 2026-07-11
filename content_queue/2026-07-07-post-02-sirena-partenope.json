@@ -1,6 +1,6 @@
 {
   "post_id": "2026-07-07-post-02-sirena-partenope",
-  "status": "approved",
+  "status": "figma_done",
   "priority": "high",
   "topic": "Sirena Partenope",
   "angle": "Partenope come mito fondativo e nome poetico di Napoli: dalla sirena legata al ciclo di Ulisse alla memoria civica della citta antica, con caveat tra mito, culto e rilettura napoletana.",
@@ -272,22 +272,10 @@
       "notes": "Completamento operativo richiesto dall utente per i post con illustrazioni gia prodotte."
     }
   },
-  "publication": {
-    "status": "not_scheduled",
-    "scheduled_at": "",
-    "published_at": "",
-    "published_url": ""
-  },
-  "performance": {
-    "status": "not_available",
-    "metrics": {},
-    "observations": [],
-    "recommendations": []
-  },
   "blocked": {
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": ""
+    "next_action": "Nessuna azione: produzione Figma completata."
   }
 }

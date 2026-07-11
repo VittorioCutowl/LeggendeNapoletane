@@ -67,11 +67,9 @@ Per design, asset e Figma leggere anche:
 | Scrittura carousel | `journalist-carousel` | `brief_ready`, `draft_ready` | slide, caption, claim |
 | Verifica fonti e claim | `fact-checker` | `fact_check_needed` | claim verificati, caveat, open issue |
 | Ricerca online e fonti esterne | `leggende-napoletane-factcheck-internet` | `idea`, `brief_ready`, `fact_check_needed` | fonti qualificate, conflitti, consultazione |
-| QA linguistico pre-pubblicazione | `instagram-carousel-copy-qa` | `figma_done`, `approved`, `scheduled` | report accenti, grammatica, line budget |
+| QA linguistico del carousel | `instagram-carousel-copy-qa` | `figma_done` | report accenti, grammatica, line budget |
 | Design, asset, manifest Figma | `figma-carousel-designer` | `design_ready` | spec, manifest, preflight |
-| QA visuale e asset | `leggende-napoletane-visual-preflight` | `design_ready`, `figma_done`, `approved` | report asset, Figma, duplicati, screenshot |
-| Calendario pubblicazione | `instagram-publishing-advisor` | `approved`, `scheduled`, `published` | piano uscita, CTA, hashtag |
-| Lettura metriche | `post-performance-analyst` | `published` | insight e raccomandazioni |
+| QA visuale e asset | `leggende-napoletane-visual-preflight` | `design_ready`, `figma_done` | report asset, Figma, duplicati, screenshot |
 
 ## Ruoli Editoriali
 
@@ -80,7 +78,6 @@ Per design, asset e Figma leggere anche:
 - **Narratore**: trasforma il brief in slide, caption, ritmo e hook.
 - **Fact-checker**: distingue fatti documentati, tradizione orale e ipotesi.
 - **Designer**: prepara direzione visuale, asset e manifest Figma.
-- **Performance analyst**: legge metriche autorizzate dopo la pubblicazione.
 
 ## Stati Consentiti
 
@@ -93,9 +90,7 @@ Usare solo questi valori in `status`:
 - `fact_checked`: fact-check superato.
 - `design_ready`: contenuto approvato per design.
 - `figma_done`: montaggio Figma completato e manifest/preflight validati.
-- `approved`: approvazione finale ricevuta.
-- `scheduled`: pubblicazione programmata con data/ora compilata.
-- `published`: pubblicato.
+- `figma_done`: produzione Figma completata, manifest e preflight validati. È il termine del workflow.
 - `archived`: archiviato.
 
 ## Transizioni Minime
@@ -108,14 +103,11 @@ Usare solo questi valori in `status`:
 | `fact_check_needed` | `fact_checked` | Fact-checker | `fact_check.status = passed` |
 | `fact_checked` | `design_ready` | Editore | `approvals.editorial.status = approved` |
 | `design_ready` | `figma_done` | Designer | cover approvata, preflight passato, Figma done |
-| `figma_done` | `approved` | Editore | design e finale approvati |
-| `approved` | `scheduled` | Social manager | `publication.scheduled_at` compilato |
-| `scheduled` | `published` | Social manager | URL e data pubblicazione compilati |
 | qualsiasi | `archived` | Editore | motivo registrato |
 
 Se un gate non e soddisfatto, non forzare lo stato: compilare `blocked`.
 
-Prima di passare a `scheduled` o `published`, controllare che non restino:
+Prima di passare a `figma_done`, controllare che non restino:
 
 - fonti con `status = to_verify`;
 - claim con `status = needs_context` o `to_verify`;
@@ -123,9 +115,9 @@ Prima di passare a `scheduled` o `published`, controllare che non restino:
 - audit visuali o linguistici aperti;
 - mismatch tra JSON, `BOARD.md`, file approvato, design spec e manifest Figma.
 
-Se una criticita non blocca la pubblicazione, registrare una decisione
+Se una criticita non blocca la produzione Figma, registrare una decisione
 editoriale esplicita in `approvals.final.notes`, `blocked.next_action` o nella
-sezione di attenzione della lavagna. Non lasciare residui invisibili.
+lavagna. Non lasciare residui invisibili.
 
 ## Fonti E Fact-Check
 

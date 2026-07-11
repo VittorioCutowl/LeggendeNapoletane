@@ -2,8 +2,8 @@
 
 $queueDir = Join-Path (Get-Location) "content_queue"
 $rootDir = Get-Location
-$advancedDesignStatuses = @("figma_done", "approved", "scheduled", "published")
-$finalApprovalStatuses = @("approved", "scheduled", "published")
+$advancedDesignStatuses = @("figma_done")
+$finalApprovalStatuses = @()
 $requiredFigmaLayers = @("image", "fondino", "eyebrow", "title", "description", "source", "logo", "footer")
 $allowedStatus = @(
   "idea",
@@ -13,9 +13,6 @@ $allowedStatus = @(
   "fact_checked",
   "design_ready",
   "figma_done",
-  "approved",
-  "scheduled",
-  "published",
   "archived"
 )
 
@@ -37,8 +34,6 @@ $requiredTopLevel = @(
   "figma",
   "fact_check",
   "approvals",
-  "publication",
-  "performance",
   "blocked"
 )
 
@@ -277,12 +272,6 @@ function Validate-Post($Post, [string]$Path) {
   if ($advancedDesignStatuses -contains $Post.status -and $Post.figma.status -ne "done") {
     throw "$Path $($Post.status) richiede figma.status done"
   }
-  if ($finalApprovalStatuses -contains $Post.status -and $Post.approvals.design.status -ne "approved") {
-    throw "$Path $($Post.status) richiede approvals.design approved"
-  }
-  if ($finalApprovalStatuses -contains $Post.status -and $Post.approvals.final.status -ne "approved") {
-    throw "$Path $($Post.status) richiede approvals.final approved"
-  }
   if ($advancedDesignStatuses -contains $Post.status -and $Post.production_preflight.status -ne "passed") {
     throw "$Path $($Post.status) richiede production_preflight.status passed"
   }
@@ -294,18 +283,6 @@ function Validate-Post($Post, [string]$Path) {
     }
   }
   Validate-Manifest $Post $Path
-  if ($Post.status -eq "scheduled" -and $Post.publication.status -ne "scheduled") {
-    throw "$Path scheduled richiede publication.status scheduled"
-  }
-  if ($Post.status -eq "scheduled" -and -not $Post.publication.scheduled_at) {
-    throw "$Path scheduled richiede publication.scheduled_at compilato"
-  }
-  if ($Post.status -eq "published" -and $Post.publication.status -ne "published") {
-    throw "$Path published richiede publication.status published"
-  }
-  if ($Post.status -eq "published" -and (-not $Post.publication.scheduled_at -or -not $Post.publication.published_at -or -not $Post.publication.published_url)) {
-    throw "$Path published richiede scheduled_at, published_at e published_url compilati"
-  }
 }
 
 $files = Get-ChildItem -Path $queueDir -Filter "*.json" |
