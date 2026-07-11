@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "post_id": "2026-07-11-post-07-sibilla-cumana",
+  "status": "done",
+  "source_post": "content_queue/2026-07-11-post-07-sibilla-cumana.json",
+  "asset_rules": {
+    "format": "png",
+    "size_px": 1458000,
+    "width": 1080,
+    "height": 1350,
+    "no_text_in_assets": true
+  },
+  "import_mode": "template_duplicate",
+  "template_contract": {
+    "template_source": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=2-2",
+    "required_layers": [
+      "image",
+      "fondino",
+      "eyebrow",
+      "title",
+      "description",
+      "source",
+      "logo",
+      "footer"
+    ]
+  },
+  "layout_rules": {
+    "format_px": {
+      "width": 1080,
+      "height": 1350
+    },
+    "typography": {
+      "eyebrow": "Cormorant Garamond SemiBold 38px",
+      "title": "Cormorant Garamond Bold 94-108px, solo cover e chiusura",
+      "description": "Lora Regular 50px",
+      "source": "Lora Regular 17px",
+      "logo": "Lora Medium 18px — Leggende Napoletane"
+    },
+    "text_backdrop": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 1350,
+      "opacity": "nero uniforme su tutta la card, 46% in alto, 24% a metà, 4% sul fondo"
+    },
+    "text_boxes": {
+      "eyebrow": {
+        "x": 72,
+        "y": 52,
+        "width": 940,
+        "height": 54
+      },
+      "title": {
+        "x": 72,
+        "y": 106,
+        "width": 940,
+        "height": 166,
+        "visibility": "solo slide 1 e 8"
+      },
+      "description": {
+        "x": 72,
+        "y": 158,
+        "width": 942,
+        "height": 430,
+        "notes": "Slide 1 e 8: y=310; card centrali: y=158."
+      },
+      "source": {
+        "x": 390,
+        "y": 1308,
+        "width": 660,
+        "height": 30
+      },
+      "logo": {
+        "x": 72,
+        "y": 1304,
+        "width": 300,
+        "height": 30
+      }
+    },
+    "logo": "Firma completa Leggende Napoletane nel footer di ogni card.",
+    "title_policy": "Title visibile solo su prima e ultima card; body title nascosto.",
+    "source_policy": "Nascosto nelle slide 1-7; visibile sulla slide 8."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-01-la-voce-nell-antro",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/01-cover-antro-voce.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "La voce nell'antro",
+      "copy": "La Sibilla Cumana tra Virgilio e il tufo di Cuma.",
+      "visual_note": "Ingresso dell'Antro di Cuma, luce radente e foglie mosse dal vento.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:4"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:6"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:7"
+        },
+        "title": {
+          "name": "title",
+          "id": "181:8"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:9"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:12"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:11"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:10"
+        }
+      },
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "figma_frame_id": "181:3",
+      "figma_bitmap_layer_id": "181:4"
+    },
+    {
+      "slide_number": 2,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-02-prima-del-responso",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/02-acropoli-cuma.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "Prima del responso",
+      "copy": "A Cuma, nei Campi Flegrei, la tradizione collocava una voce capace di parlare con gli dèi. Non una regina, non una strega: una Sibilla, cioè una profetessa ispirata.",
+      "visual_note": "Acropoli di Cuma tra rovine, tufo e mare lontano.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:14"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:16"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:17"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:18"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:19"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:22"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:21"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:20"
+        }
+      },
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "figma_frame_id": "181:13",
+      "figma_bitmap_layer_id": "181:14"
+    },
+    {
+      "slide_number": 3,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-03-le-foglie-nel-vento",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/03-foglie-vento.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "Le foglie nel vento",
+      "copy": "Secondo il racconto legato a Virgilio, la Sibilla scriveva i responsi su foglie. Bastava che il vento le disperdesse perché il futuro tornasse a essere oscuro.",
+      "visual_note": "Foglie senza lettere leggibili trascinate nel corridoio.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:24"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:26"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:27"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:28"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:29"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:32"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:31"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:30"
+        }
+      },
+      "source_ids": [
+        "src-003"
+      ],
+      "figma_frame_id": "181:23",
+      "figma_bitmap_layer_id": "181:24"
+    },
+    {
+      "slide_number": 4,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-04-enea-chiede-la-strada",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/04-enea-soglia.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "Enea chiede la strada",
+      "copy": "Nell'Eneide, Enea incontra la Sibilla prima di scendere verso il mondo dei morti. Cuma diventa così una soglia: tra la città dei vivi e ciò che sta sotto.",
+      "visual_note": "Due figure davanti a un passaggio buio, paesaggio flegreo appena visibile.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:34"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:36"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:37"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:38"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:39"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:42"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:41"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:40"
+        }
+      },
+      "source_ids": [
+        "src-003"
+      ],
+      "figma_frame_id": "181:33",
+      "figma_bitmap_layer_id": "181:34"
+    },
+    {
+      "slide_number": 5,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-05-l-antro-che-vediamo",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/05-galleria-tufo.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "L'antro che vediamo",
+      "copy": "Il corridoio visitabile è una lunga galleria scavata nel tufo, con aperture laterali e cisterne. È il monumento più famoso del Parco Archeologico di Cuma.",
+      "visual_note": "Vista interna della galleria con aperture laterali e fasci di luce.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:44"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:46"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:47"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:48"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:49"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:52"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:51"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:50"
+        }
+      },
+      "source_ids": [
+        "src-001"
+      ],
+      "figma_frame_id": "181:43",
+      "figma_bitmap_layer_id": "181:44"
+    },
+    {
+      "slide_number": 6,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-06-ma-era-davvero-il-suo-antro",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/06-galleria-militare.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "Ma era davvero il suo antro?",
+      "copy": "Le ricerche lo leggono come una galleria militare sannitica, scavata tra IV e III secolo a.C. La Sibilla è tradizione; il tufo è storia.",
+      "visual_note": "Fortificazione, tufo tagliato e stratificazione archeologica.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:54"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:56"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:57"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:58"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:59"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:62"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:61"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:60"
+        }
+      },
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "figma_frame_id": "181:53",
+      "figma_bitmap_layer_id": "181:54"
+    },
+    {
+      "slide_number": 7,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-07-un-nome-diventato-memoria",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/07-taccuino-maiuri.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "Un nome diventato memoria",
+      "copy": "Il nome 'Antro della Sibilla' fu attribuito a Maiuri nel 1932, mentre si cercava il luogo immaginato nei versi di Virgilio. Da allora il monumento vive su due piani: archeologia e leggenda.",
+      "visual_note": "Taccuino di scavo, parete di tufo e luce del mattino; niente scritte nell'immagine.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:64"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:66"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:67"
+        },
+        "title": {
+          "name": "title",
+          "visible": false,
+          "id": "181:68"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:69"
+        },
+        "source": {
+          "name": "source",
+          "visible": false,
+          "id": "181:72"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:71"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:70"
+        }
+      },
+      "source_ids": [
+        "src-001",
+        "src-004"
+      ],
+      "figma_frame_id": "181:63",
+      "figma_bitmap_layer_id": "181:64"
+    },
+    {
+      "slide_number": 8,
+      "frame_name": "2026-07-11-post-07-sibilla-cumana-08-la-profezia-resta",
+      "asset_path": "outputs/figma/assets/2026-07-11-post-07-sibilla-cumana-v1/08-uscita-luce.png",
+      "asset_origin": "generated",
+      "asset_status": "in_figma",
+      "local_file_required": true,
+      "qa_status": "passed",
+      "rights": "Uso editoriale progetto.",
+      "title": "La profezia resta",
+      "copy": "Forse la Sibilla non ci ha lasciato una voce da ascoltare. Ci ha lasciato un luogo in cui mito, poesia e archeologia continuano a interrogarsi.",
+      "visual_note": "Uscita dell'antro verso la luce e il paesaggio flegreo.",
+      "figma_layers": {
+        "image": {
+          "name": "image",
+          "id": "181:74"
+        },
+        "fondino": {
+          "name": "fondino",
+          "id": "181:76"
+        },
+        "eyebrow": {
+          "name": "eyebrow",
+          "id": "181:77"
+        },
+        "title": {
+          "name": "title",
+          "id": "181:78"
+        },
+        "description": {
+          "name": "description",
+          "id": "181:79"
+        },
+        "source": {
+          "name": "source",
+          "visible": true,
+          "expected_text": "Fonti: Parco Archeologico dei Campi Flegrei · Treccani · ICCD",
+          "id": "181:82"
+        },
+        "logo": {
+          "name": "logo",
+          "id": "181:81"
+        },
+        "footer": {
+          "name": "footer",
+          "id": "181:80"
+        }
+      },
+      "source_ids": [
+        "src-001",
+        "src-003",
+        "src-004"
+      ],
+      "figma_frame_id": "181:73",
+      "figma_bitmap_layer_id": "181:74"
+    }
+  ],
+  "figma": {
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=181-2"
+  },
+  "qa": {
+    "status": "passed",
+    "checked_at": "2026-07-11",
+    "checked_by": "Codex",
+    "local_contact_sheet": "",
+    "figma_carousel_screenshot": "outputs/figma/qa/2026-07-11-post-07-sibilla-cumana/cover.png",
+    "checked_frames": [
+      1,
+      5,
+      6,
+      8
+    ],
+    "open_issues": [],
+    "notes": "QA su card singole 1080x1350: cover, slide 5, slide 6 e chiusura. Nessun testo negli asset; fonte solo sull'ultima card."
+  }
+}

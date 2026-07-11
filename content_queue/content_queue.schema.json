@@ -411,7 +411,10 @@
             "assets_have_no_text_logo_sources",
             "copy_line_budget_ok",
             "figma_template_layers_ready",
-            "figma_qa_sample_done"
+            "figma_qa_sample_done",
+            "font_system_ok",
+            "signature_visible_all_cards",
+            "fondino_system_ok"
           ],
           "properties": {
             "cover_approved": {
@@ -433,6 +436,15 @@
               "type": "boolean"
             },
             "figma_qa_sample_done": {
+              "type": "boolean"
+            },
+            "font_system_ok": {
+              "type": "boolean"
+            },
+            "signature_visible_all_cards": {
+              "type": "boolean"
+            },
+            "fondino_system_ok": {
               "type": "boolean"
             },
             "italian_accents_ok": {

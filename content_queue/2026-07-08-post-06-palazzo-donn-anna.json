@@ -329,7 +329,10 @@
       "assets_have_no_text_logo_sources": false,
       "copy_line_budget_ok": false,
       "figma_template_layers_ready": false,
-      "figma_qa_sample_done": false
+      "figma_qa_sample_done": false,
+      "font_system_ok": false,
+      "signature_visible_all_cards": false,
+      "fondino_system_ok": false
     },
     "notes": "Non passare a figma_done finché non esistono illustrazioni narrative reali e QA visivo su cover, slide teatrale e slide caveat."
   },

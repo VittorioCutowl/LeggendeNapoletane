@@ -1,0 +1,309 @@
+{
+  "post_id": "2026-07-11-post-07-sibilla-cumana",
+  "status": "figma_done",
+  "priority": "high",
+  "topic": "La Sibilla Cumana e l'antro di Cuma",
+  "angle": "La profetessa di Virgilio incontra un monumento reale: l'antro visitabile è legato alla leggenda, ma le ricerche archeologiche lo interpretano come una galleria militare sannitica.",
+  "target": {
+    "audience": "Persone curiose di Napoli, Campi Flegrei, miti classici e storia dei luoghi.",
+    "goal": "Distinguere il mito virgiliano dall'identificazione archeologica dell'Antro di Cuma.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Codex",
+    "fact_checker": "Codex",
+    "designer": "Da assegnare"
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Parco Archeologico di Cuma – Antro della Sibilla",
+      "type": "primary",
+      "status": "verified",
+      "url": "https://pafleg.cultura.gov.it/it/4388/localita/57/parco-archeologico-di-cuma",
+      "author": "Parco Archeologico dei Campi Flegrei",
+      "published_at": "",
+      "checked_at": "2026-07-11",
+      "supports": "Descrizione del monumento, interpretazione come galleria militare sannitica, attribuzione del nome a Maiuri nel 1932 e rapporto con Virgilio.",
+      "caveat": "Non dimostra che la galleria fosse l'antro storico della Sibilla."
+    },
+    {
+      "source_id": "src-002",
+      "title": "Il Parco Archeologico dei Campi Flegrei",
+      "type": "primary",
+      "status": "verified",
+      "url": "https://pafleg.cultura.gov.it/it/6/il-parco",
+      "author": "Parco Archeologico dei Campi Flegrei",
+      "published_at": "",
+      "checked_at": "2026-07-11",
+      "supports": "Contesto geografico e culturale dei Campi Flegrei, Cuma e mito della Sibilla cumana.",
+      "caveat": "Presenta il mito come parte del paesaggio culturale, non come fatto storico verificabile."
+    },
+    {
+      "source_id": "src-003",
+      "title": "Sibilla – Enciclopedia Dantesca",
+      "type": "secondary",
+      "status": "verified",
+      "url": "https://www.treccani.it/enciclopedia/sibilla_%28Enciclopedia-Dantesca%29/",
+      "author": "Clara Kraus, Treccani",
+      "published_at": "1970",
+      "checked_at": "2026-07-11",
+      "supports": "Tradizione della Sibilla Cumana, foglie disperse dal vento, discesa di Enea agli Inferi e riferimenti all'Eneide.",
+      "caveat": "Riassume fonti antiche e tradizione letteraria; non è una testimonianza diretta del culto a Cuma."
+    },
+    {
+      "source_id": "src-004",
+      "title": "Campania – Cuma: Grotta detta Antro della Sibilla",
+      "type": "archive",
+      "status": "verified",
+      "url": "https://catalogo.beniculturali.it/detail/PhotographicHeritage/1201250442",
+      "author": "Catalogo generale dei Beni Culturali, ICCD",
+      "published_at": "ca. 1875-ca. 1940",
+      "checked_at": "2026-07-11",
+      "supports": "Attestazione della denominazione 'Grotta detta Antro della Sibilla' nella memoria patrimoniale del sito.",
+      "caveat": "La scheda cataloga immagini e denominazione, non l'identificazione archeologica della galleria."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim-001",
+      "text": "Cuma si trova nei Campi Flegrei e il mito della Sibilla è parte della storia culturale del territorio.",
+      "source_ids": [
+        "src-002"
+      ],
+      "evidence": "Il Parco include la Sibilla tra i miti del territorio e indica Cuma come colonia greca di età arcaica.",
+      "caveat": "È contesto culturale, non prova dell'esistenza storica della profetessa.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Nella tradizione letteraria, la Sibilla Cumana scriveva i responsi su foglie che il vento disperdeva.",
+      "source_ids": [
+        "src-003"
+      ],
+      "evidence": "Treccani riassume il racconto virgiliano delle foglie e la consultazione della Sibilla da parte di Enea.",
+      "caveat": "È una scena del mito e della letteratura antica, non una cronaca del luogo.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Il monumento oggi chiamato Antro della Sibilla è interpretato dal Parco come una galleria militare scavata nel tufo in età sannitica.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "La pagina ufficiale indica una datazione tra la fine del IV e gli inizi del III secolo a.C. e una funzione di protezione dell'acropoli.",
+      "caveat": "La tradizione del nome e la suggestione virgiliana restano parte della storia culturale del monumento.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "La definizione di Antro della Sibilla fu attribuita a Maiuri nel 1932, durante la ricerca del luogo descritto da Virgilio.",
+      "source_ids": [
+        "src-001"
+      ],
+      "evidence": "Il Parco collega la denominazione agli scavi diretti da Amedeo Maiuri nel 1932.",
+      "caveat": "Questo non dimostra che la galleria fosse l'antro della profetessa.",
+      "status": "verified"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "La Sibilla Cumana che conosciamo oggi è il risultato dell'incontro tra mito antico, versi di Virgilio e interpretazione moderna del sito.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "evidence": "Le fonti distinguono la tradizione letteraria della Sibilla dalla funzione archeologica attribuita alla galleria.",
+      "caveat": "È una sintesi editoriale fondata sulle fonti, non una citazione letterale.",
+      "status": "verified"
+    }
+  ],
+  "cover": {
+    "headline": "La voce nell'antro",
+    "subheadline": "La Sibilla Cumana tra Virgilio e il tufo di Cuma",
+    "visual_idea": "Ingresso dell'Antro di Cuma nella penombra, vento che solleva foglie vuote e una figura femminile lontana; spazio alto pulito, nessun testo nell'immagine."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "La voce nell'antro",
+      "copy": "La Sibilla Cumana tra Virgilio e il tufo di Cuma.",
+      "visual_note": "Ingresso dell'Antro di Cuma, luce radente e foglie mosse dal vento; area alta pulita.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 2,
+      "role": "body",
+      "title": "Prima del responso",
+      "copy": "A Cuma, nei Campi Flegrei, la tradizione collocava una voce capace di parlare con gli dèi. Non una regina, non una strega: una Sibilla, cioè una profetessa ispirata.",
+      "visual_note": "Acropoli di Cuma tra rovine, tufo e mare lontano; nessun simbolo occultista.",
+      "source_ids": [
+        "src-002",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 3,
+      "role": "body",
+      "title": "Le foglie nel vento",
+      "copy": "Secondo il racconto legato a Virgilio, la Sibilla scriveva i responsi su foglie. Bastava che il vento le disperdesse perché il futuro tornasse a essere oscuro.",
+      "visual_note": "Foglie senza lettere leggibili trascinate in un corridoio di tufo; non inserire testo nell'asset.",
+      "source_ids": [
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 4,
+      "role": "body",
+      "title": "Enea chiede la strada",
+      "copy": "Nell'Eneide, Enea incontra la Sibilla prima di scendere verso il mondo dei morti. Cuma diventa così una soglia: tra la città dei vivi e ciò che sta sotto.",
+      "visual_note": "Due figure davanti a un passaggio buio, paesaggio flegreo appena visibile; tono epico sobrio.",
+      "source_ids": [
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 5,
+      "role": "body",
+      "title": "L'antro che vediamo",
+      "copy": "Il corridoio visitabile è una lunga galleria scavata nel tufo, con aperture laterali e cisterne. È il monumento più famoso del Parco Archeologico di Cuma.",
+      "visual_note": "Vista interna della galleria con aperture laterali e fasci di luce; composizione verticale ariosa.",
+      "source_ids": [
+        "src-001"
+      ]
+    },
+    {
+      "slide_number": 6,
+      "role": "body",
+      "title": "Ma era davvero il suo antro?",
+      "copy": "Le ricerche lo leggono come una galleria militare sannitica, scavata tra IV e III secolo a.C. La Sibilla è tradizione; il tufo è storia.",
+      "visual_note": "Fortificazione, tufo tagliato e foglia simbolica; nessuna ricostruzione assertiva della Sibilla.",
+      "source_ids": [
+        "src-001",
+        "src-003"
+      ]
+    },
+    {
+      "slide_number": 7,
+      "role": "body",
+      "title": "Un nome diventato memoria",
+      "copy": "Il nome 'Antro della Sibilla' fu attribuito a Maiuri nel 1932, mentre si cercava il luogo immaginato nei versi di Virgilio. Da allora il monumento vive su due piani: archeologia e leggenda.",
+      "visual_note": "Taccuino di scavo, parete di tufo e luce del mattino; niente scritte nell'immagine.",
+      "source_ids": [
+        "src-001",
+        "src-004"
+      ]
+    },
+    {
+      "slide_number": 8,
+      "role": "closing",
+      "title": "La profezia resta",
+      "copy": "Forse la Sibilla non ci ha lasciato una voce da ascoltare. Ci ha lasciato un luogo in cui mito, poesia e archeologia continuano a interrogarsi.",
+      "visual_note": "Uscita dell'antro verso la luce e il paesaggio flegreo; fonte visibile solo su questa card.",
+      "source_ids": [
+        "src-001",
+        "src-003",
+        "src-004"
+      ]
+    }
+  ],
+  "caption": {
+    "text": "A Cuma, nei Campi Flegrei, la tradizione immaginava una donna capace di parlare con gli dèi: la Sibilla Cumana.\n\nLa sua fama arriva soprattutto da Virgilio. Nell'Eneide, la Sibilla guida Enea verso il mondo dei morti e custodisce responsi scritti su foglie che il vento può disperdere.\n\nPoi c'è l'antro. La galleria di tufo che oggi si visita a Cuma è da secoli associata alla profetessa, ma il Parco Archeologico la interpreta come una struttura militare sannitica, costruita tra la fine del IV e l'inizio del III secolo a.C. La definizione di 'Antro della Sibilla' fu attribuita ad Amedeo Maiuri nel 1932, nel tentativo di riconoscere sul terreno il luogo dei versi virgiliani.\n\nNon è una smentita della leggenda: è il punto in cui la leggenda diventa più interessante. La Sibilla appartiene al mito e alla poesia; il corridoio appartiene alla storia del sito. Insieme, hanno fatto di Cuma una soglia che continua a parlare.",
+    "cta": "Tu ci sei mai entrato?",
+    "source_note": "Fonti consultate il 2026-07-11: Parco Archeologico dei Campi Flegrei, Treccani, Catalogo generale dei Beni Culturali. La tradizione della Sibilla e l'identificazione dell'antro sono tenute distinte dai dati archeologici."
+  },
+  "design_notes": {
+    "style_direction": "Tufo, verde scuro, blu vulcanico e luce calda all'uscita dell'antro. La tensione nasce dal passaggio tra corridoio reale e immaginazione virgiliana, senza horror generico.",
+    "safe_area": "Formato 1080x1350. Titolo massimo 2 righe; descrizione massimo 5 righe. Eyebrow 940x54 a x=72 y=52; titolo 940x166 a x=72 y=106; descrizione 942x430 a x=72 y=310; fondino-gradiente nero leggero in alto.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark.",
+      "Rendere riconoscibili tufo, aperture laterali, acropoli e paesaggio flegreo.",
+      "Non raffigurare la Sibilla come strega horror o icona occultista.",
+      "Il layer source resta visibile soltanto sulla slide 8."
+    ],
+    "risks": [
+      "Non presentare l'Antro visitabile come prova certa dell'antro della Sibilla.",
+      "Non trasformare il racconto virgiliano in cronaca storica.",
+      "Non confondere la datazione della galleria con quella del mito."
+    ]
+  },
+  "production_preflight": {
+    "status": "passed",
+    "checked_at": "2026-07-11",
+    "asset_format": "1080x1350",
+    "asset_count": 8,
+    "checks": {
+      "cover_approved": true,
+      "manifest_matches_slides": true,
+      "assets_named_and_sized": true,
+      "assets_have_no_text_logo_sources": true,
+      "copy_line_budget_ok": true,
+      "figma_template_layers_ready": true,
+      "figma_qa_sample_done": true,
+      "italian_accents_ok": true,
+      "grammar_ok": true,
+      "text_size_homogeneous": true,
+      "source_visibility_ok": true,
+      "approved_copy_exported": true,
+      "font_system_ok": true,
+      "signature_visible_all_cards": true,
+      "fondino_system_ok": true
+    },
+    "notes": "Otto asset originali normalizzati a 1080x1350 e montati nel file Figma canonico. QA su cover, slide 5, slide 6 e chiusura: fonte visibile solo sull'ultima card; nessun testo negli asset."
+  },
+  "figma": {
+    "status": "done",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=181-2",
+    "manifest_path": "outputs/figma/2026-07-11-post-07-sibilla-cumana-figma-map.json"
+  },
+  "fact_check": {
+    "status": "passed",
+    "checked_by": "Codex",
+    "checked_at": "2026-07-11",
+    "summary": "Fact-check superato con caveat: la Sibilla e la discesa di Enea sono tradizione letteraria legata a Virgilio; l'Antro visitabile è distinto dalla funzione oracolare e viene presentato secondo l'interpretazione ufficiale del Parco come galleria militare sannitica. La denominazione moderna del monumento è attribuita a Maiuri nel 1932.",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "approved",
+      "by": "utente",
+      "at": "2026-07-11",
+      "notes": "Procediamo: angolo e copy approvati per la produzione visuale."
+    },
+    "fact_check": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-11",
+      "notes": "Fonti istituzionali e Treccani controllate; caveat archeologico mantenuto."
+    },
+    "cover": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-11",
+      "notes": "Cover verificata su card singola 1080x1350: testo leggibile e asset senza testo incorporato."
+    },
+    "design": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-11",
+      "notes": "Carousel montato nel file Figma canonico, nodo 181:2; QA completato su cover, slide 5, slide 6 e chiusura."
+    },
+    "final": {
+      "status": "approved",
+      "by": "Codex",
+      "at": "2026-07-11",
+      "notes": "Produzione Figma completata; workflow del progetto terminato a figma_done."
+    }
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Nessuna azione: produzione Figma completata."
+  }
+}

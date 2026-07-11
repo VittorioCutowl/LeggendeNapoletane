@@ -236,7 +236,10 @@
       "assets_have_no_text_logo_sources": true,
       "copy_line_budget_ok": true,
       "figma_template_layers_ready": true,
-      "figma_qa_sample_done": true
+      "figma_qa_sample_done": true,
+      "font_system_ok": true,
+      "signature_visible_all_cards": true,
+      "fondino_system_ok": true
     },
     "notes": "Asset v1 generati e normalizzati a 1080x1350; carousel duplicato dal template a 9 slide, testi e fonti applicati, immagini caricate nei layer Figma, QA locale e screenshot Figma completati. Revisione tipografica post-pubblicazione: formato 1080x1350 confermato; font e fondino aumentati in Figma per leggibilita nel feed Instagram. Revisione tipografica v2 applicata in Figma: testo molto piu grande e verificato su singole card 1080x1350. Fonti rimosse dalle card intermedie in Figma: restano visibili solo sull ultima card del carousel."
   },

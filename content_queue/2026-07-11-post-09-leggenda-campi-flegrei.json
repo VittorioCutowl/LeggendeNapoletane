@@ -1,61 +1,65 @@
 {
-  "post_id": "YYYY-MM-DD-post-XX-slug",
+  "post_id": "2026-07-11-post-09-leggenda-campi-flegrei",
   "status": "idea",
   "priority": "medium",
-  "topic": "",
-  "angle": "",
+  "topic": "Leggenda sui Campi Flegrei",
+  "angle": "Tema da precisare: scegliere una leggenda flegrea riconoscibile e localizzata, evitando un racconto generico sull'area vulcanica.",
   "target": {
-    "audience": "",
-    "goal": "",
+    "audience": "Persone curiose di Napoli, paesaggio flegreo e folklore locale.",
+    "goal": "Trasformare lo spunto ampio in una leggenda concreta, verificabile e visivamente forte.",
     "format": "carousel"
   },
   "editorial_owner": {
-    "editor": "",
-    "journalist": "",
-    "fact_checker": "",
-    "designer": ""
+    "editor": "utente",
+    "journalist": "Da assegnare",
+    "fact_checker": "Da assegnare",
+    "designer": "Da assegnare"
   },
   "sources": [
     {
       "source_id": "src-001",
-      "title": "Fonte placeholder da sostituire",
+      "title": "Fonte da individuare su una leggenda specifica dei Campi Flegrei",
       "type": "placeholder",
       "url": "",
       "author": "",
       "published_at": "",
       "checked_at": "",
       "status": "placeholder",
-      "supports": "",
-      "caveat": "",
-      "notes": ""
+      "supports": "Rosa di leggende su Averno, Sibilla, Monte Nuovo, Baia o vulcani flegrei.",
+      "caveat": "Lo spunto è ancora troppo ampio per sostenere un claim.",
+      "notes": "Prima decisione richiesta: selezionare luogo e nucleo narrativo."
     }
   ],
   "claims": [],
   "cover": {
-    "headline": "",
-    "subheadline": "",
-    "visual_idea": ""
+    "headline": "Da scegliere",
+    "subheadline": "Leggenda dei Campi Flegrei",
+    "visual_idea": "Da definire dopo la scelta del luogo."
   },
   "slides": [
     {
       "slide_number": 1,
       "role": "cover",
-      "title": "",
-      "copy": "",
-      "visual_note": "",
+      "title": "Da scegliere",
+      "copy": "Spunto in valutazione.",
+      "visual_note": "Da definire.",
       "source_ids": []
     }
   ],
   "caption": {
     "text": "",
     "cta": "",
-    "source_note": ""
+    "source_note": "Spunto da precisare."
   },
   "design_notes": {
-    "style_direction": "",
-    "safe_area": "",
-    "asset_rules": [],
-    "risks": []
+    "style_direction": "Da definire.",
+    "safe_area": "Formato 1080x1350; da definire in fase di brief.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark."
+    ],
+    "risks": [
+      "Tema troppo generico; rischio di accumulare miti diversi senza perimetro."
+    ]
   },
   "production_preflight": {
     "status": "not_started",
@@ -74,11 +78,11 @@
       "signature_visible_all_cards": false,
       "fondino_system_ok": false
     },
-    "notes": ""
+    "notes": "Idea non ancora sviluppata."
   },
   "figma": {
     "status": "not_started",
-    "file_url": "",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
     "node_url": "",
     "manifest_path": ""
   },
@@ -125,6 +129,6 @@
     "is_blocked": false,
     "blocked_by_role": "",
     "reason": "",
-    "next_action": ""
+    "next_action": "Editore: scegliere una leggenda e un luogo preciso."
   }
 }

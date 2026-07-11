@@ -245,7 +245,10 @@
       "grammar_ok": true,
       "text_size_homogeneous": true,
       "source_visibility_ok": true,
-      "approved_copy_exported": true
+      "approved_copy_exported": true,
+      "font_system_ok": true,
+      "signature_visible_all_cards": true,
+      "fondino_system_ok": true
     },
     "notes": "Otto asset originali 1080x1350 generati, normalizzati e montati nel file Figma canonico. QA su cover, slide 5, slide 6 e slide 8: fonti visibili solo nell'ultima card."
   },

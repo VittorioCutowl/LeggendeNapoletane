@@ -1,0 +1,134 @@
+{
+  "post_id": "2026-07-11-post-08-ingresso-inferno-averno",
+  "status": "idea",
+  "priority": "high",
+  "topic": "L'ingresso dell'Inferno al Lago d'Averno",
+  "angle": "Il lago vulcanico che la tradizione antica trasformò in una soglia dell'Oltretomba: mito, paesaggio e stratificazione dei Campi Flegrei.",
+  "target": {
+    "audience": "Persone curiose di Napoli, Campi Flegrei e miti dell'antichità.",
+    "goal": "Valutare una leggenda fortemente localizzata e visuale distinguendo geografia, fonti classiche e tradizione popolare.",
+    "format": "carousel"
+  },
+  "editorial_owner": {
+    "editor": "utente",
+    "journalist": "Da assegnare",
+    "fact_checker": "Da assegnare",
+    "designer": "Da assegnare"
+  },
+  "sources": [
+    {
+      "source_id": "src-001",
+      "title": "Fonte da individuare su Lago d'Averno e porta degli Inferi",
+      "type": "placeholder",
+      "url": "",
+      "author": "",
+      "published_at": "",
+      "checked_at": "",
+      "status": "placeholder",
+      "supports": "Ricerca su fonti classiche, archeologiche e istituzionali dei Campi Flegrei.",
+      "caveat": "Non usare il topos dell'ingresso dell'Inferno come fatto geografico certo.",
+      "notes": "Direzione di ricerca: Virgilio, Strabone, Parco Archeologico dei Campi Flegrei."
+    }
+  ],
+  "claims": [],
+  "cover": {
+    "headline": "La porta sotto il lago",
+    "subheadline": "L'Averno e l'ingresso dell'Inferno",
+    "visual_idea": "Lago scuro, vapori e costa vulcanica; nessuna iconografia infernale esplicita."
+  },
+  "slides": [
+    {
+      "slide_number": 1,
+      "role": "cover",
+      "title": "La porta sotto il lago",
+      "copy": "L'Averno e l'ingresso dell'Inferno.",
+      "visual_note": "Lago d'Averno al crepuscolo, spazio alto pulito.",
+      "source_ids": []
+    }
+  ],
+  "caption": {
+    "text": "",
+    "cta": "",
+    "source_note": "Ricerca da avviare."
+  },
+  "design_notes": {
+    "style_direction": "Vulcanico, lacustre, notturno; mistero paesaggistico.",
+    "safe_area": "Formato 1080x1350; da definire in fase di brief.",
+    "asset_rules": [
+      "Asset senza testo, fonti, logo, CTA o watermark."
+    ],
+    "risks": [
+      "Non presentare l'Averno come accesso fisico documentato all'Inferno."
+    ]
+  },
+  "production_preflight": {
+    "status": "not_started",
+    "checked_at": "",
+    "asset_format": "1080x1350",
+    "asset_count": 0,
+    "checks": {
+      "cover_approved": false,
+      "manifest_matches_slides": false,
+      "assets_named_and_sized": false,
+      "assets_have_no_text_logo_sources": false,
+      "copy_line_budget_ok": false,
+      "figma_template_layers_ready": false,
+      "figma_qa_sample_done": false,
+      "font_system_ok": false,
+      "signature_visible_all_cards": false,
+      "fondino_system_ok": false
+    },
+    "notes": "Idea non ancora sviluppata."
+  },
+  "figma": {
+    "status": "not_started",
+    "file_url": "https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv",
+    "node_url": "",
+    "manifest_path": ""
+  },
+  "fact_check": {
+    "status": "not_started",
+    "checked_by": "",
+    "checked_at": "",
+    "summary": "",
+    "open_issues": []
+  },
+  "approvals": {
+    "editorial": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "fact_check": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "cover": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "design": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    },
+    "final": {
+      "status": "pending",
+      "by": "",
+      "at": "",
+      "notes": ""
+    }
+  },
+  "blocked": {
+    "is_blocked": false,
+    "blocked_by_role": "",
+    "reason": "",
+    "next_action": "Trend scout/editor: definire fonti e perimetro storico."
+  }
+}

@@ -197,6 +197,11 @@ Ogni carosello deve avere:
   centrali deve restare nascosto; la `description` sale sotto l'eyebrow.
 - Verificare sempre singole card `1080x1350`, non solo screenshot della strip
   completa del carousel.
+- Prima di `figma_done`, verificare su cover, card centrale e chiusura il
+  sistema visivo completo: `fondino` nero su tutta la card con dissolvenza,
+  font canonici (Cormorant Garamond per eyebrow/titoli, Lora per descrizioni,
+  fonti e firma) e firma `Leggende Napoletane` visibile nel footer di ogni
+  card. Registrare l'esito in `production_preflight.checks`.
 - Gli asset locali devono essere senza testo, fonti, logo, CTA o watermark.
 - Testi, fonti, logo e caption si montano in Figma.
 - Le fonti editoriali restano nel JSON e nella caption, ma nel layout Figma il

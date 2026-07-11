@@ -20,6 +20,8 @@ Ogni post deve avere:
 - stato Figma in `figma`;
 - approvazioni necessarie alla produzione e blocchi tracciati;
 - `production_preflight` compilato prima di `figma_done`.
+- `production_preflight.checks` deve confermare font canonici, fondino uniforme
+  sfumato e firma `Leggende Napoletane` su tutte le card prima di `figma_done`.
 
 ## Regole Figma E Fonti
 

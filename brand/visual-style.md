@@ -60,6 +60,19 @@ lo standard solo per salvare copy troppo lungo.
 QA minimo prima di `figma_done`: cover, una slide centrale, la slide piu lunga
 e l'ultima card con fonte visibile.
 
+## QA Sistema Visivo Obbligatorio
+
+Prima di chiudere un carousel verificare sempre insieme:
+
+- fondino nero presente su tutta la card e sfumato verso il fondo;
+- Cormorant Garamond per eyebrow e titoli;
+- Lora per descrizioni, fonti e firma;
+- firma completa `Leggende Napoletane` nel footer di ogni card;
+- fonte editoriale visibile soltanto sull'ultima card.
+
+Un carousel non passa a `figma_done` se uno di questi elementi manca o usa una
+variante non registrata nel design spec.
+
 ## Evitare
 
 - Horror generico.

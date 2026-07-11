@@ -256,7 +256,10 @@
       "assets_have_no_text_logo_sources": true,
       "copy_line_budget_ok": true,
       "figma_template_layers_ready": true,
-      "figma_qa_sample_done": true
+      "figma_qa_sample_done": true,
+      "font_system_ok": true,
+      "signature_visible_all_cards": true,
+      "fondino_system_ok": true
     },
     "notes": "Asset 01-09 generati, normalizzati a 1080x1350, montati in Figma nel carousel node 77:2. QA visivo completato su cover, slide 5, slide 8 e slide 9: testo leggibile, caveat visibile, nessun testo/watermark negli asset, tono gotico coerente e non splatter. Revisione tipografica post-pubblicazione: formato 1080x1350 confermato; font e fondino aumentati in Figma per leggibilita nel feed Instagram. Revisione tipografica v2 applicata in Figma: testo molto piu grande e verificato su singole card 1080x1350. Fonti rimosse dalle card intermedie in Figma: restano visibili solo sull ultima card del carousel. Bugfix font 2026-07-08: sostituito Inter in Figma con tipografia canonica del progetto: Cormorant Garamond per eyebrow/titoli, Lora per descrizioni/fonti/logo."
   },

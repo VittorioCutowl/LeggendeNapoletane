@@ -296,7 +296,10 @@ function validatePost(file, post) {
     "assets_have_no_text_logo_sources",
     "copy_line_budget_ok",
     "figma_template_layers_ready",
-    "figma_qa_sample_done"
+    "figma_qa_sample_done",
+    "font_system_ok",
+    "signature_visible_all_cards",
+    "fondino_system_ok"
   ], "production_preflight.checks.");
 
   if (post.status === "fact_checked" && post.fact_check.status !== "passed") {

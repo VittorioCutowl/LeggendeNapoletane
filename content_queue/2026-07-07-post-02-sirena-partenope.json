@@ -221,7 +221,10 @@
       "assets_have_no_text_logo_sources": true,
       "copy_line_budget_ok": true,
       "figma_template_layers_ready": true,
-      "figma_qa_sample_done": true
+      "figma_qa_sample_done": true,
+      "font_system_ok": true,
+      "signature_visible_all_cards": true,
+      "fondino_system_ok": true
     },
     "notes": "Carousel gia montato in Figma sul nodo 39:2; testi estratti dai layer Figma, fonti visibili solo sull ultima card, formato 1080x1350 confermato. Asset locali indicizzati come placeholder Figma-derived da esportare se serve consegna offline."
   },

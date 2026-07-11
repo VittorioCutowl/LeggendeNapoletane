@@ -11,7 +11,10 @@ Quando un post cambia stato, aggiornare anche questa lavagna.
 
 | Post | Priorita | Leggenda | Angolo | Prossimo passo |
 |---|---|---|---|---|
-| - | - | - | - | - |
+| 2026-07-11-post-08-ingresso-inferno-averno | Alta | L'ingresso dell'Inferno al Lago d'Averno | lago vulcanico come soglia dell'Oltretomba | definire fonti classiche e archeologiche |
+| 2026-07-11-post-09-leggenda-campi-flegrei | Media | Leggenda sui Campi Flegrei | spunto ampio da restringere a luogo e racconto preciso | scegliere la leggenda candidata |
+| 2026-07-11-post-10-lava-san-giorgio-a-cremano | Alta | La lava e San Giorgio a Cremano | lava, devozione e memoria vesuviana | verificare il nucleo locale |
+| 2026-07-11-post-11-sangue-san-gennaro | Alta | Quando il sangue di San Gennaro non si è sciolto | attesa rituale e interpretazioni, senza presagi automatici | individuare episodio e fonte primaria |
 
 ## In Scrittura
 
@@ -29,7 +32,7 @@ Quando un post cambia stato, aggiornare anche questa lavagna.
 
 | Post | Leggenda | Stato design | Prossimo passo |
 |---|---|---|---|
-| - | - | - | - |
+| 2026-07-11-post-07-sibilla-cumana | Sibilla Cumana e Antro di Cuma | `figma_done` | nessuna: produzione Figma completata |
 
 ## Attenzione Produzione Figma
 
@@ -58,3 +61,7 @@ completata la produzione Figma.
 ## Produzione Figma completata
 
 I post con `status = figma_done` hanno concluso il workflow del progetto.
+
+| Post | Nodo Figma | QA |
+|---|---|---|
+| 2026-07-11-post-07-sibilla-cumana | [181:2](https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=181-2) | cover, slide 5, slide 6 e chiusura verificati |
