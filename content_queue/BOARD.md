@@ -32,7 +32,7 @@ Quando un post cambia stato, aggiornare anche questa lavagna.
 | Post | Leggenda | Stato design | Prossimo passo |
 |---|---|---|---|
 | 2026-07-11-post-07-sibilla-cumana | Sibilla Cumana e Antro di Cuma | `figma_done` | nessuna: produzione Figma completata |
-| 2026-07-11-post-11-sangue-san-gennaro | Quando il sangue di San Gennaro non si è sciolto | `figma_done` | nessuna: produzione Figma completata |
+| 2026-07-11-post-11-sangue-san-gennaro | Quando il sangue di San Gennaro non si è sciolto | `draft_ready` | approvare il nuovo angolo prima del preflight Figma |
 
 ## Attenzione Produzione Figma
 
@@ -65,4 +65,3 @@ I post con `status = figma_done` hanno concluso il workflow del progetto.
 | Post | Nodo Figma | QA |
 |---|---|---|
 | 2026-07-11-post-07-sibilla-cumana | [181:2](https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=181-2) | cover, slide 5, slide 6 e chiusura verificati |
-| 2026-07-11-post-11-sangue-san-gennaro | [189:10](https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=189-10) | cover, slide 5 e chiusura verificati |

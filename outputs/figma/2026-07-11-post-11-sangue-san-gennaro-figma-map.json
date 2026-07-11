@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "post_id": "2026-07-11-post-11-sangue-san-gennaro",
-  "status": "done",
+  "status": "in_progress",
   "source_post": "content_queue/2026-07-11-post-11-sangue-san-gennaro.json",
   "asset_rules": {"format":"png","width":1080,"height":1350,"no_text_in_assets":true},
   "import_mode": "template_duplicate",

@@ -1,110 +1,38 @@
 {
-  "post_id": "2026-07-11-post-11-sangue-san-gennaro",
-  "status": "figma_done",
-  "priority": "high",
-  "topic": "Quando il sangue di San Gennaro non si è sciolto",
-  "angle": "Il 16 dicembre 2016 come episodio documentato di attesa rituale: cronaca, memoria popolare e posizione della Chiesa restano distinti, senza trasformare il rito in un presagio certo.",
-  "target": {
-    "audience": "Persone curiose di Napoli, devozione popolare, rituali e storia della città.",
-    "goal": "Raccontare cosa accadde nel Duomo il 16 dicembre 2016 e spiegare come la città ha interpretato, ma non può provare, quel mancato scioglimento.",
-    "format": "carousel"
-  },
-  "editorial_owner": {
-    "editor": "utente",
-    "journalist": "Codex",
-    "fact_checker": "Codex",
-    "designer": "Codex"
-  },
-  "sources": [
-    {
-      "source_id": "src-001",
-      "title": "San Gennaro, non si è sciolto il sangue",
-      "type": "secondary",
-      "url": "https://www.lastampa.it/cronaca/2016/12/17/news/san-gennaro-non-si-e-sciolto-il-sangue-1.34757504",
-      "author": "La Stampa",
-      "published_at": "2016-12-17",
-      "checked_at": "2026-07-11",
-      "status": "verified",
-      "supports": "Cronaca del 16 dicembre 2016: il sangue non si liquefece e l'ampolla fu riposta nella teca alle 19:15; registra anche le associazioni della memoria popolare con anni difficili.",
-      "caveat": "È una fonte giornalistica contemporanea, non una prova del significato soprannaturale dell'evento.",
-      "notes": "Episodio scelto come nucleo narrativo del carousel."
-    },
-    {
-      "source_id": "src-002",
-      "title": "Si è sciolto il sangue di San Gennaro, applausi dei fedeli",
-      "type": "secondary",
-      "url": "https://www.ansa.it/sito/notizie/cronaca/2023/09/19/si-e-sciolto-il-sangue-di-san-gennaro-applausi-dei-fedeli_a623ad30-d472-4a6a-97b4-42d668675cc1.html",
-      "author": "ANSA",
-      "published_at": "2023-09-19",
-      "checked_at": "2026-07-11",
-      "status": "verified",
-      "supports": "Le tre date rituali attese dalla devozione: 19 settembre, sabato precedente la prima domenica di maggio e 16 dicembre.",
-      "caveat": "La frequenza rituale descrive la pratica, non certifica il fenomeno come fatto scientifico.",
-      "notes": "Usata per il contesto del rito."
-    },
-    {
-      "source_id": "src-003",
-      "title": "Solennità di San Gennaro 2021",
-      "type": "primary",
-      "url": "https://www.chiesadinapoli.it/solennita-di-san-gennaro-2021/",
-      "author": "Arcidiocesi di Napoli",
-      "published_at": "2021-09-19",
-      "checked_at": "2026-07-11",
-      "status": "verified",
-      "supports": "La posizione pastorale distingue il segno della devozione dalla lettura automatica di un buon auspicio o di una sventura: il sangue può sciogliersi o restare solido.",
-      "caveat": "È una fonte interna alla Chiesa e va presentata come posizione ecclesiale, non come verifica indipendente.",
-      "notes": "Caveat centrale per evitare il presagio assertivo."
-    },
-    {
-      "source_id": "src-004",
-      "title": "Traslazione delle reliquie di San Gennaro",
-      "type": "primary",
-      "url": "https://www.chiesadinapoli.it/traslazione-delle-reliquie-di-san-gennaro/",
-      "author": "Arcidiocesi di Napoli",
-      "published_at": "2020-09-19",
-      "checked_at": "2026-07-11",
-      "status": "verified",
-      "supports": "La Chiesa di Napoli invita a non leggere il prodigio come oracolo di buone o cattive sorti e lo colloca nella memoria condivisa della fede.",
-      "caveat": "La pagina è una spiegazione pastorale del culto, non una ricostruzione storica esaustiva.",
-      "notes": "Rafforza la distinzione tra rito e previsione."
-    },
-    {
-      "source_id": "src-005",
-      "title": "Archivio storico della Cappella del Tesoro di San Gennaro",
-      "type": "archive",
-      "url": "https://archividichiarati.cultura.gov.it/cgi-bin/pagina.pl?RicFrmPagArc=94&Scheda=arc-1279&Sezione=indice",
-      "author": "Ministero della Cultura",
-      "published_at": "",
-      "checked_at": "2026-07-11",
-      "status": "verified",
-      "supports": "La Cappella del Tesoro, fondata nel 1527, conserva un archivio legato al culto e alla memoria del santo.",
-      "caveat": "La scheda archivistica documenta il patrimonio, non l'origine materiale della reliquia né il fenomeno della liquefazione.",
-      "notes": "Contesto storico per la slide finale."
-    }
+  "post_id":"2026-07-11-post-11-sangue-san-gennaro","status":"draft_ready","priority":"high",
+  "topic":"Quando il sangue di San Gennaro non si è sciolto","angle":"Le volte in cui il sangue non si è sciolto e le tragedie che la memoria popolare ha letto come segni: una cronologia di coincidenze, paure e presagi, con il caveat che coincidenza non significa causa.",
+  "target":{"audience":"Persone curiose di Napoli, devozione popolare, rituali e storia della città.","goal":"Raccontare i principali mancati scioglimenti ricordati dalla stampa e gli eventi difficili che vi furono associati, distinguendo memoria popolare, cronaca e causalità non dimostrata.","format":"carousel"},
+  "editorial_owner":{"editor":"utente","journalist":"Codex","fact_checker":"Codex","designer":"Codex"},
+  "sources":[
+    {"source_id":"src-001","title":"San Gennaro, non si è sciolto il sangue","type":"secondary","url":"https://www.lastampa.it/cronaca/2016/12/17/news/san-gennaro-non-si-e-sciolto-il-sangue-1.34757504","author":"La Stampa","published_at":"2016-12-17","checked_at":"2026-07-11","status":"verified","supports":"Cronaca del mancato scioglimento del 2016 e lista delle associazioni popolari con 1939, 1940, 1943, 1973 e 1980.","caveat":"Fonte giornalistica contemporanea: registra associazioni della memoria, non rapporti causali."},
+    {"source_id":"src-002","title":"San Gennaro, niente miracolo: non si scioglie il sangue nella teca","type":"secondary","url":"https://www.ansa.it/campania/notizie/2020/12/16/san-gennaro-niente-miracolo-non-si-scioglie-il-sangue-nella-teca_eedaddf2-d3b2-4790-8392-536e98fb72e6.html","author":"ANSA","published_at":"2020-12-16","checked_at":"2026-07-11","status":"verified","supports":"Mancato scioglimento del 16 dicembre 2020 e confronto con il precedente del 2016.","caveat":"La cronaca riporta il fatto rituale e il contesto dell'anno pandemico, senza stabilire un nesso soprannaturale."},
+    {"source_id":"src-003","title":"Solennità di San Gennaro 2021","type":"primary","url":"https://www.chiesadinapoli.it/solennita-di-san-gennaro-2021/","author":"Arcidiocesi di Napoli","published_at":"2021-09-19","checked_at":"2026-07-11","status":"verified","supports":"La posizione pastorale distingue il segno della devozione dalla lettura automatica di una sventura: il sangue può sciogliersi o restare solido.","caveat":"È la posizione ecclesiale ufficiale, non una verifica indipendente del fenomeno."},
+    {"source_id":"src-004","title":"Traslazione delle reliquie di San Gennaro","type":"primary","url":"https://www.chiesadinapoli.it/traslazione-delle-reliquie-di-san-gennaro/","author":"Arcidiocesi di Napoli","published_at":"2020-09-19","checked_at":"2026-07-11","status":"verified","supports":"Invito a non leggere il prodigio come oracolo di buone o cattive sorti.","caveat":"Spiegazione pastorale del culto, non ricostruzione storica completa."},
+    {"source_id":"src-005","title":"Archivio storico della Cappella del Tesoro di San Gennaro","type":"archive","url":"https://archividichiarati.cultura.gov.it/cgi-bin/pagina.pl?RicFrmPagArc=94&Scheda=arc-1279&Sezione=indice","author":"Ministero della Cultura","published_at":"","checked_at":"2026-07-11","status":"verified","supports":"La Cappella del Tesoro, fondata nel 1527, custodisce la memoria documentaria del culto.","caveat":"Il dato archivistico non prova il fenomeno della liquefazione."}
   ],
-  "claims": [
-    {"claim_id":"claim-001","text":"Il 16 dicembre 2016 il sangue nell'ampolla non si sciolse e la teca fu richiusa alle 19:15.","source_ids":["src-001"],"evidence":"Cronaca contemporanea con data e ora dell'esposizione nel Duomo.","caveat":"Si riporta ciò che fu osservato e riferito durante il rito, senza dedurne una causa soprannaturale.","status":"verified"},
-    {"claim_id":"claim-002","text":"La devozione attende il rito tre volte l'anno: il 19 settembre, a maggio e il 16 dicembre.","source_ids":["src-002"],"evidence":"Resoconto ANSA delle date liturgiche tradizionali.","caveat":"Le date appartengono alla pratica cultuale; il loro esito non è un indicatore verificato del futuro.","status":"verified"},
-    {"claim_id":"claim-003","text":"La memoria popolare ha collegato alcuni mancati scioglimenti ad anni percepiti come difficili.","source_ids":["src-001"],"evidence":"La Stampa elenca associazioni ricorrenti nella memoria cittadina.","caveat":"Associazione narrativa e retrospettiva, non rapporto causale dimostrato.","status":"verified"},
-    {"claim_id":"claim-004","text":"La Chiesa di Napoli invita a non leggere il prodigio come un oracolo di buona o cattiva sorte.","source_ids":["src-003","src-004"],"evidence":"Pagine pastorali ufficiali distinguono il segno della fede dall'interpretazione apotropaica.","caveat":"È la posizione ecclesiale ufficiale, riportata come tale.","status":"verified"},
-    {"claim_id":"claim-005","text":"La Cappella del Tesoro, fondata nel 1527, custodisce un archivio legato al culto di San Gennaro.","source_ids":["src-005"],"evidence":"Scheda del patrimonio archivistico dichiarato dal Ministero della Cultura.","caveat":"Il dato documenta la storia dell'istituzione, non prova il miracolo.","status":"verified"}
+  "claims":[
+    {"claim_id":"claim-001","text":"La stampa ricorda mancati scioglimenti nel 1939, 1940, 1943, 1973 e 1980, oltre ai casi recenti del 2016 e 2020.","source_ids":["src-001","src-002"],"evidence":"Cronache di La Stampa e ANSA.","caveat":"L'elenco dipende dalle ricostruzioni giornalistiche disponibili e non è una serie storica completa certificata.","status":"verified"},
+    {"claim_id":"claim-002","text":"Il 1939 e il 1940 vengono ricordati insieme all'avvio della Seconda guerra mondiale e all'entrata dell'Italia nel conflitto.","source_ids":["src-001"],"evidence":"La Stampa registra l'associazione nella memoria cittadina.","caveat":"Il sangue non causò la guerra: la relazione è una lettura retrospettiva del presagio.","status":"verified"},
+    {"claim_id":"claim-003","text":"Il 1943 viene associato all'occupazione nazista di Napoli; il 1973 all'epidemia di colera; il 1980 al terremoto dell'Irpinia.","source_ids":["src-001"],"evidence":"Cronaca contemporanea e ricostruzione giornalistica degli eventi ricordati.","caveat":"Sono eventi storici reali accostati a un rito, non conseguenze dimostrate della mancata liquefazione.","status":"verified"},
+    {"claim_id":"claim-004","text":"Nel 2016 e nel 2020 il sangue non si sciolse il 16 dicembre; il 2020 fu l'anno della pandemia di Covid-19.","source_ids":["src-001","src-002"],"evidence":"La Stampa e ANSA riportano i due episodi e le rispettive date.","caveat":"La contemporaneità con la pandemia non dimostra un presagio soprannaturale.","status":"verified"},
+    {"claim_id":"claim-005","text":"La Chiesa di Napoli invita a non interpretare il mancato scioglimento come un oracolo di sventura.","source_ids":["src-003","src-004"],"evidence":"Pagine ufficiali dell'Arcidiocesi.","caveat":"È una posizione ecclesiale riportata come tale.","status":"verified"}
   ],
-  "cover": {"headline":"E se non si scioglie?","subheadline":"Il giorno in cui Napoli rimase in attesa","visual_idea":"Ampolla evocata senza falsa riproduzione, luce di cattedrale e folla sfocata; atmosfera devozionale, non horror."},
-  "slides": [
-    {"slide_number":1,"role":"cover","title":"E se non si scioglie?","copy":"Il giorno in cui Napoli rimase in attesa.","visual_note":"Ampolla e folla in penombra, mani raccolte, luce radente di cattedrale.","source_ids":[]},
-    {"slide_number":2,"role":"body","title":"Tre volte l'anno","copy":"La devozione attende il rito il 19 settembre, a maggio e il 16 dicembre. Non è un cronometro: è un appuntamento con la memoria.","visual_note":"Calendario liturgico evocato con tre bagliori nella navata, senza testo nell'immagine.","source_ids":["src-002"]},
-    {"slide_number":3,"role":"body","title":"16 dicembre 2016","copy":"Nel Duomo l'ampolla rimase esposta. Il sangue non si sciolse; alle 19:15 tornò nella teca.","visual_note":"Interno del Duomo, teca lontana e pubblico in attesa; spazio pulito in alto.","source_ids":["src-001"]},
-    {"slide_number":4,"role":"body","title":"L'attesa non finì lì","copy":"Nessun boato, nessuna sentenza. Restarono le preghiere, gli sguardi e quella domanda che a Napoli torna da secoli.","visual_note":"Folla raccolta e candele, tono intimo e corale, niente presagi grafici.","source_ids":["src-001","src-004"]},
-    {"slide_number":5,"role":"body","title":"Il presagio che la città ricorda","copy":"La memoria popolare ha accostato il mancato scioglimento ad anni difficili. Ma ricordare insieme non significa dimostrare un legame.","visual_note":"Archivio di giornali e piazza vuota, stratificazione della memoria senza simboli apocalittici.","source_ids":["src-001"]},
-    {"slide_number":6,"role":"body","title":"Un confine importante","copy":"La Chiesa di Napoli invita a non leggerlo come un oracolo: che si sciolga o resti solido, il segno appartiene alla fede, non a una previsione.","visual_note":"Navata luminosa e dettaglio di mani, equilibrio tra autorità e calore umano.","source_ids":["src-003","src-004"]},
-    {"slide_number":7,"role":"body","title":"Una storia custodita","copy":"La Cappella del Tesoro nasce nel 1527. Attorno alla reliquia si sono raccolti documenti, riti e la memoria civile di una città intera.","visual_note":"Archivio antico, argento e legno, atmosfera materica e rispettosa.","source_ids":["src-005"]},
-    {"slide_number":8,"role":"closing","title":"Il sangue resta. Napoli ascolta.","copy":"Forse il senso non è indovinare il futuro, ma riconoscersi nell'attesa. Una leggenda vive anche nel modo in cui una comunità la tramanda.","visual_note":"Luce calda all'uscita del Duomo, folla che si disperde; chiusura contemplativa.","source_ids":["src-003","src-004","src-005"]}
+  "cover":{"headline":"Quando non si sciolse","subheadline":"Le volte in cui Napoli temette il peggio","visual_idea":"Ampolla e folla in penombra, atmosfera tesa ma rispettosa; nessun simbolo apocalittico."},
+  "slides":[
+    {"slide_number":1,"role":"cover","title":"Quando non si sciolse","copy":"Le volte in cui Napoli temette il peggio.","visual_note":"Ampolla e folla in penombra.","source_ids":[]},
+    {"slide_number":2,"role":"body","title":"La lista che torna","copy":"1939. 1940. 1943. 1973. 1980. Poi 2016 e 2020. Ogni mancato scioglimento ha riaperto la stessa domanda: è un segno?","visual_note":"Calendario e archivio, sette date senza testo nell'immagine.","source_ids":["src-001","src-002"]},
+    {"slide_number":3,"role":"body","title":"1939–1940","copy":"Il sangue non si sciolse. La memoria lo accostò agli anni della guerra: prima il conflitto in Europa, poi l'entrata dell'Italia.","visual_note":"Carte d'archivio e luce fredda, niente immagini di guerra esplicite.","source_ids":["src-001"]},
+    {"slide_number":4,"role":"body","title":"1943","copy":"Quell'anno il mancato scioglimento fu letto insieme all'occupazione nazista e ai mesi più duri per Napoli.","visual_note":"Città in penombra e finestre oscurate, tono documentario.","source_ids":["src-001"]},
+    {"slide_number":5,"role":"body","title":"1973","copy":"A Napoli il colera portò paura e isolamento. Il sangue rimasto solido divenne, per molti, il cattivo segno che sembrava averlo annunciato.","visual_note":"Strada vuota e candela, senza estetizzare la malattia.","source_ids":["src-001"]},
+    {"slide_number":6,"role":"body","title":"1980","copy":"Dopo il mancato scioglimento, il terremoto dell'Irpinia colpì la Campania. La coincidenza entrò per sempre nel racconto popolare.","visual_note":"Roccia, crepe e mani solidali; nessun effetto catastrofico.","source_ids":["src-001"]},
+    {"slide_number":7,"role":"body","title":"2016 e 2020","copy":"Nel 2016 l'ampolla tornò nella teca alle 19:15. Nel 2020 il sangue restò solido nell'anno della pandemia. La paura si riaccese.","visual_note":"Teca lontana, folla e calendario contemporaneo.","source_ids":["src-001","src-002"]},
+    {"slide_number":8,"role":"closing","title":"Coincidenze, non profezie","copy":"Le tragedie sono reali. Il presagio è una lettura della memoria. La Chiesa invita a non trasformare il rito in una previsione del futuro.","visual_note":"Luce che entra nella cappella, chiusura sobria.","source_ids":["src-003","src-004","src-005"]}
   ],
-  "caption": {"text":"Il 16 dicembre 2016, nel Duomo di Napoli, il sangue custodito nell'ampolla non si sciolse. La teca fu richiusa alle 19:15 e la città rimase sospesa tra attesa, devozione e memoria.\n\nNel racconto popolare quel segno è stato talvolta letto come presagio. La Chiesa di Napoli, però, invita a non trasformare il rito in un oracolo: il sangue può sciogliersi oppure restare solido, senza diventare una previsione del futuro.\n\nQuesta è la storia di un'attesa collettiva, non di una profezia dimostrata.","cta":"Tu come hai ascoltato questa storia: come fede, memoria o leggenda?","source_note":"Fonti consultate il 11 luglio 2026: La Stampa (2016), ANSA (2023), Arcidiocesi di Napoli (2020; 2021), Ministero della Cultura (scheda archivistica)."},
-  "design_notes": {"style_direction":"Devozionale, intimo, corale; cattedrale, argento, legno e luce calda. Evitare horror e presagi grafici.","safe_area":"Formato 1080x1350; testo in fascia alta secondo template canonico; fondino nero sfumato su tutta la card.","asset_rules":["Asset senza testo, fonti, logo, CTA o watermark.","Usare Cormorant Garamond per eyebrow/titoli e Lora per descrizioni/fonti/firma.","Firma completa Leggende Napoletane visibile su tutte le card."],"risks":["Non presentare la mancata liquefazione come prova di sventura.","Indicare sempre che le associazioni con anni difficili appartengono alla memoria popolare.","Non usare un'ampolla storicamente ricostruita come se fosse una fotografia della reliquia."]},
-  "production_preflight": {"status":"passed","checked_at":"2026-07-11","asset_format":"1080x1350","asset_count":8,"qa_artifacts":["outputs/figma/qa/2026-07-11-post-11-sangue-san-gennaro/01-cover.png","outputs/figma/qa/2026-07-11-post-11-sangue-san-gennaro/05-memoria.png","outputs/figma/qa/2026-07-11-post-11-sangue-san-gennaro/08-chiusura.png"],"checked_slide_numbers":[1,5,8],"visual_duplicate_check":"Passato: otto asset con checksum distinti; nessuna illustrazione ripetuta.","source_layer_policy_checked":true,"checks":{"cover_approved":true,"manifest_matches_slides":true,"assets_named_and_sized":true,"assets_have_no_text_logo_sources":true,"copy_line_budget_ok":true,"figma_template_layers_ready":true,"figma_qa_sample_done":true,"font_system_ok":true,"signature_visible_all_cards":true,"fondino_system_ok":true,"italian_accents_ok":true,"grammar_ok":true,"text_size_homogeneous":true,"source_visibility_ok":true,"approved_copy_exported":true},"notes":"Preflight Figma passato: font canonici, fondino nero sfumato su tutta la card, firma completa su tutte le card, fonti solo sulla chiusura; controllo duplicati rifatto dopo sostituzione degli asset."},
-  "figma": {"status":"done","file_url":"https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv","node_url":"https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=189-10","manifest_path":"outputs/figma/2026-07-11-post-11-sangue-san-gennaro-figma-map.json"},
-  "fact_check": {"status":"passed","checked_by":"Codex","checked_at":"2026-07-11","summary":"Episodio del 16 dicembre 2016 documentato da cronaca contemporanea; date rituali, posizione della Chiesa e contesto archivistico verificati su fonti qualificate. Il copy separa osservazione, memoria popolare e interpretazione pastorale.","open_issues":[]},
-  "approvals": {"editorial":{"status":"approved","by":"utente","at":"2026-07-11","notes":"Angolo approvato: mancato scioglimento come attesa e memoria, senza presagio assertivo."},"fact_check":{"status":"approved","by":"Codex","at":"2026-07-11","notes":"Fonti e caveat verificati."},"cover":{"status":"approved","by":"utente","at":"2026-07-11","notes":"Hook confermato."},"design":{"status":"approved","by":"Codex","at":"2026-07-11","notes":"Montaggio Figma e QA visuale passati."},"final":{"status":"pending","by":"","at":"","notes":"Workflow fermo a Figma: nessuna programmazione o pubblicazione."}},
-  "blocked": {"is_blocked":false,"blocked_by_role":"","reason":"","next_action":"Nessuna: produzione Figma completata; eventuale revisione editoriale prima di un nuovo montaggio."}
+  "caption":{"text":"Ci sono anni in cui il sangue di San Gennaro non si è sciolto e, poco prima o poco dopo, Napoli ha attraversato eventi terribili: guerra, occupazione, colera, terremoto. La memoria popolare ha messo questi episodi in fila e li ha letti come un avvertimento.\n\nIl racconto è potente, ma la cautela è necessaria: una coincidenza non è una causa. La Chiesa di Napoli invita a non trasformare il rito in un oracolo.\n\nQuesta è la storia di come una città ha cercato un senso nelle proprie paure.","cta":"Quale di queste coincidenze avevi già sentito raccontare?","source_note":"Fonti consultate il 11 luglio 2026: La Stampa (2016), ANSA (2020), Arcidiocesi di Napoli (2020; 2021), Ministero della Cultura."},
+  "design_notes":{"style_direction":"Documentario, teso, corale; archivio, candele, metallo e città in penombra. Nessuna estetica horror o apocalittica.","safe_area":"Formato 1080x1350; titolo massimo 2 righe su cover/chiusura, descrizione massimo 5 righe; fondino nero sfumato su tutta la card.","asset_rules":["Asset senza testo, fonti, logo, CTA o watermark.","Cormorant Garamond per eyebrow/titoli; Lora per descrizioni/fonti/firma.","Firma completa Leggende Napoletane su tutte le card."],"risks":["Non presentare gli eventi come conseguenze del mancato scioglimento.","Indicare che l'elenco è una ricostruzione della memoria e della stampa, non una serie completa.","Trattare guerra, colera, pandemia e terremoto con sobrietà, senza spettacolarizzare la sofferenza."]},
+  "production_preflight":{"status":"not_started","checked_at":"","asset_format":"1080x1350","asset_count":8,"checks":{"cover_approved":false,"manifest_matches_slides":false,"assets_named_and_sized":false,"assets_have_no_text_logo_sources":false,"copy_line_budget_ok":false,"figma_template_layers_ready":false,"figma_qa_sample_done":false,"font_system_ok":false,"signature_visible_all_cards":false,"fondino_system_ok":false},"notes":"Nuovo angolo editoriale: cronologia dei mancati scioglimenti e delle tragedie associate dalla memoria popolare."},
+  "figma":{"status":"in_progress","file_url":"https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv","node_url":"https://www.figma.com/design/TSOtnFu4optue3Zt6a4Nzv?node-id=189-10","manifest_path":"outputs/figma/2026-07-11-post-11-sangue-san-gennaro-figma-map.json"},
+  "fact_check":{"status":"passed","checked_by":"Codex","checked_at":"2026-07-11","summary":"Il nuovo copy usa la lista riportata da La Stampa e i casi 2016/2020 riportati da ANSA; gli eventi storici sono presentati come associazioni retrospettive della memoria popolare e il caveat ecclesiale resta esplicito.","open_issues":[]},
+  "approvals":{"editorial":{"status":"pending","by":"","at":"","notes":"Nuovo angolo richiesto dall'utente: mancati scioglimenti e cose brutte successe dopo."},"fact_check":{"status":"approved","by":"Codex","at":"2026-07-11","notes":"Fonti e caveat verificati; da aggiornare il montaggio Figma al nuovo copy."},"cover":{"status":"pending","by":"","at":"","notes":"Nuovo hook da approvare in Figma."},"design":{"status":"pending","by":"","at":"","notes":"Da rimontare nel nodo Figma esistente."},"final":{"status":"pending","by":"","at":"","notes":"Workflow fermo a Figma."}},
+  "blocked":{"is_blocked":false,"blocked_by_role":"","reason":"","next_action":"Utente/editor: confermare il nuovo angolo; poi rimontare le 8 card nel nodo Figma esistente."}
 }
